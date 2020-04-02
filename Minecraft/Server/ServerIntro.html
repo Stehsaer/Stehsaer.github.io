@@ -98,6 +98,35 @@
             color: white;
             text-shadow: 0 0 11px black;
         }
+        #contentContainer{
+            width:auto; height:auto;
+            position:fixed; top:250px; bottom:0px; left:70px; right:70px;
+        }
+        #intro{
+            background-color:rgba(255,255,255,0.4);
+            border-radius:5px;
+            box-shadow: 0 0 3px darkgrey;
+
+            position:fixed;
+            width:30%; height:inherit;
+            left:70px; top:250px; bottom:100px;
+        }
+        #intro_title{
+            margin-left:25px; margin-top:10px;
+            font-size:40px;
+            color:white;
+            text-shadow: 0 0 11px black;
+        }
+        .horizontal_sep{
+            height:1px; width:auto;
+            background-color:rgb(255,255,255);
+            margin:10px;
+        }
+        #intro_content{
+            margin:20px;
+            color:white;
+            font-size:18px;
+        }
     </style>
 </head>
 <body>
@@ -108,6 +137,13 @@
             <div id="title">Socialism Construction Server</div>
             <div id="title_cn">社会主义建设服</div>
             <div id="backToMain"><a id="backToMainLink" href="../../index.html">返回主页</a></div>
+        </div>
+        <div id="contentContainer">
+            <div id="intro">
+                <div id="intro_title">简介</div>
+                <div class="horizontal_sep"></div>
+                <div id="intro_content">简介内容</div>
+            </div>
         </div>
     </div>
 </body>
