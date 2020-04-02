@@ -21,9 +21,36 @@
             body{
                 background-color:black;
             }
+            #mainContainer{
+            z-index:100; position:fixed;height:auto; width:100%;
+            left:0px; top:0px; right:0px;
+            }
+            #title{
+                width:800px; 
+                line-height:200px;
+                text-align:center;
+                color:white;
+                text-shadow: 0 0 11px black;
+                font-size:50px;
+                font-family:Corbel;
+
+                position:fixed;
+                left:120px;
+            }
+            #icon{
+                height:100px;width:100px;
+                position:fixed; left:50px; top:50px;
+                border-radius:50px;
+            }
         </style>
     </head>
     <body>
         <div id="bgImg"></div>
+        <div id="mainContainer">
+            <div id="titleContainer">
+                <img id="icon" src="images/icon.jpg" />
+                <div id="title">Socialism Construction Server</div>
+            </div>
+        </div>
     </body>
 </html>
