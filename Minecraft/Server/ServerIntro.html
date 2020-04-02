@@ -201,71 +201,92 @@
         }
     </style>
 </head>
-    <body>
-        <div id="bgImg"></div>
-        <div id="mainContainer">
-            <div id="titleContainer">
-                <img id="icon" src="images/icon.jpg" />
-                <div id="title">Socialism Construction Server</div>
-                <div id="title_cn">社会主义建设服</div>
-                <div id="backToMain"><a id="backToMainLink" href="../../index.html">返回主页</a></div>
+<body>
+    <div id="bgImg"></div>
+    <div id="mainContainer">
+        <div id="titleContainer">
+            <img id="icon" src="images/icon.jpg" />
+            <div id="title">Socialism Construction Server</div>
+            <div id="title_cn">社会主义建设服</div>
+            <div id="backToMain"><a id="backToMainLink" href="../../index.html">返回主页</a></div>
+        </div>
+    </div>
+    <div id="contentContainer">
+        <div id="intro">
+            <div class="subtitle">简介</div>
+            <div class="subContent">
+                <p>&nbsp;&nbsp;&nbsp;Socialism Construction Server, 中文名为社会主义建设服，是三位Minecraft玩家于2020.3.9日创建的1.15.2版本服务器，使用PaperMC服务器端，纯原版生存，无玩法类Mod。</p>
+            </div>
+            <div class="horizontal_sep"></div>
+            <div class="subtitle">玩家</div>
+            <div id="playerListContainer">
+                <div class="playerListSubContainer">
+                    <img src="players/Stehsaer/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <div class="playerListSubContainerStr">Stehsaer</div>
+                </div>
+                <div class="playerListSubContainer">
+                    <img src="players/cwXiaoYu/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <div class="playerListSubContainerStr">cwXiaoYu</div>
+                </div>
+                <div class="playerListSubContainer">
+                    <img src="players/PdAlphabet/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <div class="playerListSubContainerStr">PdAlphabet</div>
+                </div>
             </div>
         </div>
-        <div id="contentContainer">
-            <div id="intro">
-                <div class="subtitle">简介</div>
-                <div class="subContent">
-                    <p>&nbsp;&nbsp;&nbsp;Socialism Construction Server, 中文名为社会主义建设服，是三位Minecraft玩家于2020.3.9日创建的1.15.2版本服务器，使用PaperMC服务器端，纯原版生存，无玩法类Mod。</p>
-                </div>
-                <div class="horizontal_sep"></div>
-                <div class="subtitle">玩家</div>
-                <div id="playerListContainer">
-                    <div class="playerListSubContainer">
-                        <img src="players/Stehsaer/thumbnail.jpg" class="playerListSubContainerImg" />
-                        <div class="playerListSubContainerStr">Stehsaer</div>
-                    </div>
-                    <div class="playerListSubContainer">
-                        <img src="players/cwXiaoYu/thumbnail.jpg" class="playerListSubContainerImg" />
-                        <div class="playerListSubContainerStr">cwXiaoYu</div>
-                    </div>
-                    <div class="playerListSubContainer">
-                        <img src="players/PdAlphabet/thumbnail.jpg" class="playerListSubContainerImg" />
-                        <div class="playerListSubContainerStr">PdAlphabet</div>
-                    </div>
+        <div id="detail">
+            <div style="width:50%; height:100%; float:left">
+                <div id="detailDescribe">
+                    使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
+                    使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span> <br />
+                    <div class="horizontal_sep"></div>
+                    <span id="SeedText">世界种子：1537563839616220971&nbsp;</span><span style="font-family:customIcon1; font-size:20px;" id="CopySeed" onclick="copyToClip('1537563839616220971')">&#xe72b;</span>
+                    <div class="horizontal_sep"></div>
+                    服务器地址：<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;地址1：14.29.49.28:40032<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;地址2：112.3.27.8:12386<br />
+                    <div class="horizontal_sep"></div>
+                    服务器在线状态：<span id="serverStatus"><span style='color:white'>检测中……</span></span>
                 </div>
             </div>
-            <div id="detail">
-                <div style="width:50%; height:100%; float:left">
-                    <div id="detailDescribe">
-                        使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
-                        使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span> <br />
-                        <div class="horizontal_sep"></div>
-                        <span id="SeedText">世界种子：1537563839616220971&nbsp;</span><span style="font-family:customIcon1; font-size:20px;" id="CopySeed" onclick="copyToClip('1537563839616220971')">&#xe72b;</span>
-                        <div class="horizontal_sep"></div>
-                        服务器地址：<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;地址1：14.29.49.28:40032<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;地址2：112.3.27.8:12386<br />
-                    </div>
-                </div>
-                <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
-                <div style="width:49%; height:100%; float:left"></div>
-            </div>
+            <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
+            <div style="width:49%; height:100%; float:left"></div>
         </div>
-        <script type="text/javascript">
-            function copyToClip(content, message)
-            {
-                var aux = document.createElement("input"); 
-                aux.setAttribute("value", content); 
-                document.body.appendChild(aux); 
-                aux.select();
-                document.execCommand("copy"); 
-                document.body.removeChild(aux);
-                if (message == null) {
-                    alert("复制成功");
-                } else{
-                    alert(message);
-                }
+    </div>
+
+    <script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <script type="text/javascript">
+        function copyToClip(content, message) {
+            var aux = document.createElement("input");
+            aux.setAttribute("value", content);
+            document.body.appendChild(aux);
+            aux.select();
+            document.execCommand("copy");
+            document.body.removeChild(aux);
+            if (message == null) {
+                alert("复制成功");
+            } else {
+                alert(message);
             }
-        </script>
-    </body>
+        }
+    </script>
+    <script>
+    self.setInterval(checkStatus, 1000);
+    function checkStatus() {
+        MinecraftAPI.getServerStatus('14.29.49.28', {
+        port: 40032 // optional, only if you need a custom port
+      }, function (err, status) {
+        if (err) {
+            document.getElementById("serverStatus").innerHTML = "<span style='color:red;'>发生错误，请重试</span>";
+        }
+        // you can change these to your own message!
+                if (status) {
+                    document.getElementById("serverStatus").innerHTML = "<span style='color:lime'>在线</span>";
+                } else {
+                    document.getElementById("serverStatus").innerHTML = "<span style='color:orange'>不在线</span>";
+                }
+      });
+    }
+    </script>
+</body>
 </html>
