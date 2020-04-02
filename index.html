@@ -1,81 +1,97 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Stehsaer</title>
-		<style type="text/css">
-		body {
-			font-family: Consolas, Microsoft YaHei UI;
-            background-color:black;
-		}
-        .subOptions{
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>Stehsaer</title>
+    <style type="text/css">
+        body {
+            font-family: Consolas, Microsoft YaHei UI;
+            background-color: black;
+        }
 
-            border-width:0px;
-            border-radius:0px;
-
-            background-color:transparent;
-
-            float:left;
-            height:100%;
-            width:150px;
-
-            line-height:60px;
-            text-align:center;
-            text-decoration:none;
-            font-size:20px;
-
-            margin-left:10px; margin-right:10px;
-
+        .subOptions {
+            border-width: 0px;
+            border-radius: 0px;
+            background-color: transparent;
+            float: left;
+            height: 100%;
+            width: 150px;
+            line-height: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
             text-shadow: 0 0 11px black;
         }
-        .subOptions:hover{
-            background-color:rgba(230, 230, 230, 0.6);
+
+            .subOptions:hover {
+                background-color: rgba(230, 230, 230, 0.6);
+            }
+
+        .subOptionsLink {
+            display: block;
+            height: auto;
+            width: auto;
+            margin-left: 5px;
+            margin-right: 5px;
+            text-decoration: none;
+            color: rgb(255,255,255);
         }
-        .subOptionsLink{
-            display:block; 
-            height:auto; 
-            width:auto; 
-            
-            margin-left:5px; 
-            margin-right:5px; 
-            
-            text-decoration:none;
-            color:rgb(255,255,255);
-        }
-        #bgImg{
-            left:0px; top:0px; position:fixed;
-            margin:0px;
-            padding:0px;
-            background:url("globalImages/background.jpg");
-            background-position:center;
-            background-repeat:no-repeat;
-            background-size:cover;
-            width:100%; height:100%;
+
+        #bgImg {
+            left: 0px;
+            top: 0px;
+            position: fixed;
+            margin: 0px;
+            padding: 0px;
+            background: url("globalImages/background.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
             -webkit-filter: blur(5px);
             -moz-filter: blur(5px);
             -o-filter: blur(5px);
             -ms-filter: blur(5px);
             filter: blur(5px);
+            z-index: 1;
+        }
 
-            z-index:1;
+        #mainContainer {
+            z-index: 100;
+            position: fixed;
+            height: auto;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            right: 0px;
         }
-        #mainContainer{
-            z-index:100; position:fixed;height:auto; width:100%;
-            left:0px; top:0px; right:0px;
+
+        .subPanel {
+            margin: 10px;
+            height: 60px;
+            border: black;
+            border-width: 1px;
+            box-shadow: 0 0 3px black;
+            border-radius: 3px;
+            top: 0px;
+            background-color: rgba(49,49,49,0.7);
+            right: 5px;
+            left: 5px;
         }
-        .subPanel{
-            margin:10px;height:60px;
-            border:black;border-width:1px;box-shadow: 0 0 3px black; border-radius:3px;top:0px; 
-            background-color:rgba(49,49,49,0.7); 
-            right:5px; left:5px;
-        }
-        .subPanelDescribe{
-            float:left; height:60px; 
-            line-height:60px; font-size:24px; 
-            margin-left:8px; 
+
+        .subPanelDescribe {
+            float: left;
+            height: 60px;
+            line-height: 60px;
+            font-size: 24px;
+            margin-left: 8px;
             text-shadow: 0 0 11px black;
         }
-		</style>
-	</head>
+    </style>
+</head>
 	<body>
 		<div id="bgImg"></div>
         <div id="mainContainer">
