@@ -78,7 +78,7 @@
             height: 60px;
             width: 150px;
             position: fixed;
-            right: 50px;
+            right: 5%;
             top: 75px;
             line-height: 60px;
             text-align: center;
@@ -86,6 +86,10 @@
             margin-left: 10px;
             margin-right: 10px;
             box-shadow: 0 0 3px black;
+        }
+
+        #backToMain:hover{
+            background-color:rgba(230,230,230,0.8);
         }
 
         #backToMainLink {
@@ -180,6 +184,15 @@
             text-shadow: 0 0 11px black;
         }
 
+        #CopySeed{
+            color:white;
+        }
+
+        #CopySeed:hover{
+            cursor: pointer;
+            color:greenyellow;
+        }
+
         @font-face{
             font-family: customIcon1;
             font-style:normal;
@@ -225,12 +238,34 @@
                 <div style="width:50%; height:100%; float:left">
                     <div id="detailDescribe">
                         使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
-                        使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span>
+                        使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span> <br />
+                        <div class="horizontal_sep"></div>
+                        <span id="SeedText">世界种子：1537563839616220971&nbsp;</span><span style="font-family:customIcon1; font-size:20px;" id="CopySeed" onclick="copyToClip('1537563839616220971')">&#xe72b;</span>
+                        <div class="horizontal_sep"></div>
+                        服务器地址：<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;地址1：14.29.49.28:40032<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;地址2：112.3.27.8:12386<br />
                     </div>
                 </div>
                 <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
                 <div style="width:49%; height:100%; float:left"></div>
             </div>
         </div>
+        <script type="text/javascript">
+            function copyToClip(content, message)
+            {
+                var aux = document.createElement("input"); 
+                aux.setAttribute("value", content); 
+                document.body.appendChild(aux); 
+                aux.select();
+                document.execCommand("copy"); 
+                document.body.removeChild(aux);
+                if (message == null) {
+                    alert("复制成功");
+                } else{
+                    alert(message);
+                }
+            }
+        </script>
     </body>
 </html>
