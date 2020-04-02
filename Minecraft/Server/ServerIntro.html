@@ -172,6 +172,20 @@
             text-shadow: 0 0 11px black;
             font-size: 24px;
         }
+
+        #detailDescribe{
+            margin:20px;
+            color:white;
+            font-size:20px;
+            text-shadow: 0 0 11px black;
+        }
+
+        @font-face{
+            font-family: customIcon1;
+            font-style:normal;
+            font-size:16px;
+            src:url("../../iconfont/customFont1.ttf");
+        }
     </style>
 </head>
     <body>
@@ -208,7 +222,12 @@
                 </div>
             </div>
             <div id="detail">
-                <div style="width:50%; height:100%; float:left"></div>
+                <div style="width:50%; height:100%; float:left">
+                    <div id="detailDescribe">
+                        使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
+                        使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span>
+                    </div>
+                </div>
                 <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
                 <div style="width:49%; height:100%; float:left"></div>
             </div>
