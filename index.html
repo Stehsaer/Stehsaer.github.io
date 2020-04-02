@@ -52,13 +52,25 @@
             -o-filter: blur(5px);
             -ms-filter: blur(5px);
             filter: blur(5px);
+
+            z-index:1;
+        }
+        #mainContainer{
+            z-index:100; position:fixed;height:auto; width:100%;
+            left:0px; top:0px; right:0px;
+        }
+        .subPanel{
+            margin:10px;height:60px;
+            border:black;border-width:1px;box-shadow: 0 0 3px grey; border-radius:3px;top:0px; 
+            background-color:white; 
+            right:5px; left:5px;
         }
 		</style>
 	</head>
 	<body>
 		<div id="bgImg"></div>
         <div id="mainContainer">
-            <div style="margin:10px;height:60px;border:black;border-width:1px;box-shadow: 0 0 3px grey; border-radius:3px;top:0px; background-color:white; width:90%">
+            <div class="subPanel" >
                 <img src="https://github.com/Stehsaer/ResourceForWebsite/raw/master/Minecraft/images/minecraft_ico.png" style="height:55px; width:55px; margin:2.5px; float:left" />
                 <div style="float:left; height:60px; line-height:60px; font-size:24px; margin-left:8px; color:rgb(76, 175, 80)">Minecraft</div>
                 <div style="float:left; width:1px; margin:5px 10px 5px 10px; background-color:lightgrey; height:50px"></div>
