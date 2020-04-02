@@ -271,22 +271,17 @@
         }
     </script>
     <script>
-    self.setInterval(checkStatus, 1000);
-    function checkStatus() {
-        MinecraftAPI.getServerStatus('14.29.49.28', {
-        port: 40032 // optional, only if you need a custom port
-      }, function (err, status) {
-        if (err) {
-            document.getElementById("serverStatus").innerHTML = "<span style='color:red;'>发生错误，请重试</span>";
-        }
-        // you can change these to your own message!
-                if (status) {
-                    document.getElementById("serverStatus").innerHTML = "<span style='color:lime'>在线</span>";
-                } else {
-                    document.getElementById("serverStatus").innerHTML = "<span style='color:orange'>不在线</span>";
+    checkStatus();
+        function checkStatus() {
+            var xhs = new XMLHttpRequest();
+            xhs.onreadystatechange = function () {
+                if (xhs.readyState == 4 && xhs.status == 200) {
+                    alert(xhs.responseText);
                 }
-      });
-    }
+            }
+            xhs.open("GET", "https://mcapi.us/server/status?ip=cn-fs-dx.sakurafrp.com&port=40032", true);
+            xhs.send(null);
+        }
     </script>
 </body>
 </html>
