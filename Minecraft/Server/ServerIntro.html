@@ -271,7 +271,7 @@
     </script>
     <script type="text/javascript" src="../../json/json.js"></script>
     <script>
-        checkStatus();
+    setInterval(checkStatus(), 1500);
         function checkStatus() {
             var xhs = new XMLHttpRequest();
             xhs.onreadystatechange = function () {
