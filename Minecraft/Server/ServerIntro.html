@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>社会主义建设服</title>
-        <style>
-            #bgImg {
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>社会主义建设服</title>
+    <link rel="preload" href="images/thumbnail.jpg" as="image">
+    <style>
+        #bgImg {
             left: 0px;
             top: 0px;
             position: fixed;
@@ -22,32 +23,32 @@
             -ms-filter: blur(5px);
             filter: blur(5px);
         }
-    
-            body {
-                background-color: black;
-                margin:0,auto;
-            }
-    
-            #mainContainer {
-                z-index: 100;
-                height: auto;
-                width: 100%;
-                margin:0px;
-          }
-    
-            #title {
-                width: 800px;
-                line-height: 150px;
-                text-align: center;
-                color: white;
-                text-shadow: 0 0 11px black;
-                font-size: 50px;
-                font-family: Corbel;
-                position: fixed;
-                left: 120px;
-            }
-    
-            #title_cn {
+
+        body {
+            background-color: black;
+            margin: 0,auto;
+        }
+
+        #mainContainer {
+            z-index: 100;
+            height: auto;
+            width: 100%;
+            margin: 0px;
+        }
+
+        #title {
+            width: 800px;
+            line-height: 150px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 11px black;
+            font-size: 50px;
+            font-family: Corbel;
+            position: fixed;
+            left: 120px;
+        }
+
+        #title_cn {
             width: 800px;
             line-height: 240px;
             text-align: left;
@@ -58,8 +59,8 @@
             position: fixed;
             left: 215px;
         }
-    
-            #icon {
+
+        #icon {
             height: 100px;
             width: 100px;
             position: fixed;
@@ -68,8 +69,8 @@
             border-radius: 50px;
             box-shadow: 0 0 3px darkgrey;
         }
-    
-            #backToMain {
+
+        #backToMain {
             border-width: 0px;
             border-radius: 3px;
             background-color: rgba(255,255,255,0.5);
@@ -86,8 +87,8 @@
             margin-right: 10px;
             box-shadow: 0 0 3px black;
         }
-    
-            #backToMainLink {
+
+        #backToMainLink {
             text-decoration: none;
             display: block;
             height: auto;
@@ -97,76 +98,82 @@
             text-shadow: 0 0 11px black;
         }
 
-            #intro{
-                background-color:rgba(255,255,255,0.4);
-                border-radius:5px;
-                box-shadow: 0 0 3px darkgrey;
-    
-                width:30%;
-                position:fixed;
-                left:5%; top:210px; right:auto; bottom:5%;
+        #intro {
+            background-color: rgba(255,255,255,0.4);
+            border-radius: 5px;
+            box-shadow: 0 0 3px darkgrey;
+            width: 30%;
+            position: fixed;
+            left: 5%;
+            top: 210px;
+            right: auto;
+            bottom: 5%;
+            overflow: auto;
+        }
 
-                overflow:auto;
-            }
+        #detail {
+            background-color: rgba(255,255,255,0.4);
+            border-radius: 5px;
+            box-shadow: 0 0 3px darkgrey;
+            overflow: auto;
+            width: 55%;
+            position: fixed;
+            left: 40%;
+            right: 5%;
+            top: 210px;
+            bottom: 5%
+        }
 
-            #detail{
-                background-color:rgba(255,255,255,0.4);
-                border-radius:5px;
-                box-shadow: 0 0 3px darkgrey;
-                overflow:auto;
+        .subtitle {
+            margin-left: 25px;
+            margin-top: 10px;
+            font-size: 40px;
+            color: white;
+            text-shadow: 0 0 11px black;
+        }
 
-                width:55%;
-                position:fixed;
-                left:40%; right:5%; top:210px; bottom:5%
-            }
+        .horizontal_sep {
+            height: 1px;
+            width: auto;
+            background-color: rgb(255,255,255);
+            margin: 10px;
+        }
 
-            .subtitle{
-                margin-left:25px; margin-top:10px;
-                font-size:40px;
-                color:white;
-                text-shadow: 0 0 11px black;
-            }
+        .subContent {
+            margin: 20px;
+            color: white;
+            font-size: 18px;
+            text-shadow: 0 0 11px black;
+        }
 
-            .horizontal_sep{
-                height:1px; width:auto;
-                background-color:rgb(255,255,255);
-                margin:10px;
-            }
+        .playerListSubContainer {
+            margin: 20px;
+        }
 
-            .subContent{
-                margin:20px;
-                color:white;
-                font-size:18px;
-                text-shadow: 0 0 11px black;
-            }
+        .playerListSubContainer {
+            width: 300px;
+            height: 70px;
+            margin: 10px;
+        }
 
-            .playerListSubContainer{
-                margin:20px;
-            }
+        .playerListSubContainerImg {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            margin: 10px;
+            float: left;
+        }
 
-            .playerListSubContainer{
-                width:300px;
-                height:70px;
-                margin:10px;
-            }
-
-            .playerListSubContainerImg{
-                height:50px; width:50px;
-                border-radius:25px;
-                margin:10px;
-                float:left;
-            }
-
-            .playerListSubContainerStr{
-                margin:10px;
-                float:left;
-                line-height:50px;
-                color:white;
-                text-shadow: 0 0 11px black;
-                font-size:24px;
-            }
-        </style>
-    </head>
+        .playerListSubContainerStr {
+            margin: 10px;
+            float: left;
+            line-height: 50px;
+            color: white;
+            text-shadow: 0 0 11px black;
+            font-size: 24px;
+        }
+    </style>
+</head>
     <body>
         <div id="bgImg"></div>
         <div id="mainContainer">
