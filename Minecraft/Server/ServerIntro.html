@@ -281,7 +281,19 @@
             <div style="width:49%; height:100%; float:left"></div>
         </div>
     </div>
-
+    <script>
+    $("#contentContainer").hide();
+    $("#detail").hide();
+    $("#mainContainer").hide();
+    $("#mainContainer").fadeIn(700);
+    setTimeout(function () {
+        $("#contentContainer").fadeIn(700);
+    }, 100);
+    setTimeout(function () {
+        $("#detail").fadeIn(700);
+    }, 200);
+   
+    </script>
     <script type="text/javascript">
         function copyToClip(content, message) {
             var aux = document.createElement("input");
@@ -298,8 +310,9 @@
         }
     </script>
     <script>
-        $("#serverPlayerContainer").hide();
-        setInterval(checkStatus, 5000);
+    $("#serverPlayerContainer").hide();
+    checkStatus();
+    setInterval(checkStatus, 5000);
     </script>
 </body>
 </html>
