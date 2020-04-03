@@ -7,6 +7,7 @@
     <script src="../../json/json.js"></script>
     <script src="js/pingMinecraft.js"></script>
     <script src="../../json/jquery-3.4.1.min.js"></script>
+    <script src="js/InitBasicInfo.js"></script>
     <style>
         #bgImg {
             left: 0px;
@@ -231,8 +232,8 @@
     <div id="mainContainer">
         <div id="titleContainer">
             <img id="icon" src="images/icon.jpg" />
-            <div id="title">Socialism Construction Server</div>
-            <div id="title_cn">社会主义建设服</div>
+            <div id="title"></div>
+            <div id="title_cn"></div>
             <div id="backToMain"><a id="backToMainLink" href="../../index.html">返回主页</a></div>
         </div>
     </div>
@@ -240,7 +241,7 @@
         <div id="intro">
             <div class="subtitle">简介</div>
             <div class="subContent">
-                <p>&nbsp;&nbsp;&nbsp;Socialism Construction Server, 中文名为社会主义建设服，是三位Minecraft玩家于2020.3.9日创建的1.15.2版本服务器，使用PaperMC服务器端，纯原版生存，无玩法类Mod。</p>
+                <p id="serverDescription"></p>
             </div>
             <div class="horizontal_sep"></div>
             <div class="subtitle">玩家</div>
@@ -263,14 +264,13 @@
             <div style="width:50%; height:100%; float:left">
                 <div id="detailDescribe">
                     <span style="font-size:30px; line-height:50px;">详细信息</span><br />
-                    使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
-                    使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span> <br />
+                    使用的客户端：<span id="clientName"></span><br />
+                    使用的MC版本：<span id="mcVersion"></span> <br />
                     <div class="horizontal_sep"></div>
-                    <span id="SeedText">世界种子：1537563839616220971&nbsp;</span><span style="font-family:customIcon1; font-size:20px;" id="CopySeed" onclick="copyToClip('1537563839616220971')">&#xe72b;</span>
+                    世界种子：<span id="seedText"></span>
                     <div class="horizontal_sep"></div>
                     服务器地址：<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;地址1：14.29.49.28:40032<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;地址2：112.3.27.8:12386<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;地址1：<span id="serverAddress"></span><br />
                     <div class="horizontal_sep"></div>
                     <span style="font-size:30px; line-height:50px;">服务器实时状态</span><br />
                     服务器在线状态：<span id="serverStatus"><span style='color:white'>检测中...</span></span><br />
@@ -278,28 +278,19 @@
                 </div>
             </div>
             <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
-            <div style="width:49%; height:100%; float:left"></div>
+            <div style="width:49%; height:100%; float:left">
+            </div>
         </div>
     </div>
-    <script type="text/javascript">
-        function copyToClip(content, message) {
-            var aux = document.createElement("input");
-            aux.setAttribute("value", content);
-            document.body.appendChild(aux);
-            aux.select();
-            document.execCommand("copy");
-            document.body.removeChild(aux);
-            if (message == null) {
-                alert("复制成功");
-            } else {
-                alert(message);
-            }
-        }
-    </script>
     <script>
-    $("#serverPlayerContainer").hide();
-    checkStatus();
-    setInterval(checkStatus, 5000);
+        $(document).ready(function () {
+            $("body").hide();
+            init();
+            $("body").show();
+            $("#serverPlayerContainer").hide();
+            checkStatus();
+            setInterval(checkStatus, 10000);
+        })
     </script>
 </body>
 </html>
