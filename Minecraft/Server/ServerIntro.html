@@ -6,6 +6,7 @@
     <title>社会主义建设服</title>
     <script src="../../json/json.js"></script>
     <script src="js/pingMinecraft.js"></script>
+    <script src="../../json/jquery-3.4.1.min.js"></script>
     <style>
         #bgImg {
             left: 0px;
@@ -26,9 +27,29 @@
             filter: blur(5px);
         }
 
+        #bgImg_lowRes {
+            left: 0px;
+            top: 0px;
+            position: fixed;
+            margin: 0px;
+            padding: 0px;
+            background: url("images/thumbnail_lowRes.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+        }
+
         body {
             background-color: black;
             margin: 0,auto;
+            font-family:Consolas,Microsoft YaHei UI;
         }
 
         #mainContainer {
@@ -190,7 +211,7 @@
             color: white;
         }
 
-            #CopySeed:hover {
+        #CopySeed:hover {
                 cursor: pointer;
                 color: greenyellow;
             }
@@ -204,7 +225,9 @@
     </style>
 </head>
 <body>
+    <div id="bgImg_lowRes"></div>
     <div id="bgImg"></div>
+
     <div id="mainContainer">
         <div id="titleContainer">
             <img id="icon" src="images/icon.jpg" />
@@ -239,6 +262,7 @@
         <div id="detail">
             <div style="width:50%; height:100%; float:left">
                 <div id="detailDescribe">
+                    <span style="font-size:30px; line-height:50px;">详细信息</span><br />
                     使用的客户端：<a href="https://papermc.io/" style="text-decoration:underline; color:white">PaperMC</a><span style="font-family:customIcon1; text-decoration:none; color:#ffc107">&#xe72d;</span> (1.15.2) <br />
                     使用的MC版本：<a href="https://minecraft.gamepedia.com/Java_Edition_1.15.2" style="text-decoration:underline; color:white">Minecraft Java 1.15.2</a><span style="font-family:customIcon1; text-decoration:none;color:#ffc107">&#xe72d;</span> <br />
                     <div class="horizontal_sep"></div>
@@ -248,7 +272,9 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;地址1：14.29.49.28:40032<br />
                     &nbsp;&nbsp;&nbsp;&nbsp;地址2：112.3.27.8:12386<br />
                     <div class="horizontal_sep"></div>
-                    服务器在线状态：<span id="serverStatus"><span style='color:white'>检测中……</span></span>
+                    <span style="font-size:30px; line-height:50px;">服务器实时状态</span><br />
+                    服务器在线状态：<span id="serverStatus"><span style='color:white'>检测中...</span></span><br />
+                    <span id="serverPlayerContainer">服务器在线人数：<span id="serverPlayerNum">NaN</span></span>
                 </div>
             </div>
             <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
@@ -272,6 +298,7 @@
         }
     </script>
     <script>
+        $("#serverPlayerContainer").hide();
         setInterval(checkStatus, 5000);
     </script>
 </body>

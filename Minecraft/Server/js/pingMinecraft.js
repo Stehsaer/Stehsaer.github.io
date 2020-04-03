@@ -1,5 +1,5 @@
 ﻿function checkStatus() {
-    document.getElementById("serverStatus").innerHTML = "<span style='color:white'>连接中...</span>";
+    $("#serverStatus").html("<span id='serverStatus' style='color:white'>连接中...</span>");
     var xhs = new XMLHttpRequest();
     xhs.onreadystatechange = function () {
         if (xhs.readyState == 4 && xhs.status == 200) {
@@ -14,10 +14,13 @@ function proceed(response) {
     var dat = JSON.parse(response);
     try {
         if (dat.error != undefined) {
-            document.getElementById("serverStatus").innerHTML = "<span style='color:orange'>离线</span>"
+            $("#serverStatus").html("<span id='serverStatus' style='color:orange'>离线</span>");
+            $("#serverPlayerContainer").hide();
         }
         else {
-            document.getElementById("serverStatus").innerHTML = "<span style='color:lime'>在线</span>";
+            $("#serverStatus").html("<span id='serverStatus' style='color:lime'>在线</span>");
+            $("#serverPlayerContainer").show();
+            $("#serverPlayerNum").text(dat.players.online);
         }
     }
     catch{ }
