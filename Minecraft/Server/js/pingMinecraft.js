@@ -1,5 +1,7 @@
 ﻿function checkStatus() {
+    $("#serverStatus").fadeOut(1);
     $("#serverStatus").html("<span id='serverStatus' style='color:white'>连接中...</span>");
+    $("#serverStatus").fadeIn(300);
     var xhs = new XMLHttpRequest();
     xhs.onreadystatechange = function () {
         if (xhs.readyState == 4 && xhs.status == 200) {
@@ -14,12 +16,16 @@ function proceed(response) {
     var dat = JSON.parse(response);
     try {
         if (dat.error != undefined) {
+            $("#serverStatus").fadeOut(1);
             $("#serverStatus").html("<span id='serverStatus' style='color:orange'>离线</span>");
-            $("#serverPlayerContainer").hide();
+            $("#serverStatus").fadeIn(300);
+            $("#serverPlayerContainer").hide(100);
         }
         else {
+            $("#serverStatus").fadeOut(1);
             $("#serverStatus").html("<span id='serverStatus' style='color:lime'>在线</span>");
-            $("#serverPlayerContainer").show();
+            $("#serverStatus").fadeIn(300);
+            $("#serverPlayerContainer").show(100);
             $("#serverPlayerNum").text(dat.players.online);
         }
     }
