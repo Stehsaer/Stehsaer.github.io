@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <title>社会主义建设服</title>
+    <script src="../../json/json.js"></script>
+    <script src="js/pingMinecraft.js"></script>
     <style>
         #bgImg {
             left: 0px;
@@ -88,9 +90,9 @@
             box-shadow: 0 0 3px black;
         }
 
-        #backToMain:hover{
-            background-color:rgba(230,230,230,0.8);
-        }
+            #backToMain:hover {
+                background-color: rgba(230,230,230,0.8);
+            }
 
         #backToMainLink {
             text-decoration: none;
@@ -177,27 +179,27 @@
             font-size: 24px;
         }
 
-        #detailDescribe{
-            margin:20px;
-            color:white;
-            font-size:20px;
+        #detailDescribe {
+            margin: 20px;
+            color: white;
+            font-size: 20px;
             text-shadow: 0 0 11px black;
         }
 
-        #CopySeed{
-            color:white;
+        #CopySeed {
+            color: white;
         }
 
-        #CopySeed:hover{
-            cursor: pointer;
-            color:greenyellow;
-        }
+            #CopySeed:hover {
+                cursor: pointer;
+                color: greenyellow;
+            }
 
-        @font-face{
+        @font-face {
             font-family: customIcon1;
-            font-style:normal;
-            font-size:16px;
-            src:url("../../iconfont/customFont1.ttf");
+            font-style: normal;
+            font-size: 16px;
+            src: url("../../iconfont/customFont1.ttf");
         }
     </style>
 </head>
@@ -269,30 +271,8 @@
             }
         }
     </script>
-    <script type="text/javascript" src="../../json/json.js"></script>
     <script>
-    setInterval(checkStatus(), 1500);
-        function checkStatus() {
-            var xhs = new XMLHttpRequest();
-            xhs.onreadystatechange = function () {
-                if (xhs.readyState == 4 && xhs.status == 200) {
-                    proceed(xhs.responseText);
-                }
-            }
-            xhs.open("GET", "https://mcapi.us/server/status?ip=cn-fs-dx.sakurafrp.com&port=40032", true);
-            xhs.send(null);
-            }
-
-    function proceed(response)
-        {
-        var dat = JSON.parse(response);
-        if (dat.online == false) {
-            document.getElementById("serverStatus").innerHTML = "<span style='color:orange'>离线</span>";
-        }
-        else {
-            document.getElementById("serverStatus").innerHTML = "<span style='color:lime'>在线</span>";
-        }
-        }
+        setInterval(checkStatus, 5000);
     </script>
 </body>
 </html>
