@@ -24,4 +24,20 @@ function handleRespond(dat) {
         str += "</div>";
     }
     $("body").html(str);
+    reAttr();
+}
+
+$(window).resize(reAttr());
+
+function reAttr() {
+    var width = this.innerWidth;
+    var height = this.innerHeight;
+    if (width < height) {
+        $(".dateContainer").attr("style", "margin-left:2.5%;margin-right:2.5%;width:95%");
+        $(".dateIndicator").attr("style", "font-size:70px;line-height:100px");
+    }
+    else {
+        $(".dateContainer").attr("style", "margin-left:20%;margin-right:20%;width:60%;");
+        $(".dateIndicator").attr("style", "font-size:30px;line-height:40px");
+    }
 }
