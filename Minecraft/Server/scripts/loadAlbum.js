@@ -17,7 +17,7 @@ function handleRespond(dat) {
         str += obj[i].year + "-"; str += obj[i].month + "-"; str += obj[i].date;
         str += "</div>";
         for (var j = 0; j < obj[i].image.length; j++) {
-            str += "<img class='imageBox' src='images/album/";
+            str += "<img class='imageBox' data-echo='images/album/";
             str += obj[i].image[j];
             str += "' />";
         }
