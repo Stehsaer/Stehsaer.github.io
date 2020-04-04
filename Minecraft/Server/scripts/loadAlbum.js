@@ -27,7 +27,7 @@ function handleRespond(dat) {
     reAttr();
 }
 
-$(window).resize(reAttr());
+$(window).resize(reAttr);
 
 function reAttr() {
     var width = this.innerWidth;
