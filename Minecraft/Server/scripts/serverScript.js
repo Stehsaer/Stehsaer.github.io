@@ -59,13 +59,13 @@ function proceed(dat) {
         if (dat.error != undefined) {
             $("#serverStatus").fadeOut(1);
             $("#serverStatus").html("<span id='serverStatus' style='color:orange'>离线</span>");
-            $("#serverStatus").fadeIn(300);
+            $("#serverStatus").fadeIn(100);
             $("#serverPlayerContainer").hide(100);
         }
         else {
             $("#serverStatus").fadeOut(1);
             $("#serverStatus").html("<span id='serverStatus' style='color:lime'>在线</span>");
-            $("#serverStatus").fadeIn(300);
+            $("#serverStatus").fadeIn(100);
             $("#serverPlayerContainer").show(100);
             $("#serverPlayerNum").text(dat.players.online);
         }
