@@ -11,9 +11,9 @@
 
 function handleRespond(dat) {
     var obj = JSON.parse(dat);
-    var str="";
+    var str ="<div id='title'><div id='title_content'>服务器相册</div>";
     for (var i = obj.length - 1; i >= 0; i--) {
-        str += "<div class='dateContainer'><div class='dateIndicator'>";
+        str += "</div><div class='dateContainer'><div class='dateIndicator'>";
         str += obj[i].year + "-"; str += obj[i].month + "-"; str += obj[i].date;
         str += "</div>";
         for (var j = 0; j < obj[i].image.length; j++) {
