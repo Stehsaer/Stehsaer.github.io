@@ -25,6 +25,10 @@ function handleRespond(dat) {
     }
     $("body").html(str);
     reAttr();
+    Echo.init({
+        offset: 0,//离可视区域多少像素的图片可以被加载
+        throttle: 0 //图片延时多少毫秒加载
+    }); 
 }
 
 $(window).resize(function () {
