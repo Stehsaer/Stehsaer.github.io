@@ -5,7 +5,7 @@
             handleRespond(xhr.responseText);
         }
     }
-    xhr.open("GET", "https://stehsaer.github.io/Minecraft/Server/images/album/album.json",true);
+    xhr.open("GET", "https://stehsaer.github.io/Minecraft/Server/images/album/album.json" + "?timestamp=" + new Date().getTime(),true);
     xhr.send(null);
 }
 
