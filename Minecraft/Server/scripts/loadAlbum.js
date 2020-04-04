@@ -17,7 +17,7 @@ function handleRespond(dat) {
         str += obj[i].year + "-"; str += obj[i].month + "-"; str += obj[i].date;
         str += "</div>";
         for (var j = 0; j < obj[i].image.length; j++) {
-            str += "<img class='imageBox' data-echo='images/album/";
+            str += "<img class='imageBox' src='../../globalImages/loading.gif' data-original='images/album/";
             str += obj[i].image[j];
             str += "' />";
         }
@@ -25,10 +25,6 @@ function handleRespond(dat) {
     }
     $("body").html(str);
     reAttr();
-    Echo.init({
-        offset: 0,//离可视区域多少像素的图片可以被加载
-        throttle: 0 //图片延时多少毫秒加载
-    }); 
 }
 
 $(window).resize(function () {
@@ -55,4 +51,7 @@ function reAttr() {
         $(".dateContainer").attr("style", "margin-left:20%;margin-right:20%;width:60%;");
         $(".dateIndicator").attr("style", "font-size:30px;line-height:40px");
     }
+    $(function () {
+        $("img").lazyload({ effect: "fadeIn", failureLimit: 10 });
+    });
 }
