@@ -228,9 +228,13 @@
     </style>
 </head>
 <body>
+    <script>
+        $("body").hide();
+        init();
+    </script>
+
     <div id="bgImg_lowRes"></div>
     <div id="bgImg"></div>
-
     <div id="mainContainer">
         <div id="titleContainer">
             <img id="icon" src="images/icon.jpg" />
@@ -277,6 +281,7 @@
                     <span style="font-size:30px; line-height:50px;">服务器实时状态</span><br />
                     服务器在线状态：<span id="serverStatus"><span style='color:white'>正在加载内容</span></span><br />
                     <span id="serverPlayerContainer">服务器在线人数：<span id="serverPlayerNum">NaN</span></span>
+                    <script>$("#serverPlayerContainer").hide();</script>
                 </div>
             </div>
             <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
@@ -285,12 +290,7 @@
         </div>
     </div>
     <script>
-        $(document).ready(function () {
-            $("body").hide();
-            init();
-            $("body").show();
-            $("#serverPlayerContainer").hide();
-        })
+    $("body").show();
     </script>
 </body>
 </html>
