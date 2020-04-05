@@ -6,6 +6,7 @@
     <title>社会主义建设服</title>
     <script src="../../scripts/json.js"></script>
     <script src="../../scripts/jquery-3.4.1.min.js"></script>
+    <script src="../../scripts/jquery_lazyload.js"></script>
     <script src="scripts/serverScript.js"></script>
     <style>
         #bgImg {
@@ -233,7 +234,7 @@
     <div id="bgImg"></div>
     <div id="mainContainer">
         <div id="titleContainer">
-            <img id="icon" src="images/icon.jpg" />
+            <img id="icon" src="../../globalImages/loading_small.gif" data-original="images/icon.jpg" />
             <div id="title"></div>
             <div id="title_cn"></div>
             <div id="backToMain"><a id="backToMainLink" href="../../index.html">返回主页</a></div>
@@ -249,15 +250,15 @@
             <div class="subtitle">玩家</div>
             <div id="playerListContainer">
                 <div class="playerListSubContainer">
-                    <img src="players/Stehsaer/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <img src="../../globalImages/loading_small.gif" data-original="players/Stehsaer/thumbnail.jpg" class="playerListSubContainerImg" />
                     <div class="playerListSubContainerStr">Stehsaer</div>
                 </div>
                 <div class="playerListSubContainer">
-                    <img src="players/cwXiaoYu/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <img src="../../globalImages/loading_small.gif" data-original="players/cwXiaoYu/thumbnail.jpg" class="playerListSubContainerImg" />
                     <div class="playerListSubContainerStr">cwXiaoYu</div>
                 </div>
                 <div class="playerListSubContainer">
-                    <img src="players/PdAlphabet/thumbnail.jpg" class="playerListSubContainerImg" />
+                    <img src="../../globalImages/loading_small.gif" data-original="players/PdAlphabet/thumbnail.jpg" class="playerListSubContainerImg" />
                     <div class="playerListSubContainerStr">PdAlphabet</div>
                 </div>
             </div>
@@ -285,5 +286,10 @@
             </div>
         </div>
     </div>
+    <script>
+        $(function () {
+        $("img").lazyload({ effect: "fadeIn"});
+    });
+    </script>
 </body>
 </html>
