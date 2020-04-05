@@ -1,0 +1,567 @@
+[17:00:30] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[17:00:30] [Server thread/INFO]: Loading properties
+[17:00:31] [Server thread/INFO]: This server is running Paper version git-Paper-98 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[17:00:31] [Server thread/INFO]: Debug logging is disabled
+[17:00:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:00:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:00:32] [Server thread/INFO]: Default game type: SURVIVAL
+[17:00:32] [Server thread/INFO]: Generating keypair
+[17:00:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:00:32] [Server thread/INFO]: Using default channel type
+[17:00:40] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:00:49] [Server thread/WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[17:00:49] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.5
+[17:00:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:00:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:00:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:00:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:00:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:00:49] [Server thread/INFO]: Preparing level "3-player Survival"
+[17:00:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[17:01:02] [Server thread/INFO]: Loaded 6 recipes
+[17:01:04] [Server thread/INFO]: -------- World Settings For [3-player Survival] --------
+[17:01:04] [Server thread/INFO]: View Distance: 6
+[17:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:04] [Server thread/INFO]: Mob Spawn Range: 8
+[17:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:04] [Server thread/INFO]: -------- World Settings For [3-player Survival_nether] --------
+[17:01:04] [Server thread/INFO]: View Distance: 6
+[17:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:04] [Server thread/INFO]: Mob Spawn Range: 8
+[17:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:04] [Server thread/INFO]: -------- World Settings For [3-player Survival_the_end] --------
+[17:01:04] [Server thread/INFO]: View Distance: 6
+[17:01:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:01:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:04] [Server thread/INFO]: Mob Spawn Range: 8
+[17:01:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:04] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:04] [Server thread/INFO]: Preparing start region for dimension '3-player Survival'/minecraft:overworld
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:15] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:15] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:15] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:16] [Server thread/INFO]: Preparing spawn area: 1%
+[17:01:16] [Server thread/INFO]: Preparing spawn area: 1%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 6%
+[17:01:17] [Server thread/INFO]: Preparing spawn area: 11%
+[17:01:18] [Server thread/INFO]: Preparing spawn area: 23%
+[17:01:18] [Server thread/INFO]: Preparing spawn area: 38%
+[17:01:19] [Server thread/INFO]: Preparing spawn area: 50%
+[17:01:19] [Server thread/INFO]: Preparing spawn area: 63%
+[17:01:20] [Server thread/INFO]: Preparing spawn area: 90%
+[17:01:20] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:21] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:21] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:21] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival
+[17:01:21] [Server thread/INFO]: Time elapsed: 17172 ms
+[17:01:21] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_nether'/minecraft:the_nether
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:22] [Server thread/INFO]: Preparing spawn area: 19%
+[17:01:23] [Server thread/INFO]: Preparing spawn area: 46%
+[17:01:23] [Server thread/INFO]: Preparing spawn area: 92%
+[17:01:24] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:24] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:25] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:25] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:26] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:27] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:27] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:28] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:28] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:29] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:29] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:30] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:30] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:31] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:31] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_nether
+[17:01:31] [Server thread/INFO]: Time elapsed: 9972 ms
+[17:01:31] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_the_end'/minecraft:the_end
+[17:01:32] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:32] [Server thread/INFO]: Preparing spawn area: 7%
+[17:01:32] [Server thread/INFO]: Preparing spawn area: 11%
+[17:01:33] [Server thread/INFO]: Preparing spawn area: 20%
+[17:01:33] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:01:34] [Server thread/INFO]: Preparing spawn area: 100%
+[17:01:34] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:01:35] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:01:35] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:01:35] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_the_end
+[17:01:35] [Server thread/INFO]: Time elapsed: 4076 ms
+[17:01:35] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+[17:01:36] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 3 second/s.
+[17:01:36] [Server thread/INFO]: Done (46.842s)! For help, type "help"
+[17:01:36] [Server thread/INFO]: Timings Reset
+[17:02:03] [User Authenticator #1/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[17:02:04] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:57824] logged in with entity id 202 at ([3-player Survival]-128.26734707891686, 70.5, -702.8404880682729)
+[17:02:12] [User Authenticator #1/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:02:14] [Server thread/INFO]: Stehsaer[/192.168.100.27:57843] logged in with entity id 266 at ([3-player Survival]-127.52001926436085, 71.0, -709.1222420657364)
+[17:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5149ms or 102 ticks behind
+[17:03:38] [Async Chat Thread - #0/INFO]: <cwXiaoYu> 刚刚刷出了一只蜘蛛
+[17:03:45] [Async Chat Thread - #0/INFO]: <Stehsaer> 其实可以的，但是太慢
+[17:04:01] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[17:04:01] [Server thread/INFO]: cwXiaoYu left the game
+[17:27:32] [Server thread/INFO]: Villager EntityVillager['Villager'/240, uuid='f4f6275d-ee47-453f-a913-ea6b1ef2c03c', l='3-player Survival', x=-157.26, y=70.00, z=-793.33, cx=-10, cz=-50, tl=189553, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[17:29:46] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:29:46] [Server thread/INFO]: Stehsaer left the game
+[17:29:53] [User Authenticator #2/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:29:53] [Server thread/INFO]: Stehsaer[/127.0.0.1:57896] logged in with entity id 2935 at ([3-player Survival]-124.12768108584363, 96.0, -717.6318885791397)
+[17:32:15] [Server thread/INFO]: Stehsaer issued server command: /kill
+[17:32:15] [Server thread/INFO]: Stehsaer fell out of the world
+[17:32:15] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[17:32:16] [User Authenticator #3/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[17:32:16] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:57901] logged in with entity id 3149 at ([3-player Survival]-123.69999998807906, 95.0, -717.6825357388352)
+[17:33:59] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[17:33:59] [Server thread/INFO]: cwXiaoYu left the game
+[17:51:02] [User Authenticator #4/INFO]: UUID of player PdAlphabet is f9f73a24-4e1a-36fa-ac74-a2f80f2cb457
+[17:51:02] [Server thread/INFO]: PdAlphabet[/127.0.0.1:57941] logged in with entity id 5163 at ([3-player Survival]-2108.8171818233363, 64.0, -253.6583350364711)
+[17:52:06] [Server thread/INFO]: PdAlphabet lost connection: Disconnected
+[17:52:06] [Server thread/INFO]: PdAlphabet left the game
+[17:52:32] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:52:32] [Server thread/INFO]: Stehsaer left the game
+[17:52:33] [User Authenticator #5/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:52:33] [Server thread/INFO]: Stehsaer[/192.168.100.27:57950] logged in with entity id 5492 at ([3-player Survival]66.46086410218204, 13.0, -698.5732356043758)
+[17:53:56] [User Authenticator #6/INFO]: UUID of player PdAlphabet is f9f73a24-4e1a-36fa-ac74-a2f80f2cb457
+[17:53:57] [Server thread/INFO]: PdAlphabet[/127.0.0.1:57958] logged in with entity id 5645 at ([3-player Survival]-2122.443793226445, 64.0, -261.99170002606)
+[17:55:30] [Async Chat Thread - #1/INFO]: <Stehsaer> what are you doing
+[17:57:01] [Server thread/INFO]: PdAlphabet has made the advancement [Sweet Dreams]
+[17:58:19] [Async Chat Thread - #2/INFO]: <PdAlphabet> So, where are you>
+[17:58:25] [Async Chat Thread - #2/INFO]: <Stehsaer> i'm at home NOW
+[17:58:37] [Async Chat Thread - #2/INFO]: <Stehsaer> come and sleep
+[17:59:17] [Async Chat Thread - #2/INFO]: <Stehsaer> where are you now
+[17:59:53] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:59:53] [Server thread/INFO]: Stehsaer left the game
+[18:00:15] [User Authenticator #7/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[18:00:15] [Server thread/INFO]: Stehsaer[/192.168.100.27:57986] logged in with entity id 7115 at ([3-player Survival]-103.95235135416387, 63.5625, -630.1446409921006)
+[18:00:26] [Async Chat Thread - #3/INFO]: <Stehsaer> where are you now
+[18:00:50] [Async Chat Thread - #3/INFO]: <Stehsaer> 我想看看你的披风
+[18:01:14] [Async Chat Thread - #3/INFO]: <Stehsaer> 我tp咯
+[18:01:20] [Async Chat Thread - #3/INFO]: <PdAlphabet> Could you use "tp"?
+[18:01:27] [Async Chat Thread - #3/INFO]: <PdAlphabet> OK
+[18:01:34] [Server thread/INFO]: Stehsaer issued server command: /tp PdAlphabet Stehsaer
+[18:01:34] [Server thread/INFO]: [Stehsaer: Teleported PdAlphabet to Stehsaer]
+[18:01:59] [Async Chat Thread - #3/INFO]: <Stehsaer> wow
+[18:02:18] [Async Chat Thread - #3/INFO]: <Stehsaer> come and sleep
+[18:03:07] [Async Chat Thread - #3/INFO]: <Stehsaer> go and build shua guai ta
+[18:03:59] [Server thread/INFO]: Stehsaer issued server command: /tp PdAlphabet Stehsaer
+[18:03:59] [Server thread/INFO]: [Stehsaer: Teleported PdAlphabet to Stehsaer]
+[18:04:10] [Async Chat Thread - #4/INFO]: <Stehsaer> 把天花板给建了
+[18:04:29] [Server thread/INFO]: PdAlphabet has made the advancement [Stone Age]
+[18:07:25] [Async Chat Thread - #5/INFO]: <Stehsaer> ?
+[18:08:00] [Async Chat Thread - #5/INFO]: <Stehsaer> go and get some stones
+[18:08:16] [Async Chat Thread - #5/INFO]: <Stehsaer> well
+[18:08:21] [Async Chat Thread - #5/INFO]: <Stehsaer> i will get the stones
+[18:08:50] [Async Chat Thread - #5/INFO]: <PdAlphabet> However, mother is coming.
+[18:08:58] [Async Chat Thread - #5/INFO]: <Stehsaer> oh no
+[18:09:08] [Async Chat Thread - #5/INFO]: <Stehsaer> how long can you play
+[18:09:34] [Async Chat Thread - #5/INFO]: <PdAlphabet> She will ask me to have dinner now.
+[18:09:41] [Async Chat Thread - #5/INFO]: <Stehsaer> oh
+[18:09:58] [Async Chat Thread - #5/INFO]: <PdAlphabet> TOMORROW?
+[18:10:03] [Async Chat Thread - #5/INFO]: <Stehsaer> yeah
+[18:10:27] [Async Chat Thread - #5/INFO]: <PdAlphabet> Tomorrow I will have more time.
+[18:10:33] [Async Chat Thread - #5/INFO]: <Stehsaer> nice
+[18:10:37] [Async Chat Thread - #5/INFO]: <PdAlphabet> C U .
+[18:10:39] [Server thread/INFO]: PdAlphabet lost connection: Disconnected
+[18:10:39] [Server thread/INFO]: PdAlphabet left the game
+[18:10:41] [Async Chat Thread - #5/INFO]: <Stehsaer> CU
+[18:14:42] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[18:14:42] [Server thread/INFO]: Stehsaer left the game
+[18:42:14] [User Authenticator #8/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[18:42:15] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:58115] logged in with entity id 8827 at ([3-player Survival]-117.62987022009139, 68.0, -704.7431962087596)
+[18:46:36] [Server thread/INFO]: Villager EntityVillager['Villager'/255, uuid='440aaa6a-b5d3-4988-a222-64658a19cda3', l='3-player Survival', x=-202.53, y=70.00, z=-783.47, cx=-13, cz=-49, tl=84645, v=true, d=false] died, message: 'Villager was slain by Husk'
+[18:46:40] [Server thread/INFO]: Villager EntityVillager['Villager'/254, uuid='7e3f714d-70f8-4f2e-859a-285c67355bea', l='3-player Survival', x=-199.41, y=70.00, z=-784.24, cx=-13, cz=-50, tl=84920, v=true, d=false] died, message: 'Villager was slain by Husk'
+[18:47:21] [Server thread/INFO]: [Server] you are in?????!!!
+[18:47:31] [Server thread/INFO]: Unknown command
+[18:47:31] [Server thread/INFO]: ...e @a title<--[HERE]
+[18:48:04] [Server thread/INFO]: Showing new title for cwXiaoYu
+[18:48:29] [Server thread/INFO]: [Server] women de shua guai ta yijing zaohao l
+[18:49:18] [Server thread/INFO]: [Server] what are you doign
+[18:49:42] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[18:49:42] [Server thread/INFO]: ..."green"}]title @a title [{"text":"Welcome to our server","color":"green"}]<--[HERE]
+[18:50:22] [Server thread/INFO]: Showing new title for cwXiaoYu
+[18:50:26] [User Authenticator #9/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[18:50:27] [Server thread/INFO]: Stehsaer[/192.168.100.27:58144] logged in with entity id 9571 at ([3-player Survival]-105.86770176620294, 63.0, -631.8154210008025)
+[18:50:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7485ms or 149 ticks behind
+[18:51:50] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[18:51:50] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[18:52:09] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[18:52:09] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[18:52:57] [Async Chat Thread - #6/INFO]: <Stehsaer> it is finished
+[18:53:19] [Async Chat Thread - #6/INFO]: <Stehsaer> ???
+[18:54:04] [Async Chat Thread - #6/INFO]: <Stehsaer> ???
+[18:56:08] [Server thread/INFO]: cwXiaoYu fell from a high place
+[18:56:12] [Async Chat Thread - #7/INFO]: <Stehsaer> ???
+[18:56:29] [Async Chat Thread - #7/INFO]: <Stehsaer> does the shua guai ta work
+[18:57:06] [Async Chat Thread - #7/INFO]: <cwXiaoYu> YES
+[18:57:11] [Async Chat Thread - #7/INFO]: <Stehsaer> nice!
+[18:57:59] [Async Chat Thread - #7/INFO]: <Stehsaer> I can't see mobs
+[18:59:33] [Async Chat Thread - #8/INFO]: <Stehsaer> what are you doing
+[19:00:00] [Async Chat Thread - #8/INFO]: <cwXiaoYu> make the shua gai ta more beautiful
+[19:00:04] [Async Chat Thread - #8/INFO]: <Stehsaer> ok
+[19:00:10] [Async Chat Thread - #8/INFO]: <Stehsaer> but make sure that it works
+[19:00:30] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[19:00:30] [Server thread/INFO]: Stehsaer left the game
+[19:00:55] [User Authenticator #10/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[19:00:56] [Server thread/INFO]: Stehsaer[/192.168.100.27:58168] logged in with entity id 10681 at ([3-player Survival]-128.59542619406983, 71.0, -707.4123864893462)
+[19:01:01] [Async Chat Thread - #8/INFO]: <Stehsaer> yeah, it works
+[19:01:20] [Async Chat Thread - #8/INFO]: <Stehsaer> it works!!!
+[19:01:41] [Async Chat Thread - #8/INFO]: <cwXiaoYu> we need lou dou to collect things
+[19:01:50] [Async Chat Thread - #8/INFO]: <Stehsaer> we cant use that now
+[19:01:57] [Async Chat Thread - #8/INFO]: <Stehsaer> we dont have enough iron
+[19:02:07] [Async Chat Thread - #8/INFO]: <cwXiaoYu> we have
+[19:02:16] [Async Chat Thread - #8/INFO]: <Stehsaer> we can do this
+[19:02:19] [Async Chat Thread - #8/INFO]: <Stehsaer> look at me
+[19:02:31] [Async Chat Thread - #8/INFO]: <cwXiaoYu> ok
+[19:02:44] [Async Chat Thread - #8/INFO]: <Stehsaer> it is not fast enough
+[19:03:03] [Async Chat Thread - #8/INFO]: <Stehsaer> send me some screenshots tonight
+[19:03:11] [Async Chat Thread - #8/INFO]: <cwXiaoYu> so we can do other things in this time
+[19:03:13] [Async Chat Thread - #8/INFO]: <Stehsaer> I'll add them to the album(xiang ce)
+[19:03:19] [Async Chat Thread - #8/INFO]: <Stehsaer> no, we can't walk too far
+[19:03:30] [Async Chat Thread - #8/INFO]: <Stehsaer> guai wu can only be created in 128 blocks
+[19:03:57] [Async Chat Thread - #8/INFO]: <Stehsaer> i already have shi yun
+[19:04:07] [Async Chat Thread - #8/INFO]: <Stehsaer> should we mine the diamonds
+[19:04:12] [Async Chat Thread - #8/INFO]: <Stehsaer> it is only shiyun 1
+[19:04:17] [Async Chat Thread - #8/INFO]: <cwXiaoYu> yes
+[19:04:31] [Async Chat Thread - #8/INFO]: <cwXiaoYu> its enough
+[19:04:40] [Async Chat Thread - #8/INFO]: <Stehsaer> i think we need shiyun 3
+[19:05:29] [Async Chat Thread - #8/INFO]: <Stehsaer> shit
+[19:05:31] [Async Chat Thread - #8/INFO]: <cwXiaoYu> hhhhhh
+[19:05:46] [Async Chat Thread - #8/INFO]: <cwXiaoYu> i just known it
+[19:05:56] [Async Chat Thread - #8/INFO]: <cwXiaoYu> hhhhhh
+[19:07:28] [Async Chat Thread - #9/INFO]: <cwXiaoYu> we need lou dou
+[19:07:36] [Async Chat Thread - #9/INFO]: <Stehsaer> how much is a loudou
+[19:07:46] [Async Chat Thread - #9/INFO]: <cwXiaoYu> have a look
+[19:07:58] [Async Chat Thread - #9/INFO]: <Stehsaer> we need 4 loudou s
+[19:08:05] [Async Chat Thread - #9/INFO]: <cwXiaoYu> no
+[19:08:18] [Async Chat Thread - #9/INFO]: <cwXiaoYu> tow is enough
+[19:08:23] [Async Chat Thread - #9/INFO]: <Stehsaer> why
+[19:08:28] [Async Chat Thread - #9/INFO]: <cwXiaoYu> in the back side
+[19:08:31] [Async Chat Thread - #9/INFO]: <Stehsaer> it is 2*2=4
+[19:08:39] [Async Chat Thread - #9/INFO]: <Stehsaer> each one needs 5 irons
+[19:09:02] [Async Chat Thread - #9/INFO]: <cwXiaoYu> 在后面两格放就行啦
+[19:09:09] [Async Chat Thread - #9/INFO]: <Stehsaer> oh
+[19:09:14] [Async Chat Thread - #9/INFO]: <Stehsaer> let's do it
+[19:09:22] [Async Chat Thread - #9/INFO]: <Stehsaer> i'll do it
+[19:09:28] [Async Chat Thread - #9/INFO]: <cwXiaoYu> 前面我们可以捡到
+[19:09:43] [Async Chat Thread - #9/INFO]: <Stehsaer> i'll make it
+[19:10:00] [Async Chat Thread - #9/INFO]: <Stehsaer> done
+[19:10:30] [Async Chat Thread - #9/INFO]: <cwXiaoYu> do you have two boxes?
+[19:10:35] [Async Chat Thread - #9/INFO]: <Stehsaer> one is enough
+[19:10:51] [Async Chat Thread - #9/INFO]: <Stehsaer> fuck
+[19:11:05] [Server thread/INFO]: cwXiaoYu was shot by Skeleton
+[19:11:26] [Server thread/INFO]: Stehsaer issued server command: /kill
+[19:11:26] [Server thread/INFO]: Stehsaer fell out of the world
+[19:11:26] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[19:12:27] [Async Chat Thread - #10/INFO]: <Stehsaer> where are you now
+[19:12:33] [Async Chat Thread - #10/INFO]: <Stehsaer> come back and sleep
+[19:12:54] [Async Chat Thread - #10/INFO]: <Stehsaer> sleep!
+[19:14:07] [Async Chat Thread - #11/INFO]: <cwXiaoYu> what
+[19:14:25] [Async Chat Thread - #11/INFO]: <cwXiaoYu> creepe?r
+[19:14:33] [Async Chat Thread - #11/INFO]: <Stehsaer> we can't pick up
+[19:14:40] [Async Chat Thread - #11/INFO]: <Stehsaer> we need 4
+[19:14:45] [Async Chat Thread - #11/INFO]: <cwXiaoYu> lou dou
+[19:14:58] [Async Chat Thread - #11/INFO]: <Stehsaer> i hvae 2
+[19:15:06] [Async Chat Thread - #11/INFO]: <cwXiaoYu> give me
+[19:15:46] [Async Chat Thread - #11/INFO]: <Stehsaer> give me
+[19:15:49] [Async Chat Thread - #11/INFO]: <cwXiaoYu> wait
+[19:16:07] [Async Chat Thread - #11/INFO]: <Stehsaer> one is enough
+[19:16:10] [Async Chat Thread - #11/INFO]: <Stehsaer> two
+[19:16:14] [Async Chat Thread - #11/INFO]: <Stehsaer> give me pls
+[19:16:24] [Async Chat Thread - #11/INFO]: <Stehsaer> you placed it wrong
+[19:16:43] [Async Chat Thread - #11/INFO]: <Stehsaer> this is right
+[19:16:46] [Async Chat Thread - #11/INFO]: <Stehsaer> give me
+[19:16:54] [Async Chat Thread - #11/INFO]: <Stehsaer> done
+[19:17:36] [Async Chat Thread - #11/INFO]: <Stehsaer> nice
+[19:17:40] [Async Chat Thread - #11/INFO]: <Stehsaer> we have lots of exp
+[19:19:25] [Async Chat Thread - #12/INFO]: <Stehsaer> 其实我们可以挂机然后一伙儿在回来
+[19:19:27] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[19:19:27] [Server thread/INFO]: Stehsaer left the game
+[19:20:01] [Server thread/INFO]: [Server] my mom's here
+[19:20:26] [User Authenticator #11/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[19:20:27] [Server thread/INFO]: Stehsaer[/192.168.100.27:58213] logged in with entity id 12698 at ([3-player Survival]-128.2750796754993, 70.0, -709.6999999880791)
+[19:21:50] [Async Chat Thread - #13/INFO]: <Stehsaer> where are you
+[19:22:15] [Async Chat Thread - #13/INFO]: <cwXiaoYu> di xia shi
+[19:22:27] [Async Chat Thread - #13/INFO]: <Stehsaer> how did you get there
+[19:22:46] [Async Chat Thread - #13/INFO]: <Stehsaer> the di xia shi is useless now
+[19:22:48] [Async Chat Thread - #13/INFO]: <cwXiaoYu> dig the way of kuangdong
+[19:23:08] [Async Chat Thread - #13/INFO]: <Stehsaer> we should make 2 more
+[19:23:11] [Async Chat Thread - #13/INFO]: <Stehsaer> loudou
+[19:23:30] [Async Chat Thread - #13/INFO]: <Stehsaer> i'll make it
+[19:25:10] [Async Chat Thread - #14/INFO]: <Stehsaer> now everything is done
+[19:25:14] [Async Chat Thread - #14/INFO]: <Stehsaer> come inside
+[19:25:23] [Async Chat Thread - #14/INFO]: <Stehsaer> maybe we should place the xiang zi inside
+[19:26:59] [Server thread/INFO]: cwXiaoYu hit the ground too hard
+[19:27:13] [Async Chat Thread - #15/INFO]: <cwXiaoYu> there is a creeper outside
+[19:27:25] [Async Chat Thread - #15/INFO]: <cwXiaoYu> fuck
+[19:28:09] [Server thread/INFO]: cwXiaoYu issued server command: /ping
+[19:28:09] [Server thread/INFO]: [SpigotPing] Can not play a sound. The specified sound-type is not available in your server version, please ensure to read carefully the config file.
+[19:28:40] [Async Chat Thread - #16/INFO]: <Stehsaer> do you have gao zi
+[19:29:17] [Async Chat Thread - #16/INFO]: <Stehsaer> nice
+[19:29:39] [Async Chat Thread - #16/INFO]: <Stehsaer> how to prevent creeper
+[19:29:59] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[19:29:59] [Server thread/INFO]: Stehsaer left the game
+[19:30:24] [Async Chat Thread - #16/INFO]: <cwXiaoYu> 还有必要搞劫掠者农场吗
+[19:31:01] [User Authenticator #12/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[19:31:01] [Server thread/INFO]: Stehsaer[/192.168.100.27:58242] logged in with entity id 13890 at ([3-player Survival]-127.30000001192093, 70.0, -709.7624999880791)
+[19:31:27] [Async Chat Thread - #17/INFO]: <Stehsaer> how to prevent creeper
+[19:31:55] [Async Chat Thread - #17/INFO]: <cwXiaoYu> now it doesnt matter
+[19:32:42] [Async Chat Thread - #17/INFO]: <Stehsaer> I will upload the pictures later
+[19:32:51] [Async Chat Thread - #17/INFO]: <Stehsaer> to our website
+[19:33:01] [Async Chat Thread - #17/INFO]: <cwXiaoYu> the creeper doesn't boom if she can't see u
+[19:33:06] [Async Chat Thread - #17/INFO]: <Stehsaer> she??
+[19:33:19] [Async Chat Thread - #17/INFO]: <cwXiaoYu> yesssss
+[19:33:42] [Async Chat Thread - #17/INFO]: <cwXiaoYu> 苦力怕娘
+[19:33:47] [Async Chat Thread - #17/INFO]: <Stehsaer> hahahahahahblayt
+[19:35:01] [Async Chat Thread - #18/INFO]: <Stehsaer> the shua guai ta is a great success, despite that it is slow
+[19:35:31] [Async Chat Thread - #18/INFO]: <Stehsaer> i'm so happy blyat
+[19:36:14] [Async Chat Thread - #18/INFO]: <Stehsaer> ??? why no mob
+[19:36:24] [Async Chat Thread - #18/INFO]: <cwXiaoYu> wait
+[19:36:33] [Async Chat Thread - #18/INFO]: <Stehsaer> oh shit
+[19:36:42] [Async Chat Thread - #18/INFO]: <Stehsaer> come here
+[19:37:09] [Server thread/INFO]: cwXiaoYu has made the advancement [Voluntary Exile]
+[19:37:27] [Async Chat Thread - #18/INFO]: <Stehsaer> drink milk
+[19:38:42] [Async Chat Thread - #19/INFO]: <Stehsaer> place torch
+[19:38:56] [Async Chat Thread - #19/INFO]: <Stehsaer> light it up
+[19:39:09] [Async Chat Thread - #19/INFO]: <Stehsaer> nice
+[19:40:18] [Async Chat Thread - #20/INFO]: <Stehsaer> you can't ride them
+[19:40:20] [Async Chat Thread - #20/INFO]: <Stehsaer> hahahahablyat
+[19:41:14] [Async Chat Thread - #20/INFO]: <Stehsaer> ???why no
+[19:42:03] [Async Chat Thread - #20/INFO]: <Stehsaer> oh shit
+[19:42:59] [Async Chat Thread - #20/INFO]: <Stehsaer> you can't stand there for too long
+[19:43:11] [Async Chat Thread - #20/INFO]: <Stehsaer> or creeper will creeper?
+[19:44:29] [Async Chat Thread - #21/INFO]: <Stehsaer> you are close to death
+[19:45:31] [Async Chat Thread - #22/INFO]: <Stehsaer> it works much faster at day
+[19:45:38] [Async Chat Thread - #22/INFO]: <Stehsaer> creeper?
+[19:46:14] [Async Chat Thread - #22/INFO]: <Stehsaer> there may be something wrong up there
+[19:46:19] [Async Chat Thread - #22/INFO]: <cwXiaoYu> we should wa kuang
+[19:46:21] [Async Chat Thread - #22/INFO]: <Stehsaer> I cant see any mob
+[19:46:30] [Async Chat Thread - #22/INFO]: <Stehsaer> i dont have much time left now in real life
+[19:47:16] [Async Chat Thread - #22/INFO]: <Stehsaer> can you keep killing mob at our shua guai ta
+[19:47:47] [Async Chat Thread - #22/INFO]: <cwXiaoYu> no
+[19:48:52] [Async Chat Thread - #23/INFO]: <Stehsaer> i have to quit now
+[19:48:58] [Async Chat Thread - #23/INFO]: <Stehsaer> CU tomorrow
+[19:49:04] [Async Chat Thread - #23/INFO]: <cwXiaoYu> bye
+[19:49:14] [Async Chat Thread - #23/INFO]: <Stehsaer> bye!
+[19:49:22] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[19:49:22] [Server thread/INFO]: Stehsaer left the game
+[19:51:46] [Server thread/INFO]: [Server] send me your jie tu
+[19:51:50] [Server thread/INFO]: There are 1 of a max 3 players online: cwXiaoYu
+[19:51:58] [Server thread/INFO]: Unknown command
+[19:51:58] [Server thread/INFO]: /whitelist<--[HERE]
+[19:52:04] [Server thread/INFO]: There are 3 whitelisted players: Stehsaer, PdAlphabet, cwXiaoYu
+[19:52:08] [Async Chat Thread - #24/INFO]: <cwXiaoYu> i have no jie tu
+[19:52:13] [Server thread/INFO]: [Server] oh
+[19:53:32] [Server thread/INFO]: --------- Help: Index ---------------------------
+[19:53:32] [Server thread/INFO]: Use /help [n] to get page n of help.
+[19:53:32] [Server thread/INFO]: Aliases: Lists command aliases
+[19:53:32] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[19:53:32] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[19:53:32] [Server thread/INFO]: SpigotPing: All commands for SpigotPing
+[19:53:32] [Server thread/INFO]: /advancement: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /ban: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /banlist: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /clear: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /clone: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /data: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /datapack: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /debug: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /deop: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /effect: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /enchant: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /execute: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /experience: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /fill: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /forceload: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /function: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /give: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /help: Shows the help menu
+[19:53:32] [Server thread/INFO]: /kick: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /kill: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /list: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /locate: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /loot: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /me: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /msg: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /op: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /paper: Paper related commands
+[19:53:32] [Server thread/INFO]: /pardon: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /particle: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /ping: The main command for SpigotPing.
+[19:53:32] [Server thread/INFO]: /pingreload: Reloads the plugin.
+[19:53:32] [Server thread/INFO]: /playsound: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[19:53:32] [Server thread/INFO]: /publish: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /recipe: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[19:53:32] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /restart: Restarts the server
+[19:53:32] [Server thread/INFO]: /save-all: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /save-off: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /save-on: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /say: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /schedule: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /seed: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /setblock: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /spectate: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /spigot: Spigot related commands
+[19:53:32] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /stop: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /summon: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tag: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /team: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /teleport: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tell: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /time: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[19:53:32] [Server thread/INFO]: /title: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tm: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tp: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[19:53:32] [Server thread/INFO]: /trigger: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[19:53:32] [Server thread/INFO]: /w: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /weather: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[19:53:32] [Server thread/INFO]: /xp: A Mojang provided command.
+[19:56:57] [Server thread/INFO]: [Server] what are you doing now
+[19:57:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, *20.0, 20.0
+[19:57:47] [Server thread/INFO]: [Server] ???
+[19:57:49] [Server thread/INFO]: There are 1 of a max 3 players online: cwXiaoYu
+[19:59:47] [Server thread/INFO]: [SpigotPing] This command is only executable as a Player.
+[19:59:54] [Server thread/INFO]: [SpigotPing] This command is only executable as a Player.
+[20:01:04] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[20:01:04] [Server thread/INFO]: cwXiaoYu left the game
+[20:01:11] [Server thread/INFO]: Saving the game (this may take a moment!)
+[20:01:11] [Server thread/INFO]: Saved the game
+[20:01:15] [Server thread/INFO]: Stopping the server
+[20:01:15] [Server thread/INFO]: Stopping server
+[20:01:15] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.5
+[20:01:15] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[20:01:15] [Server thread/INFO]: Saving players
+[20:01:15] [Server thread/INFO]: Saving worlds
+[20:01:15] [Server thread/INFO]: Saving chunks for level '3-player Survival'/minecraft:overworld
+[20:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[20:01:16] [Server thread/INFO]: Saving chunks for level '3-player Survival_nether'/minecraft:the_nether
+[20:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:01:16] [Server thread/INFO]: Saving chunks for level '3-player Survival_the_end'/minecraft:the_end
+[20:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[20:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
