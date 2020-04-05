@@ -42,10 +42,36 @@
             line-height:150px;
             text-shadow:0 0 5px #8c8c8c;
         }
+        #backButton{
+            position:fixed;
+            left:20px;
+            top:20px;
+            width:60px; height:60px;
+            box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.14);
+            border-radius:7px;
+        }
+        #backButton:hover{
+            box-shadow:0 0 20px 4px rgba(0, 0, 0, 0.44);
+            cursor:pointer;
+        }
     </style>
 </head>
 <body>
     <script>
+        setInterval(function () {
+            var width = this.innerWidth;
+            var height = this.innerHeight;
+            if (width < height) {
+                $(".dateContainer").attr("style", "margin-left:2.5%;margin-right:2.5%;width:95%");
+                $(".dateIndicator").attr("style", "font-size:70px;line-height:100px");
+                $("#backButton").hide(500);
+            }
+            else {
+                $(".dateContainer").attr("style", "margin-left:20%;margin-right:20%;width:60%;");
+                $(".dateIndicator").attr("style", "font-size:30px;line-height:40px");
+                $("#backButton").show(500);
+            }
+        }, 1000);
         load();
     </script>
 </body>

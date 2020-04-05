@@ -217,6 +217,38 @@
                 color: greenyellow;
             }
 
+        .subLink{
+            height:60px; width:90%; 
+            margin-left:5%; margin-right:5%;
+            margin-top:20px;
+            background-color:transparent;
+            border-radius:5px;
+        }
+
+        .subLink:hover{
+            background-color:rgba(255,255,255,0.5);
+            cursor:pointer;
+        }
+
+        .subLinkText{
+            font-size:24px;
+            color:white;
+            line-height:60px;
+            text-shadow: 0 0 11px black;
+            height:100%;
+            margin-left:10px;
+            float:left;
+        }
+
+        .subLinkImg{
+            height:50px;
+            width:62px;
+            margin-left:10px;
+            margin-top:5px; margin-bottom:5px;
+            float:left;
+            border-radius:5px;
+        }
+
         @font-face {
             font-family: customIcon1;
             font-style: normal;
@@ -229,7 +261,6 @@
     <script>
         init();
     </script>
-
     <div id="bgImg_lowRes"></div>
     <div id="bgImg"></div>
     <div id="mainContainer">
@@ -283,13 +314,20 @@
             </div>
             <div style="float:left; width:1px; margin:3% 0 3% 0; background-color:white; height:90%"></div>
             <div style="width:49%; height:100%; float:left">
+                <div class="subLink" id="albumLink">
+                    <img class="subLinkImg" src="../../globalImages/loading_small.gif" data-original="../../globalImages/album_icon.png" />
+                    <div class="subLinkText">服务器相册</div>
+                </div>
             </div>
         </div>
     </div>
     <script>
         $(function () {
         $("img").lazyload({ effect: "fadeIn"});
-    });
+        });
+        $(".subLink").on("click",function () {
+            window.location.href = "album.html" + "?source=" + window.location.href;
+        })
     </script>
 </body>
 </html>
