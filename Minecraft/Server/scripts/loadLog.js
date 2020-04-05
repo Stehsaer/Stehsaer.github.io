@@ -16,7 +16,7 @@ function proceed(response) {
     for (var i = 0; i < json.length; i++) {
         str += "<div class='subContainer'><div class='date'>#" + json[i].year + "-" + json[i].month + "-" + json[i].date + "</div>";
         for (var j = 0; j < json[i].fileCount; j++) {
-            var link = json[i].year + "-" + pad(json[i].month, 2) + "-" + pad(json[i].date, 2) + "-" + j + ".log";
+            var link = json[i].year + "-" + pad(json[i].month, 2) + "-" + pad(json[i].date, 2) + "-" + (j+1) + ".log";
             str += "<span class='subLink' onclick=jumpTo('log" + "/" + link + "')>";
             str += link+ "</span>";
         }
