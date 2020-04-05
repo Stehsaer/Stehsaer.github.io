@@ -242,7 +242,7 @@
 
         .subLinkImg{
             height:50px;
-            width:62px;
+            width:auto;
             margin-left:10px;
             margin-top:5px; margin-bottom:5px;
             float:left;
@@ -317,6 +317,10 @@
                     <img class="subLinkImg" src="../../globalImages/loading_small.gif" data-original="../../globalImages/album_icon.png" />
                     <div class="subLinkText">服务器相册</div>
                 </div>
+                <div class="subLink" id="logLink">
+                    <img class="subLinkImg" src="../../globalImages/loading_small.gif" data-original="../../globalImages/history.png" />
+                    <div class="subLinkText">服务器日志</div>
+                </div>
             </div>
         </div>
     </div>
@@ -324,9 +328,12 @@
         $(function () {
         $("img").lazyload({ effect: "fadeIn"});
         });
-        $(".subLink").on("click",function () {
+        $("#albumLink").on("click",function () {
             window.location.href = "album.html" + "?source=" + window.location.href;
         })
+        $("#logLink").on("click", function () {
+            window.location.href = "logPage.html" + "?source=" + window.location.href;
+        });
     </script>
 </body>
 </html>
