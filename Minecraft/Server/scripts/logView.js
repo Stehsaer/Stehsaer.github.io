@@ -22,8 +22,8 @@ function proceed(response) {
         str += "<span class='lineContent'>" + obj[i].replace(/\</g,"&lt;").replace(/\>/g, "&gt;") + "</span>";
         str += "</div>";
     }
-    str = str.replace(/\[Server thread\/INFO\]\:/g, "<span style='color:#00bcd4'>[Server thread/INFO]:</span>");
-    str = str.replace(/\[Server thread\/WARN\]\:/g, "<span style='color:#ff5722'>[Server thread/WARN]:</span>");
+    str = str.replace(/\[(.*?)\/INFO\]\:/g, "<span style='color:#00bcd4'>[$1/INFO]:</span>");
+    str = str.replace(/\[(.*?)\/WARN\]\:/g, "<span style='color:#ff5722'>[$1/WARN]:</span>");
     str = str.replace(/\[([0-9]*):([0-9]*):([0-9]*)\]/g, "<span style='color:#cddc39'>[$1:$2:$3]</span>");
     str = str.replace(/\[Async Chat Thread - #([0-9]*)\/INFO\]:/g, "<span style='color:#4caf50'>[Async Chat Thread - #$1/INFO]:</span>");
     str = str.replace(/has made the advancement \[(.*?)\]/, "has made the advancement <span style='color:#ba68c8'>[$1]</span>");
