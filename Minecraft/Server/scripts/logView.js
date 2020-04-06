@@ -31,8 +31,8 @@ function proceed(response) {
     str = str.replace(/\[([0-9]*):([0-9]*):([0-9]*)\]/g, "<span style='color:#cddc39'>[$1:$2:$3]</span>");
 
     str = str.replace(/\[Async Chat Thread - #([0-9]*)\/INFO\]:/g, "<span style='color:#4caf50'>[Async Chat Thread - #$1/INFO]:</span>");
-    str = str.replace(/has made the advancement \[(.*?)\]/, "has made the advancement <span style='color:#ba68c8'>[$1]</span>");
+    str = str.replace(/has made the advancement \[(.*?)\]/g, "has made the advancement <span style='color:#ba68c8'>[$1]</span>");
 
-    str = str.replace(/Can't keep up! Is the server overloaded\? Running ([0-9]*?)ms or ([0-9]*?) ticks behind/,"<span style='color:#ff9800'>Can't keep up! Is the server overloaded? Running <span style='color:#cddc39'>$1</span>ms or <span style='color:#cddc39'>$2</span> ticks behind</span>")
+    str = str.replace(/Can't keep up! Is the server overloaded\? Running ([0-9]*?)ms or ([0-9]*?) ticks behind/g,"<span style='color:#ff9800'>Can't keep up! Is the server overloaded? Running <span style='color:#cddc39'>$1</span>ms or <span style='color:#cddc39'>$2</span> ticks behind</span>")
     $("body").html(str);
 }
