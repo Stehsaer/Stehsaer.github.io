@@ -24,8 +24,15 @@ function proceed(response) {
     }
     str = str.replace(/\[Server thread\/INFO\]\:/g, "<span style='color:#00bcd4'>[Server thread/INFO]:</span>");
     str = str.replace(/\[Server thread\/WARN\]\:/g, "<span style='color:#ff5722'>[Server thread/WARN]:</span>");
+
+    str = str.replace(/\[main\/INFO\]\:/g, "<span style='color:#00bcd4'>[main/INFO]:</span>");
+    str = str.replace(/\[main\/WARN\]\:/g, "<span style='color:#ff5722'>[main/WARN]:</span>");
+
     str = str.replace(/\[([0-9]*):([0-9]*):([0-9]*)\]/g, "<span style='color:#cddc39'>[$1:$2:$3]</span>");
+
     str = str.replace(/\[Async Chat Thread - #([0-9]*)\/INFO\]:/g, "<span style='color:#4caf50'>[Async Chat Thread - #$1/INFO]:</span>");
     str = str.replace(/has made the advancement \[(.*?)\]/, "has made the advancement <span style='color:#ba68c8'>[$1]</span>");
+
+    str = str.replace(/Can't keep up! Is the server overloaded\? Running ([0-9]*?)ms or ([0-9]*?) ticks behind/,"<span style='color:#ff9800'>Can't keep up! Is the server overloaded? Running <span style='color:#cddc39'>$1</span>ms or <span style='color:#cddc39'>$2</span> ticks behind</span>")
     $("body").html(str);
 }
