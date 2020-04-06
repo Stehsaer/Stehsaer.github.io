@@ -18,12 +18,7 @@
             height:25px;
             margin-top:0px; margin-bottom:0px;
             margin-left:10px;
-            width:auto;
             white-space:nowrap;
-        }
-
-        .line:hover{
-            background-color:#464646;
         }
 
         .lineNum{
@@ -40,6 +35,8 @@
             margin-left:5px;
             margin-right:5px;
             display:inline;
+            width:2px;
+            background-color:dimgray;
         }
 
         .lineContent{
@@ -58,6 +55,6 @@
         <div class="lineSeperator"></div>
         <div class="lineContent">正在加载...</div>
     </div>
-    <script>load();</script>
+    <script>load(window.location.href.split("?source=")[1]);</script>
 </body>
 </html>
