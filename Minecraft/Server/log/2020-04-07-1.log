@@ -1,0 +1,221 @@
+[12:22:09] [Server thread/INFO]: Loading properties
+[12:22:10] [Server thread/INFO]: This server is running Paper version git-Paper-98 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[12:22:10] [Server thread/INFO]: Debug logging is disabled
+[12:22:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:22:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:22:11] [Server thread/INFO]: Default game type: SURVIVAL
+[12:22:11] [Server thread/INFO]: Generating keypair
+[12:22:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:22:11] [Server thread/INFO]: Using default channel type
+[12:22:17] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:22:25] [Server thread/WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[12:22:25] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.5
+[12:22:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:22:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:22:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:22:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:22:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:22:25] [Server thread/INFO]: Preparing level "3-player Survival"
+[12:22:26] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:22:28] [Server thread/INFO]: Loaded 6 recipes
+[12:22:29] [Server thread/INFO]: -------- World Settings For [3-player Survival] --------
+[12:22:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:22:29] [Server thread/INFO]: View Distance: 6
+[12:22:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:22:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:22:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:22:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:22:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:22:29] [Server thread/INFO]: Mob Spawn Range: 8
+[12:22:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:22:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:22:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:22:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:22:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:22:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:22:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:22:29] [Server thread/INFO]: -------- World Settings For [3-player Survival_nether] --------
+[12:22:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:22:29] [Server thread/INFO]: View Distance: 6
+[12:22:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:22:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:22:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:22:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:22:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:22:29] [Server thread/INFO]: Mob Spawn Range: 8
+[12:22:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:22:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:22:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:22:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:22:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:22:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:22:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:22:29] [Server thread/INFO]: -------- World Settings For [3-player Survival_the_end] --------
+[12:22:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:22:29] [Server thread/INFO]: View Distance: 6
+[12:22:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:22:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:22:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:22:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:22:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:22:29] [Server thread/INFO]: Mob Spawn Range: 8
+[12:22:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:22:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:22:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:22:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:22:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:22:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:22:29] [Server thread/INFO]: Max TNT Explosions: 100
+[12:22:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:22:29] [Server thread/INFO]: Preparing start region for dimension '3-player Survival'/minecraft:overworld
+[12:22:30] [Server thread/INFO]: Preparing spawn area: 0%
+[12:22:30] [Server thread/INFO]: Preparing spawn area: 0%
+[12:22:30] [Server thread/INFO]: Preparing spawn area: 0%
+[12:22:31] [Server thread/INFO]: Preparing spawn area: 1%
+[12:22:31] [Server thread/INFO]: Preparing spawn area: 10%
+[12:22:32] [Server thread/INFO]: Preparing spawn area: 42%
+[12:22:32] [Server thread/INFO]: Preparing spawn area: 98%
+[12:22:33] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:33] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival
+[12:22:33] [Server thread/INFO]: Time elapsed: 3833 ms
+[12:22:33] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_nether'/minecraft:the_nether
+[12:22:33] [Server thread/INFO]: Preparing spawn area: 0%
+[12:22:33] [Server thread/INFO]: Preparing spawn area: 22%
+[12:22:34] [Server thread/INFO]: Preparing spawn area: 72%
+[12:22:35] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:35] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:35] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:36] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:37] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:37] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:38] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:38] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_nether
+[12:22:38] [Server thread/INFO]: Time elapsed: 4967 ms
+[12:22:38] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_the_end'/minecraft:the_end
+[12:22:38] [Server thread/INFO]: Preparing spawn area: 0%
+[12:22:38] [Server thread/INFO]: Preparing spawn area: 92%
+[12:22:39] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:39] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:40] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:40] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:42] [Server thread/INFO]: Preparing spawn area: 100%
+[12:22:42] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:42] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:42] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:43] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:43] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[12:22:45] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:22:45] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_the_end
+[12:22:45] [Server thread/INFO]: Time elapsed: 7135 ms
+[12:22:45] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+[12:22:45] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 3 second/s.
+[12:22:45] [Server thread/INFO]: Done (19.985s)! For help, type "help"
+[12:22:46] [Server thread/INFO]: Timings Reset
+[12:26:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7959ms or 159 ticks behind
+[12:27:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15604ms or 312 ticks behind
+[12:38:35] [User Authenticator #1/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[12:38:37] [Server thread/INFO]: Stehsaer[/192.168.100.27:49658] logged in with entity id 189 at ([3-player Survival]-128.654735130308, 70.0, -708.7512300929465)
+[12:39:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[12:58:57] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[12:58:57] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[13:05:20] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[13:05:20] [Server thread/INFO]: Stehsaer left the game
+[13:51:02] [User Authenticator #2/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:51:02] [Server thread/INFO]: Stehsaer[/192.168.100.27:49831] logged in with entity id 2705 at ([3-player Survival]-100.71631395156878, 63.0, -631.7008543792741)
+[15:00:23] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:00:23] [Server thread/INFO]: Stehsaer left the game
+[15:02:51] [User Authenticator #3/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:02:51] [Server thread/INFO]: Stehsaer[/192.168.100.27:50575] logged in with entity id 8341 at ([3-player Survival]-111.24862961293574, 63.0, -631.6534713610763)
+[15:14:59] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:14:59] [Server thread/INFO]: Stehsaer left the game
+[15:18:47] [User Authenticator #4/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:18:47] [Server thread/INFO]: Stehsaer[/192.168.100.27:50599] logged in with entity id 9477 at ([3-player Survival]-121.54308825098704, 96.0, -747.8259480894915)
+[15:26:32] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:26:32] [Server thread/INFO]: Stehsaer left the game
+[15:26:33] [User Authenticator #5/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:26:34] [Server thread/INFO]: Stehsaer[/192.168.100.27:50613] logged in with entity id 10297 at ([3-player Survival]-127.70228557291418, 72.0, -706.7043149321023)
+[15:49:29] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:49:29] [Server thread/INFO]: Stehsaer left the game
+[15:49:30] [User Authenticator #6/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:49:30] [Server thread/INFO]: Stehsaer[/192.168.100.27:50685] logged in with entity id 12191 at ([3-player Survival]-127.7045251993684, 72.0, -706.3333408484602)
+[16:00:01] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:00:01] [Server thread/INFO]: Stehsaer left the game
+[16:00:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5039ms or 100 ticks behind
+[16:03:02] [User Authenticator #7/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:03:02] [Server thread/INFO]: Stehsaer[/192.168.100.27:50721] logged in with entity id 13058 at ([3-player Survival]-106.46678930649333, 63.0, -631.4501920812066)
+[16:12:19] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:12:19] [Server thread/INFO]: Stehsaer left the game
+[16:13:11] [User Authenticator #8/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:13:11] [Server thread/INFO]: Stehsaer[/192.168.100.27:50748] logged in with entity id 14001 at ([3-player Survival]-127.80780252855946, 99.0, -708.8412375203554)
+[16:25:59] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:25:59] [Server thread/INFO]: Stehsaer left the game
+[16:35:12] [User Authenticator #9/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:35:13] [Server thread/INFO]: Stehsaer[/192.168.100.27:50816] logged in with entity id 15211 at ([3-player Survival]-100.10017726193371, 63.0, -633.2351318306354)
+[16:40:16] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:40:16] [Server thread/INFO]: Stehsaer left the game
+[16:40:39] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:40:40] [Server thread/INFO]: Saved the game
+[16:40:42] [Server thread/INFO]: Stopping the server
+[16:40:42] [Server thread/INFO]: Stopping server
+[16:40:42] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.5
+[16:40:42] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[16:40:42] [Server thread/INFO]: Saving players
+[16:40:42] [Server thread/INFO]: Saving worlds
+[16:40:42] [Server thread/INFO]: Saving chunks for level '3-player Survival'/minecraft:overworld
+[16:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[16:40:42] [Server thread/INFO]: Saving chunks for level '3-player Survival_nether'/minecraft:the_nether
+[16:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:40:42] [Server thread/INFO]: Saving chunks for level '3-player Survival_the_end'/minecraft:the_end
+[16:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[16:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:40:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
