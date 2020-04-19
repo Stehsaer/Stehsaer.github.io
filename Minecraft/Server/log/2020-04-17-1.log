@@ -1,0 +1,336 @@
+[15:01:06] [Server thread/INFO]: Loading properties
+[15:01:07] [Server thread/INFO]: This server is running Paper version git-Paper-98 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[15:01:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:01:08] [Server thread/INFO]: Debug logging is disabled
+[15:01:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:01:08] [Server thread/INFO]: Default game type: SURVIVAL
+[15:01:08] [Server thread/INFO]: Generating keypair
+[15:01:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:01:09] [Server thread/INFO]: Using default channel type
+[15:01:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:01:22] [Server thread/WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[15:01:23] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.5
+[15:01:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:01:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:01:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:01:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:01:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:01:23] [Server thread/INFO]: Preparing level "3-player Survival"
+[15:01:23] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:01:24] [Server thread/INFO]: Loaded 6 recipes
+[15:01:25] [Server thread/INFO]: -------- World Settings For [3-player Survival] --------
+[15:01:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:01:25] [Server thread/INFO]: Mob Spawn Range: 8
+[15:01:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:01:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:01:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:01:25] [Server thread/INFO]: Max TNT Explosions: 100
+[15:01:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:01:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:01:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:01:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:01:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:01:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:01:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:01:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:01:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:01:25] [Server thread/INFO]: View Distance: 6
+[15:01:26] [Server thread/INFO]: -------- World Settings For [3-player Survival_nether] --------
+[15:01:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Mob Spawn Range: 8
+[15:01:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:01:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:01:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:01:26] [Server thread/INFO]: Max TNT Explosions: 100
+[15:01:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:01:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:01:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:01:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:01:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:01:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:01:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:01:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:01:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:01:26] [Server thread/INFO]: View Distance: 6
+[15:01:26] [Server thread/INFO]: -------- World Settings For [3-player Survival_the_end] --------
+[15:01:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:01:26] [Server thread/INFO]: Mob Spawn Range: 8
+[15:01:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:01:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:01:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:01:26] [Server thread/INFO]: Max TNT Explosions: 100
+[15:01:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:01:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:01:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:01:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:01:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:01:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:01:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:01:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:01:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:01:26] [Server thread/INFO]: View Distance: 6
+[15:01:26] [Server thread/INFO]: Preparing start region for dimension '3-player Survival'/minecraft:overworld
+[15:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:29] [Server thread/INFO]: Preparing spawn area: 1%
+[15:01:29] [Server thread/INFO]: Preparing spawn area: 1%
+[15:01:29] [Server thread/INFO]: Preparing spawn area: 1%
+[15:01:30] [Server thread/INFO]: Preparing spawn area: 20%
+[15:01:30] [Server thread/INFO]: Preparing spawn area: 21%
+[15:01:31] [Server thread/INFO]: Preparing spawn area: 21%
+[15:01:31] [Server thread/INFO]: Preparing spawn area: 23%
+[15:01:31] [Server thread/INFO]: Preparing spawn area: 46%
+[15:01:32] [Server thread/INFO]: Preparing spawn area: 59%
+[15:01:32] [Server thread/INFO]: Preparing spawn area: 78%
+[15:01:33] [Server thread/INFO]: Preparing spawn area: 86%
+[15:01:34] [Server thread/INFO]: Preparing spawn area: 92%
+[15:01:34] [Server thread/INFO]: Preparing spawn area: 97%
+[15:01:35] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:35] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:35] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:36] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:36] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:37] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:38] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:39] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:39] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:39] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:39] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:40] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:40] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:41] [Server thread/INFO]: Preparing spawn area: 100%
+[15:01:41] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival
+[15:01:41] [Server thread/INFO]: Time elapsed: 15429 ms
+[15:01:41] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_nether'/minecraft:the_nether
+[15:01:42] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:42] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[15:01:42] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:43] [Server thread/INFO]: Preparing spawn area: 92%
+[15:01:43] [Server thread/INFO]: Preparing spawn area: 92%
+[15:01:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:44] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:45] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:46] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:46] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:47] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:47] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:48] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:48] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_nether
+[15:01:48] [Server thread/INFO]: Time elapsed: 7022 ms
+[15:01:48] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_the_end'/minecraft:the_end
+[15:01:49] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:49] [Server thread/INFO]: Preparing spawn area: 0%
+[15:01:49] [Server thread/INFO]: Preparing spawn area: 62%
+[15:01:50] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:50] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:51] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:52] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:01:52] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:01:52] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_the_end
+[15:01:52] [Server thread/INFO]: Time elapsed: 3730 ms
+[15:01:52] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+[15:01:52] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 3 second/s.
+[15:01:52] [Server thread/INFO]: Done (29.851s)! For help, type "help"
+[15:01:53] [Server thread/INFO]: Timings Reset
+[15:02:19] [Server thread/INFO]: Unknown command
+[15:02:19] [Server thread/INFO]: /whitelist<--[HERE]
+[15:02:26] [Server thread/INFO]: --------- Help: Index ---------------------------
+[15:02:26] [Server thread/INFO]: Use /help [n] to get page n of help.
+[15:02:26] [Server thread/INFO]: Aliases: Lists command aliases
+[15:02:26] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[15:02:26] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[15:02:26] [Server thread/INFO]: SpigotPing: All commands for SpigotPing
+[15:02:26] [Server thread/INFO]: /advancement: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /ban: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /banlist: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /clear: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /clone: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /data: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /datapack: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /debug: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /deop: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /effect: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /enchant: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /execute: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /experience: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /fill: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /forceload: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /function: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /give: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /help: Shows the help menu
+[15:02:26] [Server thread/INFO]: /kick: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /kill: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /list: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /locate: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /loot: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /me: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /msg: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /op: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /paper: Paper related commands
+[15:02:26] [Server thread/INFO]: /pardon: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /particle: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /ping: The main command for SpigotPing.
+[15:02:26] [Server thread/INFO]: /pingreload: Reloads the plugin.
+[15:02:26] [Server thread/INFO]: /playsound: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[15:02:26] [Server thread/INFO]: /publish: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /recipe: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[15:02:26] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /restart: Restarts the server
+[15:02:26] [Server thread/INFO]: /save-all: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /save-off: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /save-on: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /say: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /schedule: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /seed: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /setblock: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /spectate: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /spigot: Spigot related commands
+[15:02:26] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /stop: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /summon: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tag: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /team: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /teleport: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tell: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /time: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[15:02:26] [Server thread/INFO]: /title: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tm: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tp: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[15:02:26] [Server thread/INFO]: /trigger: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[15:02:26] [Server thread/INFO]: /w: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /weather: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[15:02:26] [Server thread/INFO]: /xp: A Mojang provided command.
+[15:02:35] [Server thread/INFO]: Player is already whitelisted
+[15:02:40] [Server thread/INFO]: Whitelist is now turned off
+[15:02:43] [Server thread/INFO]: Whitelist is now turned on
+[15:02:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[15:03:26] [User Authenticator #1/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:03:27] [Server thread/INFO]: Stehsaer[/192.168.100.27:52872] logged in with entity id 155 at ([3-player Survival]-112.8634714659938, 62.9375, -653.9572571036626)
+[15:03:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5066ms or 101 ticks behind
+[15:39:06] [Server thread/WARN]: Stehsaer moved wrongly!
+[15:46:58] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:46:58] [Server thread/INFO]: Stehsaer left the game
+[15:47:03] [User Authenticator #2/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:47:04] [Server thread/INFO]: Stehsaer[/192.168.100.27:53005] logged in with entity id 4967 at ([3-player Survival]-160.664771802043, 72.0, -715.9336695803555)
+[15:49:57] [Server thread/INFO]: Stehsaer issued server command: /time query
+[15:50:03] [Server thread/INFO]: Stehsaer issued server command: /time query daytime
+[15:50:34] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives add time dummy
+[15:50:34] [Server thread/INFO]: [Stehsaer: Created new objective [time]]
+[15:51:06] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives modify time rendertype integer
+[15:51:24] [Server thread/INFO]: Stehsaer issued server command: /scoreboard players add @a time
+[15:51:54] [Server thread/INFO]: Stehsaer issued server command: /bossbar add 1
+[15:52:38] [Server thread/INFO]: Stehsaer issued server command: /bossbar add 1 [{"text":"Time"}]
+[15:52:38] [Server thread/INFO]: [Stehsaer: Created custom bossbar [Time]]
+[15:53:05] [Server thread/INFO]: Stehsaer issued server command: /bossbar set minecraft:1 value 5
+[15:53:05] [Server thread/INFO]: [Stehsaer: Custom bossbar [Time] has changed value to 5]
+[15:53:20] [Server thread/INFO]: Stehsaer issued server command: /bossbar set minecraft:1 visible true
+[15:53:33] [Server thread/INFO]: Stehsaer issued server command: /bossbar set minecraft:1 players @a
+[15:53:33] [Server thread/INFO]: [Stehsaer: Custom bossbar [Time] now has 1 players: Stehsaer]
+[15:53:41] [Server thread/INFO]: Stehsaer issued server command: /timings
+[15:53:51] [Server thread/INFO]: Stehsaer issued server command: /time query daytime
+[15:54:49] [Server thread/INFO]: Stehsaer issued server command: /bossbar remove minecraft:1
+[15:54:49] [Server thread/INFO]: [Stehsaer: Removed custom bossbar [Time]]
+[16:26:23] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:29:40] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:33:03] [Async Chat Thread - #0/INFO]: <Stehsaer> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+[16:40:50] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:40:50] [Server thread/INFO]: Stehsaer left the game
+[16:45:50] [User Authenticator #3/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:45:51] [Server thread/INFO]: Stehsaer[/192.168.100.27:53278] logged in with entity id 9765 at ([3-player Survival]-139.54354785147711, 73.0, -649.3000000119209)
+[16:49:47] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:52:52] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:52:52] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:52:58] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:53:36] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:53:47] [Server thread/WARN]: Stehsaer moved wrongly!
+[16:57:39] [Server thread/WARN]: Stehsaer moved wrongly!
+[17:04:50] [Server thread/WARN]: Stehsaer moved wrongly!
+[17:12:51] [Server thread/WARN]: Stehsaer moved wrongly!
+[17:13:31] [Server thread/WARN]: Stehsaer moved wrongly!
+[17:25:17] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:25:17] [Server thread/INFO]: Stehsaer left the game
+[17:30:23] [User Authenticator #4/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:30:23] [Server thread/INFO]: Stehsaer[/192.168.100.27:53395] logged in with entity id 13368 at ([3-player Survival]-120.98826367382787, 64.5, -655.5521850467672)
+[17:34:46] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:34:46] [Server thread/INFO]: Stehsaer left the game
+[17:38:59] [User Authenticator #5/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:38:59] [Server thread/INFO]: Stehsaer[/192.168.100.27:53417] logged in with entity id 13765 at ([3-player Survival]-137.69999998807907, 71.0, -640.7310773190761)
+[17:47:23] [Server thread/INFO]: Stehsaer issued server command: /kill
+[17:47:23] [Server thread/INFO]: Stehsaer fell out of the world
+[17:47:23] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[17:47:27] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:47:27] [Server thread/INFO]: Stehsaer left the game
+[18:21:08] [Server thread/INFO]: --------- Help: /whitelist ----------------------
+[18:21:08] [Server thread/INFO]: Description: A Mojang provided command.
+[18:21:08] [Server thread/INFO]: Usage: whitelist
