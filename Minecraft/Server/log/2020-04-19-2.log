@@ -1,0 +1,668 @@
+[11:56:04] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[11:56:04] [Server thread/INFO]: Loading properties
+[11:56:05] [Server thread/INFO]: This server is running Paper version git-Paper-98 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[11:56:06] [Server thread/INFO]: Debug logging is disabled
+[11:56:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:56:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:56:06] [Server thread/INFO]: Default game type: SURVIVAL
+[11:56:06] [Server thread/INFO]: Generating keypair
+[11:56:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:56:06] [Server thread/INFO]: Using default channel type
+[11:56:13] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:56:21] [Server thread/WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[11:56:21] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.5
+[11:56:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:56:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:56:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:56:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:56:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:56:21] [Server thread/INFO]: Preparing level "3-player Survival"
+[11:56:21] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:56:29] [Server thread/INFO]: Loaded 6 recipes
+[11:56:30] [Server thread/INFO]: -------- World Settings For [3-player Survival] --------
+[11:56:30] [Server thread/INFO]: View Distance: 6
+[11:56:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:56:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:56:30] [Server thread/INFO]: Mob Spawn Range: 8
+[11:56:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:56:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:56:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:56:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:56:30] [Server thread/INFO]: Max TNT Explosions: 100
+[11:56:31] [Server thread/INFO]: -------- World Settings For [3-player Survival_nether] --------
+[11:56:31] [Server thread/INFO]: View Distance: 6
+[11:56:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:56:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Mob Spawn Range: 8
+[11:56:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:56:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:56:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:56:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:56:31] [Server thread/INFO]: Max TNT Explosions: 100
+[11:56:31] [Server thread/INFO]: -------- World Settings For [3-player Survival_the_end] --------
+[11:56:31] [Server thread/INFO]: View Distance: 6
+[11:56:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:56:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:56:31] [Server thread/INFO]: Mob Spawn Range: 8
+[11:56:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:56:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:56:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:56:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:56:31] [Server thread/INFO]: Max TNT Explosions: 100
+[11:56:31] [Server thread/INFO]: Preparing start region for dimension '3-player Survival'/minecraft:overworld
+[11:56:32] [Server thread/INFO]: Preparing spawn area: 0%
+[11:56:32] [Server thread/INFO]: Preparing spawn area: 0%
+[11:56:32] [Server thread/INFO]: Preparing spawn area: 0%
+[11:56:33] [Server thread/INFO]: Preparing spawn area: 1%
+[11:56:34] [Server thread/INFO]: Preparing spawn area: 8%
+[11:56:34] [Server thread/INFO]: Preparing spawn area: 10%
+[11:56:34] [Server thread/INFO]: Preparing spawn area: 16%
+[11:56:35] [Server thread/INFO]: Preparing spawn area: 37%
+[11:56:35] [Server thread/INFO]: Preparing spawn area: 70%
+[11:56:36] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:36] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:37] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival
+[11:56:37] [Server thread/INFO]: Time elapsed: 5315 ms
+[11:56:37] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_nether'/minecraft:the_nether
+[11:56:37] [Server thread/INFO]: Preparing spawn area: 0%
+[11:56:37] [Server thread/INFO]: Preparing spawn area: 12%
+[11:56:38] [Server thread/INFO]: Preparing spawn area: 19%
+[11:56:38] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:39] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:56:39] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:56:40] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:56:40] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:41] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:41] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:56:42] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:42] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:43] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:43] [Server thread/INFO]: Preparing spawn area: 100%
+[11:56:43] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_nether
+[11:56:43] [Server thread/INFO]: Time elapsed: 6696 ms
+[11:56:43] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_the_end'/minecraft:the_end
+[11:56:44] [Server thread/INFO]: Preparing spawn area: 0%
+[11:56:44] [Server thread/INFO]: Preparing spawn area: 2%
+[11:56:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:56:46] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_the_end
+[11:56:46] [Server thread/INFO]: Time elapsed: 2322 ms
+[11:56:46] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+[11:56:46] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 3 second/s.
+[11:56:46] [Server thread/INFO]: Done (24.974s)! For help, type "help"
+[11:56:46] [Server thread/INFO]: Timings Reset
+[11:58:10] [User Authenticator #1/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[11:58:10] [Server thread/INFO]: liaoxingkai[/127.0.0.1:56550] logged in with entity id 221 at ([3-player Survival]-107.5, 63.0, -622.5)
+[11:58:26] [Server thread/INFO]: [Server] NICE
+[11:58:32] [Server thread/INFO]: [Server] I'm here
+[11:58:49] [Server thread/INFO]: [Server] stay at home and wait until i start mc on my computer
+[12:03:39] [Server thread/INFO]: [Server] where are you now
+[12:05:36] [User Authenticator #2/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[12:05:37] [Server thread/INFO]: Stehsaer[/192.168.100.27:56645] logged in with entity id 711 at ([3-player Survival]-128.04491963196685, 70.5625, -708.4589410089461)
+[12:05:42] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[12:05:42] [Server thread/INFO]: Stehsaer left the game
+[12:05:45] [User Authenticator #2/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[12:05:46] [Server thread/INFO]: Stehsaer[/192.168.100.27:56648] logged in with entity id 784 at ([3-player Survival]-128.04491963196685, 70.5625, -708.4589410089461)
+[12:05:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[12:06:35] [Async Chat Thread - #0/INFO]: <Stehsaer> ?
+[12:07:07] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[12:07:07] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[12:08:18] [Async Chat Thread - #1/INFO]: <Stehsaer> this is our home
+[12:08:31] [Async Chat Thread - #1/INFO]: <Stehsaer> what do you need
+[12:08:54] [Async Chat Thread - #1/INFO]: <Stehsaer> make a tie gao
+[12:09:03] [Async Chat Thread - #1/INFO]: <Stehsaer> here you are
+[12:09:06] [Server thread/INFO]: liaoxingkai has made the advancement [Isn't It Iron Pick]
+[12:09:29] [Async Chat Thread - #1/INFO]: <Stehsaer> let's go mining
+[12:10:01] [Async Chat Thread - #1/INFO]: <Stehsaer> ?
+[12:11:00] [Async Chat Thread - #1/INFO]: <Stehsaer> 鱼骨挖矿法懂吗
+[12:11:12] [Async Chat Thread - #1/INFO]: <liaoxingkai> ?
+[12:11:23] [Async Chat Thread - #1/INFO]: <Stehsaer> 看着
+[12:11:29] [Server thread/INFO]: liaoxingkai has made the advancement [Stone Age]
+[12:11:36] [Async Chat Thread - #1/INFO]: <Stehsaer> no
+[12:13:34] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[12:13:34] [Server thread/INFO]: liaoxingkai left the game
+[12:23:40] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[12:23:40] [Server thread/INFO]: Stehsaer left the game
+[12:23:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
+[12:24:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21152ms or 423 ticks behind
+[13:23:14] [User Authenticator #3/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:23:15] [Server thread/INFO]: Stehsaer[/192.168.100.27:57267] logged in with entity id 2592 at ([3-player Survival]-105.4906807964109, 63.0, -632.6639162990183)
+[13:23:34] [User Authenticator #3/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[13:23:34] [Server thread/INFO]: liaoxingkai[/127.0.0.1:57271] logged in with entity id 2626 at ([3-player Survival]-15.519196324176656, 5.0, -689.3000000119209)
+[13:23:41] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[13:23:41] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[13:25:31] [Async Chat Thread - #2/INFO]: <Stehsaer> 继续去建刷怪塔
+[13:25:41] [Async Chat Thread - #2/INFO]: <Stehsaer> 拿上这些
+[13:25:46] [Async Chat Thread - #2/INFO]: <Stehsaer> 给你
+[13:25:55] [Async Chat Thread - #2/INFO]: <liaoxingkai> wojishubuhao
+[13:26:09] [Async Chat Thread - #2/INFO]: <Stehsaer> 帮忙拿一下而已
+[13:26:28] [Async Chat Thread - #2/INFO]: <Stehsaer> 拿点装备给你
+[13:26:35] [Server thread/INFO]: liaoxingkai has made the advancement [Suit Up]
+[13:27:09] [Server thread/INFO]: liaoxingkai has made the advancement [Sweet Dreams]
+[13:27:34] [Async Chat Thread - #3/INFO]: <Stehsaer> folloow me
+[13:28:09] [Server thread/INFO]: liaoxingkai has made the advancement [We Need to Go Deeper]
+[13:28:57] [Async Chat Thread - #4/INFO]: <Stehsaer> kuai dian ,it's dangerous here
+[13:29:14] [Server thread/INFO]: liaoxingkai tried to swim in lava
+[13:29:24] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[13:29:24] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[13:30:02] [Async Chat Thread - #5/INFO]: <Stehsaer> ???
+[13:31:20] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[13:31:20] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[13:31:42] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[13:31:42] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[13:31:52] [Async Chat Thread - #6/INFO]: <Stehsaer> ???
+[13:32:02] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[13:32:02] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[13:33:04] [Async Chat Thread - #7/INFO]: <Stehsaer> ???
+[13:34:42] [Async Chat Thread - #8/INFO]: <Stehsaer> 把石头放进去
+[13:35:25] [Async Chat Thread - #8/INFO]: <Stehsaer> 把石头放进去
+[13:36:42] [Async Chat Thread - #9/INFO]: <Stehsaer> 你可以静静的看着
+[13:36:49] [Async Chat Thread - #9/INFO]: <Stehsaer> 或者帮忙把石头运过来
+[13:38:20] [Async Chat Thread - #10/INFO]: <Stehsaer> 你还是上来好了
+[13:38:27] [Async Chat Thread - #10/INFO]: <Stehsaer> 下面又僵尸
+[13:38:54] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[13:38:54] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[13:38:54] [Server thread/WARN]: liaoxingkai moved too quickly! -3.6265126492589843,16.0,3.325574255539692
+[13:39:44] [Async Chat Thread - #11/INFO]: <Stehsaer> 一起来
+[13:39:59] [Async Chat Thread - #11/INFO]: <liaoxingkai> 石头
+[13:40:05] [Async Chat Thread - #11/INFO]: <Stehsaer> 下面又
+[13:41:51] [User Authenticator #4/INFO]: UUID of player PdAlphabet is f9f73a24-4e1a-36fa-ac74-a2f80f2cb457
+[13:41:52] [Server thread/INFO]: PdAlphabet[/127.0.0.1:57392] logged in with entity id 4433 at ([3-player Survival]-112.9256083550336, 62.9375, -631.8317341168786)
+[13:43:18] [Async Chat Thread - #12/INFO]: <Stehsaer> hi pdalphabet
+[13:43:30] [Async Chat Thread - #12/INFO]: <PdAlphabet> Where are you?
+[13:43:37] [Async Chat Thread - #12/INFO]: <Stehsaer> come here, liaoxingkai
+[13:44:47] [Server thread/INFO]: PdAlphabet was slain by Zombie
+[13:44:50] [Async Chat Thread - #13/INFO]: <Stehsaer> ......
+[13:45:03] [Async Chat Thread - #13/INFO]: <PdAlphabet> Diao xian le.
+[13:45:09] [Async Chat Thread - #13/INFO]: <Stehsaer> oh
+[13:45:24] [Async Chat Thread - #13/INFO]: <Stehsaer> 我们的服务器已经可以支持5个人了
+[13:45:39] [Server thread/INFO]: PdAlphabet was shot by Skeleton
+[13:46:18] [Async Chat Thread - #13/INFO]: <Stehsaer> 你去另一边造
+[13:48:37] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[13:48:37] [Server thread/INFO]: Stehsaer left the game
+[13:49:58] [Server thread/INFO]: PdAlphabet lost connection: Disconnected
+[13:49:58] [Server thread/INFO]: PdAlphabet left the game
+[13:51:28] [User Authenticator #5/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:51:28] [Server thread/INFO]: Stehsaer[/192.168.100.27:57497] logged in with entity id 6367 at ([3-player Survival]-2013.7093866578853, 88.0, -241.3228513344572)
+[13:52:15] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[13:52:15] [Server thread/INFO]: Stehsaer left the game
+[13:53:15] [User Authenticator #6/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:53:16] [Server thread/INFO]: Stehsaer[/192.168.100.27:57514] logged in with entity id 6536 at ([3-player Survival]-2019.699999988079, 86.0, -245.68164370574448)
+[13:54:32] [Async Chat Thread - #14/INFO]: <Stehsaer> dengyixia
+[13:54:43] [Async Chat Thread - #14/INFO]: <Stehsaer> 去屋顶差火把
+[13:55:38] [Async Chat Thread - #14/INFO]: <Stehsaer> let's go
+[13:56:21] [Async Chat Thread - #14/INFO]: <Stehsaer> 直接死回去
+[13:56:28] [Server thread/INFO]: Stehsaer issued server command: /kill @a
+[13:56:28] [Server thread/INFO]: liaoxingkai fell out of the world
+[13:56:28] [Server thread/INFO]: Stehsaer fell out of the world
+[13:56:28] [Server thread/INFO]: [Stehsaer: Killed 2 entities]
+[13:56:35] [Async Chat Thread - #14/INFO]: <Stehsaer> nice
+[13:57:42] [Server thread/WARN]: liaoxingkai moved wrongly!
+[13:57:45] [Server thread/WARN]: liaoxingkai moved wrongly!
+[13:57:48] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:22] [Async Chat Thread - #15/INFO]: <Stehsaer> 你可以看看你不挖他会怎么样
+[14:00:36] [Server thread/WARN]: Stehsaer moved wrongly!
+[14:00:39] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:41] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:42] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:44] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:47] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:00:48] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:01:06] [Async Chat Thread - #15/INFO]: <Stehsaer> 不要站在这里啦
+[14:01:10] [Async Chat Thread - #15/INFO]: <Stehsaer> 会被挤下去
+[14:01:18] [Server thread/WARN]: Stehsaer moved wrongly!
+[14:02:02] [Async Chat Thread - #15/INFO]: <Stehsaer> creeper?
+[14:02:50] [Async Chat Thread - #15/INFO]: <Stehsaer> 你先刷一下石头
+[14:02:59] [Async Chat Thread - #15/INFO]: <Stehsaer> 我去采石场
+[14:04:33] [Server thread/WARN]: liaoxingkai moved wrongly!
+[14:05:02] [Async Chat Thread - #16/INFO]: <Stehsaer> come here!
+[14:05:05] [Async Chat Thread - #16/INFO]: <Stehsaer> diamond!
+[14:05:47] [Async Chat Thread - #16/INFO]: <Stehsaer> where ar eyou
+[14:05:54] [Async Chat Thread - #16/INFO]: <Stehsaer> do you want to tp
+[14:05:59] [Async Chat Thread - #16/INFO]: <Stehsaer> say something
+[14:06:07] [Async Chat Thread - #16/INFO]: <liaoxingkai> ?/
+[14:06:50] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[14:06:50] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[14:07:14] [Server thread/INFO]: liaoxingkai has made the advancement [Diamonds!]
+[14:07:23] [Async Chat Thread - #17/INFO]: <Stehsaer> give me
+[14:07:57] [Async Chat Thread - #17/INFO]: <Stehsaer> 时运2
+[14:08:08] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[14:08:08] [Server thread/INFO]: Stehsaer left the game
+[14:09:15] [User Authenticator #7/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[14:09:15] [Server thread/INFO]: Stehsaer[/192.168.100.27:57608] logged in with entity id 8599 at ([3-player Survival]-77.18444602356914, 5.0, -673.6999999880791)
+[14:09:35] [Async Chat Thread - #18/INFO]: <liaoxingkai> 其他人呢
+[14:09:50] [Async Chat Thread - #18/INFO]: <Stehsaer> 他们不在
+[14:10:16] [Async Chat Thread - #18/INFO]: <liaoxingkai> 我拿了一个铁镐
+[14:10:18] [Async Chat Thread - #18/INFO]: <Stehsaer> ok
+[14:10:27] [Async Chat Thread - #18/INFO]: <Stehsaer> 不要附魔！
+[14:10:47] [Async Chat Thread - #18/INFO]: <Stehsaer> 精准采集很珍贵的
+[14:11:01] [Async Chat Thread - #18/INFO]: <Stehsaer> 我的猫
+[14:11:22] [Async Chat Thread - #18/INFO]: <Stehsaer> 你身上又多少石头
+[14:11:39] [Async Chat Thread - #18/INFO]: <liaoxingkai> 3个64
+[14:11:49] [Async Chat Thread - #18/INFO]: <Stehsaer> 够了，走
+[14:12:11] [Async Chat Thread - #18/INFO]: <Stehsaer> 你的盾牌还够吗
+[14:12:21] [Async Chat Thread - #18/INFO]: <liaoxingkai> gaozi
+[14:14:12] [Server thread/INFO]: Stehsaer issued server command: /kill
+[14:14:12] [Server thread/INFO]: Stehsaer fell out of the world
+[14:14:12] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[14:14:18] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer liaoxingkai
+[14:14:18] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to liaoxingkai]
+[14:15:05] [Async Chat Thread - #19/INFO]: <Stehsaer> ?
+[14:15:18] [Async Chat Thread - #19/INFO]: <Stehsaer> where are you
+[14:15:18] [Async Chat Thread - #19/INFO]: <liaoxingkai> 过不去
+[14:17:22] [Async Chat Thread - #20/INFO]: <Stehsaer> 让我喝喝酸奶
+[14:17:33] [Async Chat Thread - #20/INFO]: <Stehsaer> 现实中的
+[14:17:58] [Async Chat Thread - #20/INFO]: <Stehsaer> let's go
+[14:18:46] [Async Chat Thread - #20/INFO]: <Stehsaer> 这只chicken怎么还在这
+[14:22:50] [Async Chat Thread - #21/INFO]: <Stehsaer> 你先在这
+[14:22:54] [Async Chat Thread - #21/INFO]: <Stehsaer> 我去取水
+[14:23:56] [Async Chat Thread - #22/INFO]: <liaoxingkai> 没稿子
+[14:25:01] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[14:25:01] [Server thread/INFO]: Stehsaer left the game
+[14:25:48] [User Authenticator #8/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[14:25:49] [Server thread/INFO]: Stehsaer[/192.168.100.27:57686] logged in with entity id 10300 at ([3-player Survival]-2019.921142123156, 88.0, -241.08360339551908)
+[14:26:57] [Async Chat Thread - #23/INFO]: <Stehsaer> 这样，你先回家拿一点木头
+[14:27:04] [Async Chat Thread - #23/INFO]: <Stehsaer> 可以了跟我说我tp你过来
+[14:27:10] [Async Chat Thread - #23/INFO]: <Stehsaer> 好吗
+[14:27:15] [Async Chat Thread - #23/INFO]: <liaoxingkai> naliyou
+[14:27:26] [Async Chat Thread - #23/INFO]: <Stehsaer> 家里
+[14:27:38] [Server thread/INFO]: Stehsaer issued server command: /kill liaoxingkai
+[14:27:38] [Server thread/INFO]: liaoxingkai fell out of the world
+[14:27:38] [Server thread/INFO]: [Stehsaer: Killed liaoxingkai]
+[14:27:56] [Async Chat Thread - #23/INFO]: <Stehsaer> 你到家里拿完之后跟我说
+[14:29:49] [Async Chat Thread - #24/INFO]: <Stehsaer> 可以了吗
+[14:29:59] [Async Chat Thread - #24/INFO]: <liaoxingkai> 1
+[14:30:26] [Async Chat Thread - #24/INFO]: <liaoxingkai> naibianzou
+[14:30:33] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[14:30:33] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[14:32:08] [Async Chat Thread - #25/INFO]: <Stehsaer> 把木头给我
+[14:32:25] [Async Chat Thread - #25/INFO]: <Stehsaer> dengdeng
+[14:32:40] [Async Chat Thread - #25/INFO]: <Stehsaer> 帮忙下去取个水，谢谢
+[14:33:48] [Async Chat Thread - #26/INFO]: <Stehsaer> 我中毒了
+[14:33:59] [Async Chat Thread - #26/INFO]: <liaoxingkai> shuaigua
+[14:34:05] [Async Chat Thread - #26/INFO]: <Stehsaer> 刚才刷出来一个女巫
+[14:34:18] [Async Chat Thread - #26/INFO]: <Stehsaer> give me
+[14:34:25] [Async Chat Thread - #26/INFO]: <liaoxingkai> 水放哪
+[14:34:31] [Async Chat Thread - #26/INFO]: <Stehsaer> give me
+[14:35:39] [Async Chat Thread - #27/INFO]: <Stehsaer> 基本上造好了
+[14:35:51] [Async Chat Thread - #27/INFO]: <Stehsaer> 把火柴拆掉，然后下去就可以了
+[14:37:50] [Async Chat Thread - #28/INFO]: <Stehsaer> 把平台弄大一点
+[14:37:52] [Server thread/INFO]: liaoxingkai has made the advancement [Monster Hunter]
+[14:38:49] [Async Chat Thread - #28/INFO]: <Stehsaer> 先别打
+[14:39:31] [Async Chat Thread - #28/INFO]: <Stehsaer> ok
+[14:39:49] [Async Chat Thread - #28/INFO]: <Stehsaer> 等一下
+[14:39:54] [Async Chat Thread - #28/INFO]: <Stehsaer> 回去把杂物放下
+[14:41:34] [Async Chat Thread - #29/INFO]: <Stehsaer> 不要用建打
+[14:44:27] [Async Chat Thread - #30/INFO]: <Stehsaer> 原来的刷怪塔真的很慢
+[14:44:36] [Async Chat Thread - #30/INFO]: <Stehsaer> 这个已经算快了
+[14:44:52] [Async Chat Thread - #30/INFO]: <Stehsaer> 都说不要用剑打
+[14:45:10] [Async Chat Thread - #30/INFO]: <liaoxingkai> 用手打的
+[14:45:11] [Async Chat Thread - #30/INFO]: <Stehsaer> 先去蘑菇岛上逛一下
+[14:45:21] [Async Chat Thread - #30/INFO]: <Stehsaer> 算了
+[14:45:35] [Async Chat Thread - #30/INFO]: <Stehsaer> 要距离刷怪塔顶端24格
+[14:45:53] [Async Chat Thread - #30/INFO]: <Stehsaer> 娱乐项目
+[14:46:06] [Async Chat Thread - #30/INFO]: <liaoxingkai> EE
+[14:47:58] [Async Chat Thread - #31/INFO]: <Stehsaer> 过来给我一点石头
+[14:48:19] [Async Chat Thread - #31/INFO]: <Stehsaer> h还有木头
+[14:48:47] [Async Chat Thread - #31/INFO]: <Stehsaer> 你有木头吗
+[14:48:51] [Async Chat Thread - #31/INFO]: <liaoxingkai> MEIMUTOU
+[14:49:01] [Async Chat Thread - #31/INFO]: <liaoxingkai> 没了
+[14:51:11] [Server thread/INFO]: liaoxingkai has made the advancement [Take Aim]
+[14:52:35] [Async Chat Thread - #32/INFO]: <Stehsaer> 爽吗
+[14:52:42] [Async Chat Thread - #32/INFO]: <liaoxingkai> TIANL'
+[14:53:36] [Async Chat Thread - #32/INFO]: <Stehsaer> ???
+[14:55:21] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:55:21] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:55:35] [Server thread/INFO]: Stehsaer issued server command: /difficulty easy
+[14:55:35] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Easy]
+[14:56:04] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:56:04] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:56:11] [Async Chat Thread - #33/INFO]: <Stehsaer> what the fuck
+[14:56:23] [Async Chat Thread - #33/INFO]: <liaoxingkai> 太爽了吧
+[14:56:46] [Async Chat Thread - #33/INFO]: <Stehsaer> 制定策略：
+[14:56:55] [Async Chat Thread - #33/INFO]: <Stehsaer> 先远离一段时间
+[14:57:04] [Async Chat Thread - #33/INFO]: <Stehsaer> 等怪物够多的时候再过来打
+[14:59:05] [Async Chat Thread - #34/INFO]: <Stehsaer> 怪不得
+[14:59:39] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:59:39] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[15:00:07] [Async Chat Thread - #35/INFO]: <Stehsaer> 先远离它
+[15:00:42] [Async Chat Thread - #35/INFO]: <Stehsaer> 可以现在这里挂一下机
+[15:01:30] [Async Chat Thread - #35/INFO]: <Stehsaer> 原理！
+[15:02:37] [Async Chat Thread - #36/INFO]: <Stehsaer> 安全了
+[15:02:53] [Async Chat Thread - #36/INFO]: <Stehsaer> sb溺僵
+[15:03:29] [Async Chat Thread - #36/INFO]: <Stehsaer> 原理
+[15:03:31] [Async Chat Thread - #36/INFO]: <liaoxingkai> ys
+[15:03:38] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[15:03:38] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[15:03:57] [Async Chat Thread - #36/INFO]: <Stehsaer> 都说要远离啦
+[15:05:37] [Async Chat Thread - #37/INFO]: <Stehsaer> 远离远离
+[15:05:49] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[15:05:49] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[15:06:03] [Async Chat Thread - #37/INFO]: <Stehsaer> fuck creeper
+[15:06:47] [Async Chat Thread - #37/INFO]: <Stehsaer> back
+[15:07:02] [Async Chat Thread - #37/INFO]: <Stehsaer> 以后，back是远离的意思
+[15:07:15] [Async Chat Thread - #37/INFO]: <Stehsaer> 怎么那边全是creeper
+[15:07:23] [Async Chat Thread - #37/INFO]: <Stehsaer> 你别去
+[15:08:37] [Async Chat Thread - #38/INFO]: <Stehsaer> 我大概懂了
+[15:09:27] [Async Chat Thread - #38/INFO]: <Stehsaer> 你有稿子吗
+[15:09:51] [Async Chat Thread - #38/INFO]: <Stehsaer> 好吧，挂机刷怪
+[15:10:00] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[15:10:00] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[15:10:09] [Async Chat Thread - #38/INFO]: <Stehsaer> 挂机刷怪
+[15:10:27] [Async Chat Thread - #38/INFO]: <liaoxingkai> 没
+[15:12:49] [Async Chat Thread - #39/INFO]: <Stehsaer> back
+[15:13:11] [Async Chat Thread - #39/INFO]: <Stehsaer> 远离一段时间，让他积攒怪物
+[15:13:22] [Async Chat Thread - #39/INFO]: <liaoxingkai> 王玉不来？
+[15:13:23] [Async Chat Thread - #39/INFO]: <Stehsaer> 然后就可以一次性打，减少爆炸风险
+[15:14:35] [Async Chat Thread - #40/INFO]: <Stehsaer> 挂半小时的机
+[15:14:41] [Async Chat Thread - #40/INFO]: <Stehsaer> 我写写作业
+[15:19:43] [Async Chat Thread - #41/INFO]: <liaoxingkai> meiyoumaligshul
+[15:19:58] [Async Chat Thread - #41/INFO]: <liaoxingkai> 没有马铃薯了
+[15:22:34] [Server thread/INFO]: Whitelist is already turned on
+[15:29:59] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:29:59] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:06] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:06] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:08] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:08] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:09] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:10] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:10] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:10] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:11] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:11] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:12] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:13] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:17] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:17] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:18] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:18] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:19] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:19] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:20] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:20] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:21] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:21] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:21] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:21] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:22] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:22] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:23] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:23] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:24] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:24] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:25] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:25] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:25] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:25] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:27] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:27] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:27] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:27] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:28] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:28] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:29] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:29] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:30] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:30] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:30] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:31] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:31] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:31] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:32] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:32] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:33] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:33] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:33] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:33] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:34] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:34] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:35] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:35] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:35] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:35] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:37] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:37] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:38] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:38] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:38] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:38] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:39] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:39] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:39] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:39] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:40] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:40] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:40] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:40] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:40] [Server thread/INFO]: Stehsaer issued server command: /
+[15:30:42] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:42] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:43] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:43] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:43] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:43] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:44] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:44] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:44] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:44] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:45] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:45] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:45] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:45] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:46] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:46] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:46] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:46] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:47] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:47] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:47] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:47] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:48] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:48] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:48] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:48] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:49] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:49] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:49] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:49] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:50] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:50] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:50] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:50] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:50] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:50] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:51] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:51] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:51] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:51] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:52] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:52] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:52] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:52] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:52] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:52] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:53] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:53] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:53] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:53] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:54] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:54] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:54] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:54] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:54] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:54] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:55] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:55] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:55] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:55] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:56] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:56] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:56] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:56] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:57] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:57] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:57] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:57] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:57] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:57] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:58] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:58] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:58] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:58] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:59] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:59] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:59] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:59] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:30:59] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:30:59] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:31:00] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:31:00] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:31:00] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:31:00] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:31:01] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:31:01] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:31:01] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:31:01] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:31:03] [Server thread/INFO]: Stehsaer issued server command: /title @a title [{"text":"Hi Blyat","color":"green"}]
+[15:31:03] [Server thread/INFO]: [Stehsaer: Showing new title for 2 players]
+[15:33:21] [Async Chat Thread - #42/INFO]: <Stehsaer> 走，回去挖土豆
+[15:33:55] [Server thread/INFO]: Stehsaer issued server command: /kill @
+[15:33:58] [Server thread/INFO]: Stehsaer issued server command: /kill @a
+[15:33:58] [Server thread/INFO]: Stehsaer fell out of the world
+[15:33:58] [Server thread/INFO]: liaoxingkai fell out of the world
+[15:33:58] [Server thread/INFO]: [Stehsaer: Killed 2 entities]
+[15:36:36] [Server thread/INFO]: liaoxingkai has made the advancement [A Seedy Place]
+[15:39:54] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:39:54] [Server thread/INFO]: Stehsaer left the game
+[15:49:55] [Server thread/INFO]: [Server] what are you doing
+[15:52:27] [Server thread/INFO]: liaoxingkai lost connection: Timed out
+[15:52:27] [Server thread/INFO]: liaoxingkai left the game
+[15:54:50] [User Authenticator #9/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[15:54:50] [Server thread/INFO]: liaoxingkai[/127.0.0.1:58127] logged in with entity id 17799 at ([3-player Survival]-119.8435408559469, 62.9375, -636.526233529001)
+[16:07:36] [User Authenticator #10/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:07:36] [Server thread/INFO]: Stehsaer[/192.168.100.27:58195] logged in with entity id 18562 at ([3-player Survival]-104.96642694759063, 63.0, -632.6999999880791)
+[16:11:58] [Async Chat Thread - #43/INFO]: <Stehsaer> fuck
+[16:12:05] [Async Chat Thread - #43/INFO]: <Stehsaer> 我铁轨漏在蘑菇岛了
+[16:18:59] [Server thread/INFO]: Stehsaer issued server command: /kill
+[16:18:59] [Server thread/INFO]: Stehsaer fell out of the world
+[16:18:59] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[16:20:58] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:20:58] [Server thread/INFO]: Stehsaer left the game
+[16:27:26] [User Authenticator #11/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:27:27] [Server thread/INFO]: Stehsaer[/192.168.100.27:58286] logged in with entity id 20318 at ([3-player Survival]-105.58012845667623, 63.5625, -629.3680988994034)
+[16:31:31] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[16:31:31] [Server thread/INFO]: liaoxingkai left the game
+[16:31:37] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:31:37] [Server thread/INFO]: Stehsaer left the game
+[16:51:39] [User Authenticator #12/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:51:40] [Server thread/INFO]: Stehsaer[/192.168.100.27:58538] logged in with entity id 20543 at ([3-player Survival]-108.89546833391981, 63.0, -631.9016038695212)
+[17:02:30] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:02:30] [Server thread/INFO]: Stehsaer left the game
+[17:03:58] [User Authenticator #13/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:03:59] [Server thread/INFO]: Stehsaer[/192.168.100.27:58602] logged in with entity id 21546 at ([3-player Survival]-106.9674888491383, 63.0, -631.8904754533224)
+[17:20:59] [Server thread/INFO]: Stehsaer issued server command: /kill
+[17:20:59] [Server thread/INFO]: Stehsaer fell out of the world
+[17:20:59] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[17:21:05] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:21:05] [Server thread/INFO]: Stehsaer left the game
+[17:25:16] [User Authenticator #14/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:25:16] [Server thread/INFO]: Stehsaer[/127.0.0.1:58770] logged in with entity id 23266 at ([3-player Survival]-100.53239578123905, 63.0, -632.6937319233167)
+[17:25:37] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:25:37] [Server thread/INFO]: Stehsaer left the game
+[18:23:27] [User Authenticator #15/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[18:23:28] [Server thread/INFO]: liaoxingkai[/127.0.0.1:59850] logged in with entity id 23318 at ([3-player Survival]-104.57888039797608, 63.0, -631.8487510525949)
+[18:23:42] [Async Chat Thread - #44/INFO]: <liaoxingkai> t
+[18:29:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5339ms or 106 ticks behind
+[18:30:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5078ms or 101 ticks behind
+[18:31:26] [User Authenticator #16/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[18:31:27] [Server thread/INFO]: Stehsaer[/192.168.100.27:60041] logged in with entity id 23995 at ([3-player Survival]-96.83156341782127, 63.0, -634.7624999880791)
+[18:31:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[18:32:46] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[18:32:46] [Server thread/INFO]: liaoxingkai left the game
+[18:32:47] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[18:32:47] [Server thread/INFO]: Stehsaer left the game
+[18:32:51] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:32:52] [Server thread/INFO]: Saved the game
+[18:32:53] [Server thread/INFO]: Stopping the server
+[18:32:53] [Server thread/INFO]: Stopping server
+[18:32:53] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.5
+[18:32:53] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[18:32:54] [Server thread/INFO]: Saving players
+[18:32:54] [Server thread/INFO]: Saving worlds
+[18:32:54] [Server thread/INFO]: Saving chunks for level '3-player Survival'/minecraft:overworld
+[18:32:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[18:32:54] [Server thread/INFO]: Saving chunks for level '3-player Survival_nether'/minecraft:the_nether
+[18:32:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:32:54] [Server thread/INFO]: Saving chunks for level '3-player Survival_the_end'/minecraft:the_end
+[18:32:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:32:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[18:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -1,0 +1,1480 @@
+[11:47:22] [Server thread/INFO]: Loading properties
+[11:47:23] [Server thread/INFO]: This server is running Paper version git-Paper-98 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[11:47:24] [Server thread/INFO]: Debug logging is disabled
+[11:47:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:47:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:47:24] [Server thread/INFO]: Default game type: SURVIVAL
+[11:47:24] [Server thread/INFO]: Generating keypair
+[11:47:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:47:25] [Server thread/INFO]: Using default channel type
+[11:47:28] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:47:37] [Server thread/WARN]: Legacy plugin SpigotPing v2.5 does not specify an api-version.
+[11:47:37] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.5
+[11:47:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:47:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:47:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:47:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:47:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:47:37] [Server thread/INFO]: Preparing level "3-player Survival"
+[11:47:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:47:41] [Server thread/INFO]: Loaded 6 recipes
+[11:47:42] [Server thread/INFO]: -------- World Settings For [3-player Survival] --------
+[11:47:42] [Server thread/INFO]: View Distance: 6
+[11:47:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:47:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:47:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:47:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:47:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:47:42] [Server thread/INFO]: Mob Spawn Range: 8
+[11:47:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:47:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:47:42] [Server thread/INFO]: Max TNT Explosions: 100
+[11:47:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:47:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:47:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:47:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:47:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:47:42] [Server thread/INFO]: -------- World Settings For [3-player Survival_nether] --------
+[11:47:42] [Server thread/INFO]: View Distance: 6
+[11:47:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:47:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:47:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:47:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:47:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:47:42] [Server thread/INFO]: Mob Spawn Range: 8
+[11:47:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:47:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:47:42] [Server thread/INFO]: Max TNT Explosions: 100
+[11:47:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:47:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:47:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:47:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:47:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:47:42] [Server thread/INFO]: -------- World Settings For [3-player Survival_the_end] --------
+[11:47:42] [Server thread/INFO]: View Distance: 6
+[11:47:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:47:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:47:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:47:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:47:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:47:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:47:42] [Server thread/INFO]: Mob Spawn Range: 8
+[11:47:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:47:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:47:42] [Server thread/INFO]: Max TNT Explosions: 100
+[11:47:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:47:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:47:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:47:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:47:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:47:42] [Server thread/INFO]: Preparing start region for dimension '3-player Survival'/minecraft:overworld
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:45] [Server thread/INFO]: Preparing spawn area: 1%
+[11:47:46] [Server thread/INFO]: Preparing spawn area: 12%
+[11:47:46] [Server thread/INFO]: Preparing spawn area: 24%
+[11:47:47] [Server thread/INFO]: Preparing spawn area: 52%
+[11:47:48] [Server thread/INFO]: Preparing spawn area: 61%
+[11:47:48] [Server thread/INFO]: Preparing spawn area: 76%
+[11:47:48] [Server thread/INFO]: Preparing spawn area: 92%
+[11:47:49] [Server thread/INFO]: Preparing spawn area: 100%
+[11:47:49] [Server thread/INFO]: Preparing spawn area: 100%
+[11:47:49] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival
+[11:47:49] [Server thread/INFO]: Time elapsed: 7144 ms
+[11:47:49] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_nether'/minecraft:the_nether
+[11:47:49] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:50] [Server thread/INFO]: Preparing spawn area: 30%
+[11:47:50] [Server thread/INFO]: Preparing spawn area: 100%
+[11:47:51] [Server thread/INFO]: Preparing spawn area: 100%
+[11:47:51] [Server thread/INFO]: Preparing spawn area: 100%
+[11:47:52] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:47:52] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:47:53] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:47:53] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:47:53] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_nether
+[11:47:53] [Server thread/INFO]: Time elapsed: 4204 ms
+[11:47:53] [Server thread/INFO]: Preparing start region for dimension '3-player Survival_the_end'/minecraft:the_end
+[11:47:54] [Server thread/INFO]: Preparing spawn area: 0%
+[11:47:54] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[11:47:54] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[11:47:55] [Server thread/INFO]: Loaded 169 spawn chunks for world 3-player Survival_the_end
+[11:47:55] [Server thread/INFO]: Time elapsed: 1202 ms
+[11:47:55] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.5*
+[11:47:55] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 3 second/s.
+[11:47:55] [Server thread/INFO]: Done (18.126s)! For help, type "help"
+[11:47:55] [Server thread/INFO]: Timings Reset
+[11:50:48] [User Authenticator #1/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[11:50:50] [Server thread/INFO]: Stehsaer[/192.168.100.27:50057] logged in with entity id 223 at ([3-player Survival]-113.34134656402315, 62.9375, -645.0959370470114)
+[11:50:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5069ms or 101 ticks behind
+[11:51:32] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-98 (MC: 1.15.2) ---
+[11:51:32] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[11:51:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:51:32] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[11:51:32] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[11:51:32] [Paper Watchdog Thread/ERROR]: -4,-3 in '3-player Survival_nether:
+[11:51:32] [Paper Watchdog Thread/ERROR]: Load Task - Chunk task: class:com.destroystokyo.paper.io.chunk.ChunkLoadTask, for world '3-player Survival_nether', (-4,-3), hashcode:522383947, priority: 0
+[11:51:32] [Paper Watchdog Thread/ERROR]: Save Task - none
+[11:51:32] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[11:51:32] [Paper Watchdog Thread/ERROR]: Chunk Status - null chunk
+[11:51:32] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - null
+[11:51:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:51:32] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[11:51:32] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
+[11:51:32] [Paper Watchdog Thread/ERROR]: 	Stack:
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/jdk.internal.misc.Unsafe.park(Native Method)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.IAsyncTaskHandler.bl(IAsyncTaskHandler.java:131)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:120)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:389)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.World.getChunkAt(World.java:321)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.IWorldReader.getChunkAt(IWorldReader.java:87)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.VillagePlace.lambda$a$19(VillagePlace.java:218)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.VillagePlace$$Lambda$3400/832945676.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.SectionPosition$1.tryAdvance(SourceFile:217)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.Spliterator.forEachRemaining(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.VillagePlace.a(VillagePlace.java:217)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.PortalTravelAgent.findPortal(PortalTravelAgent.java:56)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.PortalTravelAgent.findAndTeleport(PortalTravelAgent.java:29)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.EntityPlayer.a(EntityPlayer.java:914)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.Entity.doPortalTick(Entity.java:2200)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.Entity.entityBaseTick(Entity.java:408)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.EntityLiving.entityBaseTick(EntityLiving.java:244)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.Entity.tick(Entity.java:383)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2334)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.EntityHuman.tick(EntityHuman.java:165)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.EntityPlayer.playerTick(EntityPlayer.java:430)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.PlayerConnection.tick(PlayerConnection.java:149)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:260)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:139)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1269)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1112)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:934)
+[11:51:32] [Paper Watchdog Thread/ERROR]: 		java.base@9-ea/java.lang.Thread.run(Unknown Source)
+[11:51:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:51:32] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[11:51:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:51:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19525ms or 390 ticks behind
+[11:54:09] [User Authenticator #2/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[11:54:10] [Server thread/INFO]: liaoxingkai[/127.0.0.1:50093] logged in with entity id 491 at ([3-player Survival]-113.88346528829307, 62.9375, -646.5196237669564)
+[12:01:43] [Async Chat Thread - #0/INFO]: <Stehsaer> what are you doing
+[12:08:58] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives list
+[12:09:15] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar Level
+[12:09:15] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective Level]
+[12:09:46] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives remove Level
+[12:09:46] [Server thread/INFO]: [Stehsaer: Removed objective [Level]]
+[12:10:38] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives add level xp [{"text":"经验值","color":"blue"}]
+[12:10:38] [Server thread/INFO]: [Stehsaer: Created new objective [经验值]]
+[12:10:51] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar level
+[12:10:51] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 经验值]
+[12:12:03] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives modify level displayname [{"text":"经验值","color":"green"}]
+[12:12:03] [Server thread/INFO]: [Stehsaer: Changed objective level display name to [经验值]]
+[12:13:10] [Server thread/INFO]: Stehsaer tried to swim in lava
+[12:18:45] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives remove level
+[12:18:45] [Server thread/INFO]: [Stehsaer: Removed objective [经验值]]
+[12:19:28] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives add xps xp [{"text":"分数","color":"green"}]
+[12:19:28] [Server thread/INFO]: [Stehsaer: Created new objective [分数]]
+[12:20:07] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives add levels level [{"text":"经验值","color":"green"}]
+[12:20:07] [Server thread/INFO]: [Stehsaer: Created new objective [经验值]]
+[12:20:31] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar levels
+[12:20:31] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 经验值]
+[12:20:40] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar xps
+[12:20:40] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 分数]
+[12:21:34] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar.team.aqua levels
+[12:21:34] [Server thread/INFO]: [Stehsaer: Set display slot sidebar.team.aqua to show objective 经验值]
+[12:21:45] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar
+[12:21:45] [Server thread/INFO]: [Stehsaer: Cleared any objectives in display slot sidebar]
+[12:22:05] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar.team.green levels
+[12:22:05] [Server thread/INFO]: [Stehsaer: Set display slot sidebar.team.green to show objective 经验值]
+[12:22:16] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar.team.aqua xps
+[12:22:16] [Server thread/INFO]: [Stehsaer: Set display slot sidebar.team.aqua to show objective 分数]
+[12:22:50] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives modify xps displayname [{"text":"分数","color":"aqua"}]
+[12:22:50] [Server thread/INFO]: [Stehsaer: Changed objective xps display name to [分数]]
+[12:23:16] [Server thread/INFO]: Stehsaer issued server command: /kill
+[12:23:16] [Server thread/INFO]: Stehsaer fell out of the world
+[12:23:16] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[12:33:38] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[12:33:38] [Server thread/INFO]: liaoxingkai left the game
+[12:38:28] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar levels
+[12:38:28] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 经验值]
+[12:47:56] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[12:47:56] [Server thread/INFO]: Stehsaer left the game
+[12:57:13] [User Authenticator #3/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[12:57:13] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:50398] logged in with entity id 6258 at ([3-player Survival]-257.29498766552206, 11.0, -703.5151423956124)
+[13:08:27] [Async Chat Thread - #1/INFO]: <cwXiaoYu> ???
+[13:08:35] [Async Chat Thread - #1/INFO]: <cwXiaoYu> what is this
+[13:15:27] [Server thread/INFO]: cwXiaoYu tried to swim in lava
+[13:20:42] [User Authenticator #4/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[13:20:42] [Server thread/INFO]: liaoxingkai[/127.0.0.1:50453] logged in with entity id 8400 at ([3-player Survival_nether]-14.837223387362576, 49.0, -87.69999998807907)
+[13:25:35] [User Authenticator #5/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:25:35] [Server thread/INFO]: Stehsaer[/192.168.100.27:50463] logged in with entity id 8789 at ([3-player Survival]-111.02210969440638, 63.0, -632.7559317478115)
+[13:26:01] [Async Chat Thread - #2/INFO]: <Stehsaer> 你们在那里
+[13:26:09] [Async Chat Thread - #2/INFO]: <Stehsaer> 我包的饺子好丑XD
+[13:26:13] [Async Chat Thread - #2/INFO]: <cwXiaoYu> 下界
+[13:26:15] [Async Chat Thread - #2/INFO]: <Stehsaer> ok
+[13:26:28] [Async Chat Thread - #2/INFO]: <cwXiaoYu> 回来修铁路
+[13:26:48] [Async Chat Thread - #2/INFO]: <Stehsaer> 你的充能铁轨太密了
+[13:26:56] [Async Chat Thread - #2/INFO]: <Stehsaer> 不用这么密的
+[13:27:19] [Async Chat Thread - #2/INFO]: <cwXiaoYu> 要保持一定速度
+[13:27:38] [Async Chat Thread - #2/INFO]: <Stehsaer> 我先去前面挖
+[13:27:57] [Async Chat Thread - #2/INFO]: <cwXiaoYu> 9格一个充能
+[13:28:01] [Async Chat Thread - #2/INFO]: <Stehsaer> ok
+[13:28:46] [Server thread/INFO]: liaoxingkai lost connection: Timed out
+[13:28:46] [Server thread/INFO]: liaoxingkai left the game
+[13:30:24] [Async Chat Thread - #3/INFO]: <cwXiaoYu> do u have railway
+[13:30:27] [Async Chat Thread - #3/INFO]: <Stehsaer> yes
+[13:30:43] [Async Chat Thread - #3/INFO]: <cwXiaoYu> give me some or make some
+[13:30:46] [Async Chat Thread - #3/INFO]: <Stehsaer> hey
+[13:31:56] [User Authenticator #6/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[13:31:56] [Server thread/INFO]: liaoxingkai[/127.0.0.1:50481] logged in with entity id 9540 at ([3-player Survival_nether]-14.51042998783222, 49.0, -86.39756473471434)
+[13:32:12] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[13:32:12] [Server thread/INFO]: Stehsaer left the game
+[13:33:35] [User Authenticator #7/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[13:33:35] [Server thread/INFO]: Stehsaer[/192.168.100.27:50487] logged in with entity id 9736 at ([3-player Survival_nether]-165.7190341021839, 32.0, -31.69999998807906)
+[13:33:47] [Async Chat Thread - #4/INFO]: <Stehsaer> 还有稿子吗
+[13:34:29] [Async Chat Thread - #4/INFO]: <Stehsaer> 还有稿子吗
+[13:34:35] [Async Chat Thread - #4/INFO]: <Stehsaer> thanks
+[13:38:53] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:38:53] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 3 targets]
+[13:38:53] [Server thread/INFO]: cwXiaoYu was shot by Skeleton
+[13:39:15] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:39:15] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[13:40:42] [Async Chat Thread - #5/INFO]: <Stehsaer> where are you now
+[13:40:49] [Async Chat Thread - #5/INFO]: <cwXiaoYu> kuangjing
+[13:40:51] [Async Chat Thread - #5/INFO]: <Stehsaer> ok
+[13:40:55] [Async Chat Thread - #5/INFO]: <Stehsaer> i'm in nether
+[13:41:14] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:41:14] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[13:41:59] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:41:59] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 3 targets]
+[13:42:34] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:42:34] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 3 targets]
+[13:42:50] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:44:01] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:44:01] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 4 targets]
+[13:45:16] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:45:16] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 6 targets]
+[13:48:27] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:48:27] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 6 targets]
+[13:48:43] [Async Chat Thread - #6/INFO]: <cwXiaoYu> where are u doing
+[13:48:46] [Async Chat Thread - #6/INFO]: <Stehsaer> digging
+[13:48:52] [Async Chat Thread - #6/INFO]: <Stehsaer> i run out of gao zi
+[13:48:56] [Async Chat Thread - #6/INFO]: <Stehsaer> i'm going back
+[13:49:10] [Async Chat Thread - #6/INFO]: <cwXiaoYu> i find a big xiagu in the kuangdong
+[13:49:15] [Async Chat Thread - #6/INFO]: <Stehsaer> wow
+[13:49:18] [Async Chat Thread - #6/INFO]: <Stehsaer> i'm coming
+[13:50:12] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:50:12] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 9 targets]
+[13:51:00] [Async Chat Thread - #7/INFO]: <Stehsaer> i'm going to tp
+[13:51:05] [Async Chat Thread - #7/INFO]: <Stehsaer> is that ok
+[13:51:46] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[13:51:47] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[13:51:58] [Async Chat Thread - #7/INFO]: <Stehsaer> 你不是说你在大峡谷吗
+[13:52:25] [Async Chat Thread - #7/INFO]: <cwXiaoYu> 先修好吧
+[13:52:29] [Async Chat Thread - #7/INFO]: <Stehsaer> ok
+[13:53:31] [Async Chat Thread - #8/INFO]: <Stehsaer> 其实16格一个动力铁轨够了
+[13:53:51] [Async Chat Thread - #8/INFO]: <Stehsaer> 甚至32格
+[13:53:52] [Async Chat Thread - #8/INFO]: <cwXiaoYu> 无大碍
+[13:54:18] [Async Chat Thread - #8/INFO]: <Stehsaer> where are you
+[13:54:28] [Async Chat Thread - #8/INFO]: <cwXiaoYu> 修铁路本来就是保证通行速度
+[13:54:42] [Async Chat Thread - #8/INFO]: <Stehsaer> 问题是9格和32格速度差别不大
+[13:54:47] [Async Chat Thread - #8/INFO]: <Stehsaer> 几乎没有差别
+[13:54:59] [Async Chat Thread - #8/INFO]: <Stehsaer> 充一次能可以走好远
+[13:55:24] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:55:37] [Async Chat Thread - #8/INFO]: <cwXiaoYu> 那前面修的就不用拆了，后面的按照你说的做
+[13:55:41] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[13:55:41] [Server thread/INFO]: cwXiaoYu left the game
+[13:55:42] [Async Chat Thread - #8/INFO]: <Stehsaer> ok
+[13:56:25] [Async Chat Thread - #8/INFO]: <liaoxingkai> eeee
+[13:56:31] [Async Chat Thread - #8/INFO]: <Stehsaer> ?
+[13:58:46] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:58:46] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to Ghast]
+[13:59:15] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[13:59:15] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to Ghast]
+[14:01:25] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[14:01:25] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[14:01:28] [Async Chat Thread - #9/INFO]: <liaoxingkai> where are you
+[14:01:32] [Async Chat Thread - #9/INFO]: <Stehsaer> in diyu
+[14:01:52] [Async Chat Thread - #9/INFO]: <liaoxingkai> what should I do
+[14:02:07] [Async Chat Thread - #9/INFO]: <Stehsaer> in diyu
+[14:02:11] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[14:02:11] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 4 targets]
+[14:02:23] [Async Chat Thread - #9/INFO]: <liaoxingkai> ???\ee
+[14:02:26] [Async Chat Thread - #9/INFO]: <liaoxingkai> t
+[14:02:28] [Async Chat Thread - #9/INFO]: <liaoxingkai> tt
+[14:04:01] [Async Chat Thread - #10/INFO]: <liaoxingkai> ii want to come
+[14:04:24] [Async Chat Thread - #10/INFO]: <liaoxingkai> e
+[14:04:25] [Async Chat Thread - #10/INFO]: <Stehsaer> ???
+[14:04:40] [Async Chat Thread - #10/INFO]: <Stehsaer> 你想去蘑菇岛吗
+[14:04:47] [Async Chat Thread - #10/INFO]: <liaoxingkai> yes
+[14:05:02] [Async Chat Thread - #10/INFO]: <Stehsaer> 你有矿车吗
+[14:05:50] [Async Chat Thread - #10/INFO]: <Stehsaer> ???
+[14:05:52] [Async Chat Thread - #10/INFO]: <Stehsaer> where are you
+[14:07:29] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[14:08:23] [Server thread/INFO]: Stehsaer issued server command: /difficulty easy
+[14:09:15] [Async Chat Thread - #11/INFO]: <liaoxingkai> 你可以去修铁路了
+[14:09:25] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:09:25] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:10:26] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:10:26] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:10:52] [Async Chat Thread - #12/INFO]: <Stehsaer> you back
+[14:13:53] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[14:13:53] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[14:14:41] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:14:41] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:15:12] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:15:12] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:16:09] [Async Chat Thread - #13/INFO]: <Stehsaer> back
+[14:16:39] [Server thread/INFO]: Stehsaer issued server command: /difficulty pe
+[14:16:44] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:16:44] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:17:01] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:17:01] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:19:17] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:19:17] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:19:26] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:19:26] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:19:35] [Async Chat Thread - #14/INFO]: <Stehsaer> 你先呆在这
+[14:19:40] [Async Chat Thread - #14/INFO]: <Stehsaer> 我回家付个魔
+[14:19:45] [Async Chat Thread - #14/INFO]: <Stehsaer> 然后再回来
+[14:19:47] [Server thread/INFO]: Stehsaer issued server command: /kill
+[14:19:47] [Server thread/INFO]: Stehsaer fell out of the world
+[14:19:47] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[14:19:49] [Async Chat Thread - #14/INFO]: <liaoxingkai> hao
+[14:23:02] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer liaoxingkai
+[14:23:02] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to liaoxingkai]
+[14:23:15] [Async Chat Thread - #15/INFO]: <Stehsaer> back
+[14:31:35] [Server thread/INFO]: liaoxingkai lost connection: Timed out
+[14:31:35] [Server thread/INFO]: liaoxingkai left the game
+[14:33:14] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:33:32] [Server thread/INFO]: Stehsaer was blown up by Creeper
+[14:34:35] [User Authenticator #8/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[14:34:35] [Server thread/INFO]: liaoxingkai[/127.0.0.1:50721] logged in with entity id 20407 at ([3-player Survival]-2052.300000011921, 63.0, -251.6498970596875)
+[14:34:47] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer liaoxingkai
+[14:34:47] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to liaoxingkai]
+[14:36:34] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:36:34] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:36:44] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:36:44] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:43:52] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[14:43:52] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[14:44:03] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[14:44:03] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[14:46:09] [Async Chat Thread - #16/INFO]: <liaoxingkai> 继续玩
+[14:46:25] [Async Chat Thread - #16/INFO]: <Stehsaer> 来不来跳水【滑稽】
+[14:46:32] [Async Chat Thread - #16/INFO]: <liaoxingkai> 上课不知道上啥
+[14:46:39] [Async Chat Thread - #16/INFO]: <Stehsaer> 鬼知道
+[14:47:45] [Async Chat Thread - #17/INFO]: <Stehsaer> 感觉我们应该做个漏斗
+[14:47:54] [Async Chat Thread - #17/INFO]: <Stehsaer> 来收集所有东西
+[14:48:02] [Async Chat Thread - #17/INFO]: <liaoxingkai> 东西拿不出来
+[14:48:13] [Async Chat Thread - #17/INFO]: <Stehsaer> 听着
+[14:48:18] [Async Chat Thread - #17/INFO]: <Stehsaer> 这样，
+[14:48:36] [Async Chat Thread - #17/INFO]: <Stehsaer> 不是拿东西不能钻进去
+[14:48:46] [Async Chat Thread - #17/INFO]: <Stehsaer> 必须把怪全部清完，特别是苦力怕
+[14:48:53] [Async Chat Thread - #17/INFO]: <Stehsaer> 才可以钻进去
+[14:49:15] [Async Chat Thread - #17/INFO]: <Stehsaer> 对，就是这样子
+[14:49:29] [Async Chat Thread - #17/INFO]: <Stehsaer> 有怪物的时候，特别是苦力怕，禁止钻进去，否则会爆炸
+[14:54:35] [User Authenticator #9/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[14:54:35] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:50823] logged in with entity id 22272 at ([3-player Survival_nether]-169.52521020294677, 45.0, -17.74700820370979)
+[14:54:43] [Async Chat Thread - #18/INFO]: <Stehsaer> HI
+[14:54:54] [Async Chat Thread - #18/INFO]: <liaoxingkai> taoke
+[14:54:55] [Async Chat Thread - #18/INFO]: <Stehsaer> 我们在蘑菇岛
+[14:55:07] [Async Chat Thread - #18/INFO]: <cwXiaoYu> ban hui lesson is too bored
+[14:55:09] [Async Chat Thread - #18/INFO]: <liaoxingkai> 逃课 滑稽
+[14:55:14] [Async Chat Thread - #18/INFO]: <Stehsaer> CaO
+[14:55:18] [Async Chat Thread - #18/INFO]: <Stehsaer> 女巫！
+[14:55:22] [Async Chat Thread - #18/INFO]: <cwXiaoYu> tp me
+[14:55:35] [Server thread/INFO]: Stehsaer issued server command: /tp cwXiaoYu Stehsaer
+[14:55:35] [Server thread/INFO]: [Stehsaer: Teleported cwXiaoYu to Stehsaer]
+[14:55:39] [Async Chat Thread - #18/INFO]: <Stehsaer> 挺好
+[14:55:41] [Async Chat Thread - #18/INFO]: <Stehsaer> 听好
+[14:55:51] [Async Chat Thread - #18/INFO]: <Stehsaer> 不是收集东西不能钻进去
+[14:56:02] [Async Chat Thread - #18/INFO]: <Stehsaer> 必须打完所有怪才能钻进去拿东西
+[14:56:09] [Async Chat Thread - #18/INFO]: <Stehsaer> chulai
+[14:56:16] [Async Chat Thread - #18/INFO]: <cwXiaoYu> loudou
+[14:56:28] [Async Chat Thread - #18/INFO]: <Stehsaer> 你去做漏斗
+[14:56:34] [Async Chat Thread - #18/INFO]: <Stehsaer> 你先回家
+[14:57:29] [Async Chat Thread - #18/INFO]: <Stehsaer> lxk，你先在这里刷怪，我去建铁路
+[14:58:36] [Async Chat Thread - #19/INFO]: <Stehsaer> 蘑菇煲好补
+[14:59:17] [Async Chat Thread - #19/INFO]: <cwXiaoYu> 把铁路修好吧
+[14:59:19] [Async Chat Thread - #19/INFO]: <Stehsaer> ok
+[14:59:36] [Async Chat Thread - #19/INFO]: <Stehsaer> 我没石头了
+[14:59:55] [Async Chat Thread - #19/INFO]: <Stehsaer> where are you
+[15:00:06] [Async Chat Thread - #19/INFO]: <cwXiaoYu> mogudoa
+[15:00:15] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[15:00:15] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to Ghast]
+[15:00:16] [Async Chat Thread - #19/INFO]: <cwXiaoYu> muo gu dao
+[15:00:32] [Async Chat Thread - #19/INFO]: <liaoxingkai> t
+[15:00:33] [Async Chat Thread - #19/INFO]: <Stehsaer> 好吧
+[15:00:42] [Async Chat Thread - #19/INFO]: <Stehsaer> 你弄点石头过来，我不够了
+[15:03:00] [Async Chat Thread - #20/INFO]: <Stehsaer> where are you
+[15:03:04] [Async Chat Thread - #20/INFO]: <cwXiaoYu> tp me
+[15:03:10] [Server thread/INFO]: Stehsaer issued server command: /tp cwXiaoYu Stehsaer
+[15:03:10] [Server thread/INFO]: [Stehsaer: Teleported cwXiaoYu to Stehsaer]
+[15:03:14] [Async Chat Thread - #20/INFO]: <Stehsaer> 没稿子了
+[15:03:30] [Async Chat Thread - #20/INFO]: <cwXiaoYu> hey
+[15:03:46] [Async Chat Thread - #20/INFO]: <Stehsaer> nice
+[15:05:15] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[15:05:15] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[15:05:41] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[15:05:41] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[15:08:36] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[15:08:36] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to Ghast]
+[15:09:20] [Server thread/INFO]: Stehsaer issued server command: /effect give @e[type=minecraft:ghast] minecraft:glowing 1000000 1 true
+[15:09:20] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[15:09:56] [Async Chat Thread - #21/INFO]: <liaoxingkai> renne
+[15:09:56] [Async Chat Thread - #21/INFO]: <Stehsaer> 隧道完全完工
+[15:10:47] [Async Chat Thread - #21/INFO]: <cwXiaoYu> 挖轨道去
+[15:10:52] [Async Chat Thread - #21/INFO]: <Stehsaer> laile
+[15:11:28] [Async Chat Thread - #21/INFO]: <cwXiaoYu> gaozi
+[15:11:31] [Async Chat Thread - #21/INFO]: <Stehsaer> meile
+[15:11:54] [Async Chat Thread - #21/INFO]: <Stehsaer> 我有一把耐久三的钻石镐
+[15:12:23] [Async Chat Thread - #21/INFO]: <cwXiaoYu> give me
+[15:12:30] [Async Chat Thread - #21/INFO]: <liaoxingkai> 我干啥
+[15:12:37] [Async Chat Thread - #21/INFO]: <Stehsaer> 刷经验
+[15:12:41] [Async Chat Thread - #21/INFO]: <Stehsaer> 或者一起来挖铁轨
+[15:13:31] [Async Chat Thread - #21/INFO]: <Stehsaer> ???
+[15:13:36] [Async Chat Thread - #21/INFO]: <Stehsaer> where is cwxiaoyu
+[15:13:40] [Server thread/INFO]: liaoxingkai issued server command: /?
+[15:13:48] [Async Chat Thread - #21/INFO]: <liaoxingkai> ?/
+[15:13:54] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[15:13:54] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 3 targets]
+[15:14:36] [Async Chat Thread - #21/INFO]: <Stehsaer> 你在哪
+[15:14:50] [Async Chat Thread - #21/INFO]: <cwXiaoYu> wait
+[15:14:55] [Async Chat Thread - #21/INFO]: <liaoxingkai> 帅经验
+[15:15:13] [Async Chat Thread - #21/INFO]: <liaoxingkai> shua\
+[15:15:49] [Async Chat Thread - #21/INFO]: <cwXiaoYu> wa tiegui
+[15:15:52] [Async Chat Thread - #21/INFO]: <Stehsaer> ok
+[15:16:45] [Async Chat Thread - #21/INFO]: <liaoxingkai> 给我一把剑、
+[15:17:06] [Async Chat Thread - #21/INFO]: <cwXiaoYu> 你那边没铁了吗
+[15:17:13] [Async Chat Thread - #21/INFO]: <Stehsaer> ?
+[15:17:16] [Async Chat Thread - #21/INFO]: <liaoxingkai> 那把没了
+[15:17:29] [Async Chat Thread - #21/INFO]: <cwXiaoYu> 挖石头去
+[15:17:40] [Async Chat Thread - #21/INFO]: <Stehsaer> here
+[15:18:46] [Async Chat Thread - #22/INFO]: <liaoxingkai> t
+[15:18:52] [Async Chat Thread - #22/INFO]: <Stehsaer> ?
+[15:19:09] [Async Chat Thread - #22/INFO]: <liaoxingkai> 你在哪
+[15:19:12] [Async Chat Thread - #22/INFO]: <Stehsaer> home
+[15:19:16] [Async Chat Thread - #22/INFO]: <Stehsaer> you can come back
+[15:19:35] [Async Chat Thread - #22/INFO]: <Stehsaer> wangyu, 新刷怪塔爽吗
+[15:19:51] [Async Chat Thread - #22/INFO]: <cwXiaoYu> let's go
+[15:20:02] [Async Chat Thread - #22/INFO]: <Stehsaer> 我要看看那个大峡谷
+[15:20:15] [Async Chat Thread - #22/INFO]: <cwXiaoYu> ok
+[15:20:23] [Async Chat Thread - #22/INFO]: <liaoxingkai> zain
+[15:20:30] [Async Chat Thread - #22/INFO]: <Stehsaer> at homw
+[15:20:39] [Async Chat Thread - #22/INFO]: <liaoxingkai> 带我回去
+[15:20:47] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[15:20:47] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[15:21:09] [Async Chat Thread - #22/INFO]: <Stehsaer> wwwwwwwwwow
+[15:21:26] [Async Chat Thread - #22/INFO]: <liaoxingkai> woc
+[15:21:49] [Async Chat Thread - #22/INFO]: <Stehsaer> come down
+[15:22:56] [Server thread/INFO]: liaoxingkai was slain by Cave Spider
+[15:23:20] [Async Chat Thread - #23/INFO]: <liaoxingkai> e
+[15:23:48] [Async Chat Thread - #23/INFO]: <liaoxingkai> 没武器没铁镐
+[15:24:00] [Async Chat Thread - #23/INFO]: <Stehsaer> 自己回家造
+[15:24:12] [Async Chat Thread - #23/INFO]: <liaoxingkai> eee
+[15:25:45] [Server thread/INFO]: liaoxingkai has made the advancement [Acquire Hardware]
+[15:26:26] [Async Chat Thread - #24/INFO]: <Stehsaer> creeper?
+[15:29:04] [Async Chat Thread - #25/INFO]: <liaoxingkai> 可以了
+[15:29:16] [Async Chat Thread - #25/INFO]: <Stehsaer> 留着这个
+[15:30:42] [Async Chat Thread - #26/INFO]: <Stehsaer> a gold apple
+[15:31:26] [Async Chat Thread - #26/INFO]: <liaoxingkai> 可以走啦
+[15:31:36] [Async Chat Thread - #26/INFO]: <liaoxingkai> 你们在哪
+[15:34:33] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[15:34:33] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 3 targets]
+[15:35:57] [Async Chat Thread - #27/INFO]: <Stehsaer> 下节啥课
+[15:36:01] [Async Chat Thread - #27/INFO]: <cwXiaoYu> zz
+[15:36:05] [Async Chat Thread - #27/INFO]: <Stehsaer> oh
+[15:36:14] [Async Chat Thread - #27/INFO]: <liaoxingkai> 化学
+[15:36:19] [Async Chat Thread - #27/INFO]: <Stehsaer> ?
+[15:36:25] [Async Chat Thread - #27/INFO]: <cwXiaoYu> zhengzi
+[15:38:15] [Async Chat Thread - #28/INFO]: <liaoxingkai> nimenrenne
+[15:38:27] [Async Chat Thread - #28/INFO]: <Stehsaer> can you see me bling bling
+[15:38:27] [Async Chat Thread - #28/INFO]: <liaoxingkai> 人呢、
+[15:38:50] [Async Chat Thread - #28/INFO]: <liaoxingkai> 这里有岩浆
+[15:38:59] [Async Chat Thread - #28/INFO]: <Stehsaer> 我在发光，所有人都在发光，你看看
+[15:39:26] [Server thread/INFO]: liaoxingkai lost connection: Timed out
+[15:39:26] [Server thread/INFO]: liaoxingkai left the game
+[15:39:31] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[15:39:31] [Server thread/INFO]: cwXiaoYu left the game
+[15:39:34] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:39:34] [Server thread/INFO]: Stehsaer left the game
+[15:41:48] [User Authenticator #10/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[15:41:48] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:50942] logged in with entity id 29675 at ([3-player Survival]-77.30000001192093, 42.0, -733.1156646568305)
+[15:43:20] [User Authenticator #11/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:43:20] [Server thread/INFO]: Stehsaer[/192.168.100.27:50951] logged in with entity id 29806 at ([3-player Survival]-21.42655408070243, 12.0, -755.2537265798594)
+[15:43:44] [Server thread/INFO]: Stehsaer issued server command: /kill
+[15:43:44] [Server thread/INFO]: Stehsaer fell out of the world
+[15:43:44] [Server thread/INFO]: [Stehsaer: Killed Stehsaer]
+[15:44:49] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:44:49] [Server thread/INFO]: Stehsaer left the game
+[15:44:54] [User Authenticator #12/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:44:54] [Server thread/INFO]: Stehsaer[/192.168.100.27:50959] logged in with entity id 30015 at ([3-player Survival]-100.11312442432289, 63.0, -633.1104200788865)
+[15:45:09] [Async Chat Thread - #29/INFO]: <Stehsaer> are you ok
+[15:45:16] [Async Chat Thread - #29/INFO]: <Stehsaer> 你们政治课不用默写吗
+[15:46:21] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[15:46:21] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[15:46:21] [Server thread/WARN]: Stehsaer moved too quickly! -1.5652246627407607,-24.9375,-78.41494374331387
+[15:47:15] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[15:47:15] [Server thread/INFO]: Stehsaer left the game
+[15:47:33] [User Authenticator #13/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[15:47:33] [Server thread/INFO]: Stehsaer[/192.168.100.27:50983] logged in with entity id 30360 at ([3-player Survival]-95.1756245235085, 36.0, -720.4335202867751)
+[15:47:56] [Async Chat Thread - #30/INFO]: <Stehsaer> 我先去对答案，等一下一起建轨道
+[15:49:39] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[15:49:39] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[15:51:36] [Async Chat Thread - #31/INFO]: <Stehsaer> where are you
+[15:51:50] [Async Chat Thread - #31/INFO]: <Stehsaer> can i tp
+[15:51:52] [Server thread/INFO]: cwXiaoYu was shot by Skeleton
+[15:51:59] [Async Chat Thread - #31/INFO]: <Stehsaer> ...
+[15:52:06] [Async Chat Thread - #31/INFO]: <Stehsaer> 去建轨道吗
+[15:52:15] [Async Chat Thread - #31/INFO]: <cwXiaoYu> come
+[15:52:17] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[15:52:17] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[15:52:22] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[15:52:22] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[15:52:22] [Server thread/WARN]: Stehsaer moved too quickly! -52.766979651263,26.0,56.382737789666294
+[15:52:50] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[15:52:50] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[16:00:56] [Async Chat Thread - #32/INFO]: <cwXiaoYu> mei ji huo tie gui
+[16:01:04] [Async Chat Thread - #32/INFO]: <Stehsaer> 在家
+[16:03:04] [Async Chat Thread - #33/INFO]: <Stehsaer> BLYAT
+[16:03:59] [Server thread/INFO]: cwXiaoYu tried to swim in lava
+[16:04:15] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 1 true
+[16:04:15] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[16:05:20] [Async Chat Thread - #34/INFO]: <Stehsaer> 这个可以让人自动下车
+[16:06:00] [Async Chat Thread - #34/INFO]: <cwXiaoYu> we have no gold
+[16:06:09] [Async Chat Thread - #34/INFO]: <Stehsaer> it's enough
+[16:11:58] [Async Chat Thread - #35/INFO]: <Stehsaer> 你有足够的动力铁轨吗
+[16:12:03] [Async Chat Thread - #35/INFO]: <cwXiaoYu> 2
+[16:12:07] [Async Chat Thread - #35/INFO]: <Stehsaer> 不够了
+[16:12:12] [Async Chat Thread - #35/INFO]: <Stehsaer> 在这里下车把
+[16:12:37] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:12:37] [Server thread/INFO]: Stehsaer left the game
+[16:15:05] [User Authenticator #14/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:15:05] [Server thread/INFO]: Stehsaer[/192.168.100.27:51118] logged in with entity id 33238 at ([3-player Survival_nether]-13.779774331433503, 32.0, -91.69999998807907)
+[16:17:00] [Async Chat Thread - #36/INFO]: <Stehsaer> where are you
+[16:17:07] [Async Chat Thread - #36/INFO]: <cwXiaoYu> mo gu dao
+[16:17:13] [Async Chat Thread - #36/INFO]: <Stehsaer> oh
+[16:18:10] [Async Chat Thread - #36/INFO]: <cwXiaoYu> SHUA GAI TA ZHA LE
+[16:18:14] [Async Chat Thread - #36/INFO]: <Stehsaer> fuck
+[16:18:17] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[16:18:17] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[16:18:30] [Async Chat Thread - #36/INFO]: <Stehsaer> 我调成了和平
+[16:20:49] [Async Chat Thread - #37/INFO]: <Stehsaer> ??
+[16:21:05] [Async Chat Thread - #37/INFO]: <Stehsaer> 我们可能需要黑曜石防炸
+[16:21:12] [Async Chat Thread - #37/INFO]: <cwXiaoYu> yes
+[16:21:19] [Async Chat Thread - #37/INFO]: <Stehsaer> 我去拿
+[16:22:00] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[16:22:00] [Server thread/INFO]: cwXiaoYu left the game
+[16:22:11] [User Authenticator #15/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[16:22:11] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:51140] logged in with entity id 34017 at ([3-player Survival]-2009.4351718914077, 91.0, -242.3422905267894)
+[16:25:27] [Async Chat Thread - #38/INFO]: <Stehsaer> 要漏斗吗
+[16:25:33] [Async Chat Thread - #38/INFO]: <cwXiaoYu> yes
+[16:25:33] [Async Chat Thread - #38/INFO]: <Stehsaer> 我现在在家
+[16:25:54] [User Authenticator #16/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[16:25:54] [Server thread/INFO]: liaoxingkai[/127.0.0.1:51180] logged in with entity id 34175 at ([3-player Survival]-56.90348204639091, 31.0, -727.3000000119209)
+[16:27:19] [Async Chat Thread - #39/INFO]: <liaoxingkai> 那你在哪
+[16:27:27] [Async Chat Thread - #39/INFO]: <cwXiaoYu> 蘑菇岛
+[16:27:28] [Async Chat Thread - #39/INFO]: <Stehsaer> 我在家，王煜在蘑菇岛
+[16:27:29] [Async Chat Thread - #39/INFO]: <liaoxingkai> 我被困住
+[16:27:33] [Async Chat Thread - #39/INFO]: <Stehsaer> 你在哪
+[16:27:45] [Async Chat Thread - #39/INFO]: <liaoxingkai> kuangdong
+[16:27:50] [Server thread/INFO]: Stehsaer issued server command: /tp liaoxingkai Stehsaer
+[16:27:50] [Server thread/INFO]: [Stehsaer: Teleported liaoxingkai to Stehsaer]
+[16:28:05] [Async Chat Thread - #39/INFO]: <liaoxingkai> twwe
+[16:28:40] [Async Chat Thread - #39/INFO]: <Stehsaer> 地狱轨道好方便啊
+[16:29:55] [Async Chat Thread - #40/INFO]: <Stehsaer> Na
+[16:30:13] [Async Chat Thread - #40/INFO]: <Stehsaer> 漏斗！
+[16:30:24] [Async Chat Thread - #40/INFO]: <cwXiaoYu> hai yao xiangzi
+[16:30:41] [Async Chat Thread - #40/INFO]: <cwXiaoYu> my bag have no space
+[16:30:46] [Async Chat Thread - #40/INFO]: <Stehsaer> here
+[16:32:01] [Async Chat Thread - #41/INFO]: <Stehsaer> where is xiangzi
+[16:32:10] [Async Chat Thread - #41/INFO]: <Stehsaer> 谁有木头
+[16:32:14] [Async Chat Thread - #41/INFO]: <liaoxingkai> e
+[16:32:19] [Async Chat Thread - #41/INFO]: <cwXiaoYu> hey
+[16:32:23] [Async Chat Thread - #41/INFO]: <liaoxingkai> mei
+[16:32:24] [Async Chat Thread - #41/INFO]: <cwXiaoYu> here
+[16:32:40] [Async Chat Thread - #41/INFO]: <liaoxingkai> 你们不上体育课吗
+[16:32:51] [Async Chat Thread - #41/INFO]: <cwXiaoYu> 一会儿再上
+[16:33:05] [Async Chat Thread - #41/INFO]: <cwXiaoYu> 无非就是下楼跑跑步
+[16:33:36] [Async Chat Thread - #41/INFO]: <liaoxingkai> 我跳完绳再玩可以吧
+[16:33:37] [Async Chat Thread - #41/INFO]: <Stehsaer> 走，跳水去
+[16:33:41] [Async Chat Thread - #41/INFO]: <cwXiaoYu> hh
+[16:33:41] [Async Chat Thread - #41/INFO]: <liaoxingkai> e
+[16:33:55] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[16:33:55] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[16:34:24] [Async Chat Thread - #41/INFO]: <Stehsaer> hahahahahah
+[16:34:34] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[16:34:37] [Async Chat Thread - #41/INFO]: <cwXiaoYu> change gamemode
+[16:35:06] [Async Chat Thread - #41/INFO]: <Stehsaer> 不要用剑打
+[16:35:18] [Async Chat Thread - #41/INFO]: <cwXiaoYu> change it difficult
+[16:35:25] [Async Chat Thread - #41/INFO]: <Stehsaer> 本来除了僵尸就一拳打死
+[16:35:30] [Server thread/INFO]: Stehsaer issued server command: /difficulty hard
+[16:35:30] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Hard]
+[16:36:58] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar xps
+[16:36:58] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 分数]
+[16:37:16] [Async Chat Thread - #42/INFO]: <Stehsaer> 看右边哈哈哈哈
+[16:37:24] [Async Chat Thread - #42/INFO]: <Stehsaer> 这个比原来块多了
+[16:37:32] [Async Chat Thread - #42/INFO]: <Stehsaer> 一样的设计
+[16:38:23] [Server thread/INFO]: Stehsaer issued server command: /scoreboard objectives setdisplay sidebar levels
+[16:38:23] [Server thread/INFO]: [Stehsaer: Set display slot sidebar to show objective 经验值]
+[16:39:27] [Async Chat Thread - #43/INFO]: <Stehsaer> 好多溺
+[16:42:53] [Async Chat Thread - #44/INFO]: <cwXiaoYu> HEY
+[16:42:55] [Async Chat Thread - #44/INFO]: <Stehsaer> ?
+[16:43:05] [Async Chat Thread - #44/INFO]: <Stehsaer> WTF
+[16:43:19] [Async Chat Thread - #44/INFO]: <Stehsaer> fuck
+[16:43:41] [Server thread/INFO]: Stehsaer issued server command: /difficulty peaceful
+[16:43:41] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Peaceful]
+[16:43:44] [Server thread/INFO]: Stehsaer issued server command: /difficulty nr
+[16:43:46] [Server thread/INFO]: Stehsaer issued server command: /difficulty normal
+[16:43:46] [Server thread/INFO]: [Stehsaer: The difficulty has been set to Normal]
+[16:44:48] [Async Chat Thread - #45/INFO]: <Stehsaer> ?
+[16:45:07] [Async Chat Thread - #45/INFO]: <Stehsaer> hahahahah
+[16:45:19] [Async Chat Thread - #45/INFO]: <Stehsaer> BLYAT
+[16:45:51] [Server thread/INFO]: cwXiaoYu tried to swim in lava
+[16:45:56] [Async Chat Thread - #45/INFO]: <Stehsaer> ....
+[16:45:56] [Async Chat Thread - #45/INFO]: <cwXiaoYu> ??
+[16:47:36] [Async Chat Thread - #46/INFO]: <Stehsaer> 我的猫猫~
+[16:48:09] [Async Chat Thread - #46/INFO]: <Stehsaer> lxk应该没有去过百花从
+[16:48:25] [Async Chat Thread - #46/INFO]: <Stehsaer> ...
+[16:49:02] [Server thread/INFO]: cwXiaoYu has made the advancement [Fishy Business]
+[16:49:08] [Async Chat Thread - #46/INFO]: <liaoxingkai> 会有鱼？
+[16:49:35] [Async Chat Thread - #46/INFO]: <Stehsaer> wy，过来帮忙附魔一个乃九三
+[16:49:41] [Async Chat Thread - #46/INFO]: <Stehsaer> 耐久
+[16:50:09] [Async Chat Thread - #46/INFO]: <cwXiaoYu> WHAT
+[16:50:16] [Async Chat Thread - #46/INFO]: <Stehsaer> 咋啦
+[16:50:26] [Async Chat Thread - #46/INFO]: <Stehsaer> 可以吗
+[16:50:28] [Async Chat Thread - #46/INFO]: <cwXiaoYu> what thing do u want to fu mo
+[16:50:33] [Async Chat Thread - #46/INFO]: <cwXiaoYu> it;s ok
+[16:50:40] [Async Chat Thread - #46/INFO]: <Stehsaer> 书本，耐久三
+[16:50:59] [Async Chat Thread - #46/INFO]: <cwXiaoYu> there is no naijiu
+[16:51:03] [Async Chat Thread - #46/INFO]: <Stehsaer> what
+[16:51:08] [Async Chat Thread - #46/INFO]: <cwXiaoYu> it just huoyanfujia
+[16:51:19] [Async Chat Thread - #46/INFO]: <Stehsaer> wtf， 我这里有耐久三
+[16:51:24] [Async Chat Thread - #46/INFO]: <Stehsaer> suanle
+[16:52:30] [Async Chat Thread - #47/INFO]: <Stehsaer> ?
+[16:52:40] [Async Chat Thread - #47/INFO]: <Stehsaer> 用坏了
+[16:53:22] [Async Chat Thread - #47/INFO]: <Stehsaer> 王煜，
+[16:53:33] [Async Chat Thread - #47/INFO]: <Stehsaer> 做把钻石剑，这里有好东西
+[16:53:51] [Async Chat Thread - #47/INFO]: <Stehsaer> 给你一个超级好的附魔书
+[16:54:14] [Async Chat Thread - #47/INFO]: <cwXiaoYu> i want to feed it fish
+[16:54:21] [Async Chat Thread - #47/INFO]: <Stehsaer> useless
+[16:54:28] [Async Chat Thread - #47/INFO]: <Stehsaer> 弄多一只猫再说
+[16:56:11] [Async Chat Thread - #48/INFO]: <cwXiaoYu> sleep
+[16:56:15] [Async Chat Thread - #48/INFO]: <Stehsaer> 去跳绳把
+[16:56:21] [Async Chat Thread - #48/INFO]: <liaoxingkai> ok
+[16:56:35] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[16:56:35] [Server thread/INFO]: Stehsaer left the game
+[16:56:36] [Async Chat Thread - #48/INFO]: <liaoxingkai> 能挂机吗、
+[16:56:41] [Server thread/INFO]: [Server] ok
+[16:56:44] [Async Chat Thread - #48/INFO]: <cwXiaoYu> ok
+[16:56:50] [User Authenticator #17/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[16:56:50] [Server thread/INFO]: Stehsaer[/192.168.100.27:51251] logged in with entity id 36941 at ([3-player Survival]-106.36400360451904, 64.0, -627.8625000119209)
+[16:57:11] [Async Chat Thread - #48/INFO]: <cwXiaoYu> 这个附魔书？
+[17:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22212ms or 444 ticks behind
+[17:00:16] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[17:00:22] [Server thread/INFO]: cwXiaoYu left the game
+[17:00:22] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[17:00:22] [Server thread/INFO]: liaoxingkai left the game
+[17:00:25] [User Authenticator #18/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[17:00:26] [Server thread/INFO]: liaoxingkai[/127.0.0.1:51281] logged in with entity id 37167 at ([3-player Survival]-103.16641095871753, 64.0, -627.9117608277705)
+[17:00:52] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[17:00:52] [Server thread/INFO]: liaoxingkai left the game
+[17:06:57] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:06:57] [Server thread/INFO]: Stehsaer left the game
+[17:07:28] [Server thread/INFO]: [Server] no one's here
+[17:11:23] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:12:15] [User Authenticator #19/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:12:15] [Server thread/INFO]: Stehsaer[/192.168.100.27:51360] logged in with entity id 37571 at ([3-player Survival]-106.12269880310382, 64.0, -627.8625000119209)
+[17:12:37] [Server thread/INFO]: [Stehsaer] no one's here
+[17:21:52] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:21:52] [Server thread/INFO]: Stehsaer left the game
+[17:27:06] [User Authenticator #20/INFO]: UUID of player Stehsaer is 4ee78221-99b3-33bb-8da3-72c49ff039eb
+[17:27:06] [Server thread/INFO]: Stehsaer[/192.168.100.27:51704] logged in with entity id 38158 at ([3-player Survival]-116.27748752628688, 63.0, -635.2722566847124)
+[17:27:10] [User Authenticator #20/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[17:27:10] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:51707] logged in with entity id 38165 at ([3-player Survival]-114.00296122476382, 62.9375, -633.4075838345701)
+[17:27:15] [Async Chat Thread - #49/INFO]: <Stehsaer> yyyyyyyyyy
+[17:27:19] [Async Chat Thread - #49/INFO]: <Stehsaer> where are you
+[17:28:16] [Server thread/INFO]: Stehsaer issued server command: /??
+[17:28:18] [Server thread/INFO]: Stehsaer issued server command: /??
+[17:28:21] [Async Chat Thread - #50/INFO]: <Stehsaer> t???
+[17:28:22] [Async Chat Thread - #50/INFO]: <cwXiaoYu> hh
+[17:29:12] [Async Chat Thread - #50/INFO]: <cwXiaoYu> back
+[17:30:00] [Async Chat Thread - #50/INFO]: <Stehsaer> ?
+[17:30:09] [Async Chat Thread - #50/INFO]: <cwXiaoYu> i take a wrong way
+[17:30:17] [Async Chat Thread - #50/INFO]: <cwXiaoYu> f
+[17:31:56] [Async Chat Thread - #51/INFO]: <Stehsaer> oh， 我记得了
+[17:32:05] [Async Chat Thread - #51/INFO]: <Stehsaer> 3个
+[17:32:43] [Async Chat Thread - #51/INFO]: <cwXiaoYu> gone?
+[17:32:45] [Async Chat Thread - #51/INFO]: <Stehsaer> 挖了
+[17:33:33] [Server thread/INFO]: Stehsaer issued server command: /effect give @a minecraft:glowing 100000 0 true
+[17:33:33] [Server thread/INFO]: [Stehsaer: Applied effect Glowing to 2 targets]
+[17:34:13] [Async Chat Thread - #52/INFO]: <Stehsaer> creeper!
+[17:40:02] [Async Chat Thread - #53/INFO]: <Stehsaer> where are you
+[17:40:25] [Server thread/INFO]: Stehsaer issued server command: /tp Stehsaer cwXiaoYu
+[17:40:25] [Server thread/INFO]: [Stehsaer: Teleported Stehsaer to cwXiaoYu]
+[17:40:36] [Async Chat Thread - #53/INFO]: <cwXiaoYu> xiaoji qishi
+[17:40:44] [Async Chat Thread - #53/INFO]: <Stehsaer> ?
+[17:47:57] [Async Chat Thread - #54/INFO]: <Stehsaer> 没火把了
+[17:48:20] [Async Chat Thread - #54/INFO]: <Stehsaer> 先回去把，背包满了
+[17:50:16] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[17:50:16] [Server thread/INFO]: cwXiaoYu left the game
+[17:52:43] [Server thread/INFO]: Stehsaer issued server command: /save-all
+[17:52:44] [Server thread/INFO]: [Stehsaer: Saved the game]
+[17:53:30] [Server thread/INFO]: Stehsaer lost connection: Disconnected
+[17:53:30] [Server thread/INFO]: Stehsaer left the game
+[18:10:58] [User Authenticator #21/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[18:10:59] [Server thread/INFO]: liaoxingkai[/127.0.0.1:52104] logged in with entity id 41107 at ([3-player Survival]-103.16641095871753, 64.0, -627.9117608277705)
+[18:18:05] [Async Chat Thread - #55/INFO]: <liaoxingkai> t
+[18:33:32] [Server thread/INFO]: liaoxingkai lost connection: Timed out
+[18:33:32] [Server thread/INFO]: liaoxingkai left the game
+[19:25:02] [User Authenticator #22/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[19:25:02] [Server thread/INFO]: liaoxingkai[/127.0.0.1:61453] logged in with entity id 42591 at ([3-player Survival]-99.65388541900205, 63.0, -632.4583271453391)
+[19:38:24] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[19:38:24] [Server thread/INFO]: liaoxingkai left the game
+[19:43:43] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:43:43] [Server thread/INFO]: Saved the game
+[20:11:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[20:12:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15426ms or 308 ticks behind
+[20:34:15] [User Authenticator #23/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[20:34:15] [Server thread/INFO]: liaoxingkai[/127.0.0.1:56319] logged in with entity id 43488 at ([3-player Survival]-110.13215837358385, 63.0, -647.3401527254053)
+[20:40:36] [User Authenticator #24/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[20:40:36] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:56380] logged in with entity id 43993 at ([3-player Survival]-83.16511892823502, 63.0, -695.3000000119209)
+[20:42:35] [Async Chat Thread - #56/INFO]: <cwXiaoYu> hey
+[20:42:44] [Async Chat Thread - #56/INFO]: <liaoxingkai> d
+[20:43:08] [Async Chat Thread - #56/INFO]: <cwXiaoYu> mo gu dao shua guai
+[20:43:13] [Async Chat Thread - #56/INFO]: <cwXiaoYu> guaji
+[20:43:38] [Async Chat Thread - #56/INFO]: <liaoxingkai> 明白
+[20:48:09] [Async Chat Thread - #57/INFO]: <liaoxingkai> 可以挂机了
+[21:04:38] [Server thread/INFO]: cwXiaoYu was impaled by Drowned
+[21:13:56] [Server thread/INFO]: cwXiaoYu was impaled by Drowned
+[21:18:01] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[21:18:01] [Server thread/INFO]: liaoxingkai left the game
+[21:22:25] [Server thread/INFO]: cwXiaoYu issued server command: /ping
+[21:22:25] [Server thread/INFO]: [SpigotPing] Can not play a sound. The specified sound-type is not available in your server version, please ensure to read carefully the config file.
+[21:22:28] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[21:22:28] [Server thread/INFO]: cwXiaoYu left the game
+[21:22:38] [User Authenticator #25/INFO]: UUID of player cwXiaoYu is baf8c5c5-45db-3353-b7b9-1fab32f4b0da
+[21:22:38] [Server thread/INFO]: cwXiaoYu[/127.0.0.1:56626] logged in with entity id 48538 at ([3-player Survival]-2021.237500011921, 63.0, -247.54131869730878)
+[21:36:27] [User Authenticator #26/INFO]: UUID of player liaoxingkai is ffa9d531-f7e2-3b02-a825-628a185aa48b
+[21:36:27] [Server thread/INFO]: liaoxingkai[/127.0.0.1:56741] logged in with entity id 49302 at ([3-player Survival]-2017.0601449836681, 63.0, -251.47311654925304)
+[21:39:03] [Server thread/INFO]: cwXiaoYu issued server command: /ping
+[21:39:03] [Server thread/INFO]: [SpigotPing] Can not play a sound. The specified sound-type is not available in your server version, please ensure to read carefully the config file.
+[21:39:20] [Server thread/INFO]: cwXiaoYu issued server command: /help
+[21:39:45] [Async Chat Thread - #58/INFO]: <cwXiaoYu> 2
+[21:39:47] [Server thread/INFO]: cwXiaoYu issued server command: /w
+[21:40:11] [Server thread/INFO]: cwXiaoYu issued server command: /teammsg
+[21:51:29] [Server thread/INFO]: cwXiaoYu was slain by Spider
+[21:52:00] [Async Chat Thread - #59/INFO]: <cwXiaoYu> nxk 你上去补一下洞
+[21:52:33] [Server thread/INFO]: Incorrect argument for command
+[21:52:33] [Server thread/INFO]: ...ute as @e say CYKABLYAT<--[HERE]
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Trader Llama] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Trader Llama] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [KerbinKitty] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Sheep] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Sheep] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Sheep] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Pig] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Trader Llama] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Rabbit] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Sheep] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Minecart with Chest] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Sheep] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Chicken] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Pig] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Pig] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Horse] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Leash Knot] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Leash Knot] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Leash Knot] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cow] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Experience Orb] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Experience Orb] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Drowned] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [liaoxingkai] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Drowned] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [cwXiaoYu] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Squid] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie Villager] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Drowned] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Egg] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Squid] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Cod] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Zombie] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Salmon] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Spider] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Skeleton] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Creeper] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Bat] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Brown Mushroom] CYKABLYAT
+[21:52:44] [Server thread/INFO]: [Brown Mushroom] CYKABLYAT
+[21:52:49] [Async Chat Thread - #59/INFO]: <cwXiaoYu> 刷怪塔太多蜘蛛了，我清了点，免得刷不出来
+[21:53:20] [Server thread/INFO]: [Horse] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Horse] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Horse] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Trader Llama] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Trader Llama] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Horse] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [KerbinKitty] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Sheep] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Sheep] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Sheep] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Pig] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Horse] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Trader Llama] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Rabbit] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Sheep] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Minecart with Chest] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Sheep] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Chicken] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Pig] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Pig] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Leash Knot] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Leash Knot] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Leash Knot] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Experience Orb] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Experience Orb] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Drowned] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [liaoxingkai] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Drowned] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Squid] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Squid] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Bat] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Drowned] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Egg] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Egg] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Spider] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Salmon] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Cod] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Drowned] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Drowned] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Creeper] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Skeleton] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Brown Mushroom] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Brown Mushroom] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [cwXiaoYu] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Arrow] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Fireball] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Fireball] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Magma Cube] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Zombie Pigman] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Netherrack] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Netherrack] EVERYONE IS SAYING CYKA BLYAT
+[21:53:20] [Server thread/INFO]: [Brown Mushroom] EVERYONE IS SAYING CYKA BLYAT
+[21:53:52] [Server thread/INFO]: Showing new title for 2 players
+[21:54:06] [Async Chat Thread - #60/INFO]: <cwXiaoYu> cuka
+[21:55:22] [Async Chat Thread - #61/INFO]: <liaoxingkai> 洞补完了
+[21:58:28] [Async Chat Thread - #62/INFO]: <cwXiaoYu> 我退了
+[21:58:30] [Server thread/INFO]: cwXiaoYu lost connection: Disconnected
+[21:58:30] [Server thread/INFO]: cwXiaoYu left the game
+[22:02:54] [Server thread/INFO]: [liaoxingkai] oh blyat
+[22:03:29] [Server thread/INFO]: [Server] CuSO4 + Fe == FeSO4 + Cu
+[22:04:45] [Server thread/INFO]: liaoxingkai lost connection: Disconnected
+[22:04:45] [Server thread/INFO]: liaoxingkai left the game
+[22:11:33] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:11:33] [Server thread/INFO]: Saved the game
+[22:11:35] [Server thread/INFO]: Stopping the server
+[22:11:35] [Server thread/INFO]: Stopping server
+[22:11:35] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.5
+[22:11:35] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[22:11:35] [Server thread/INFO]: Saving players
+[22:11:36] [Server thread/INFO]: Saving worlds
+[22:11:36] [Server thread/INFO]: Saving chunks for level '3-player Survival'/minecraft:overworld
+[22:11:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[22:11:36] [Server thread/INFO]: Saving chunks for level '3-player Survival_nether'/minecraft:the_nether
+[22:11:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:11:36] [Server thread/INFO]: Saving chunks for level '3-player Survival_the_end'/minecraft:the_end
+[22:11:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:11:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (3-player Survival): All chunks are saved
+[22:11:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:11:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
