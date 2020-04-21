@@ -23,11 +23,11 @@
             font-size: 20px;
             margin-left: 10px;
             margin-right: 10px;
-            text-shadow: 0 0 11px black;
+            text-shadow: 0 0 11px grey;
         }
 
             .subOptions:hover {
-                background-color: rgba(230, 230, 230, 0.6);
+                background-color:darkgrey;
             }
 
         .subOptionsLink {
@@ -37,7 +37,7 @@
             margin-left: 5px;
             margin-right: 5px;
             text-decoration: none;
-            color: rgb(255,255,255);
+            color: rgb(0,0,0);
         }
 
         #bgImg {
@@ -46,7 +46,7 @@
             position: fixed;
             margin: 0px;
             padding: 0px;
-            background: url("../globalImages/background.jpg");
+            background: url("assets/background.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -66,7 +66,7 @@
             position: fixed;
             margin: 0px;
             padding: 0px;
-            background: url("../globalImages/background_lowRes.jpg");
+            background: url("assets/background_lowRes.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -93,12 +93,12 @@
         .subPanel {
             margin: 10px;
             height: 60px;
-            border: black;
+            border: grey;
             border-width: 1px;
-            box-shadow: 0 0 3px black;
+            box-shadow: 0 0 3px grey;
             border-radius: 3px;
             top: 0px;
-            background-color: rgba(49,49,49,0.7);
+            background-color: rgba(230,230,230,0.7);
             right: 5px;
             left: 5px;
         }
@@ -109,7 +109,8 @@
             line-height: 60px;
             font-size: 24px;
             margin-left: 8px;
-            text-shadow: 0 0 11px black;
+            text-shadow: 0 0 11px grey;
+            color:black;
         }
 
         .subOptionsContainer{
@@ -132,10 +133,10 @@
     <div id="bgImg_lowRes"></div>
     <div id="bgImg"></div>
     <div id="mainContainer">
-        <h1 style="margin-left: 30px; color:white; text-shadow: 0 0 11px black;">华新学习下载站</h1>
+        <div style="margin:30px; color:white; text-shadow: 0 0 11px black; line-height:50px; font-size:50px;">学习资料下载站</div>
         <div class="subPanel">
             <img src="assets/physics.png" style="height:55px; width:55px; margin:2.5px; float:left" />
-            <div class="subPanelDescribe" style="color:#ffffff;">初三物理</div>
+            <div class="subPanelDescribe">初三物理</div>
             <div class="horizontalDevider"></div>
             <div class="subOptionsContainer">
                 <div class="subOptions"><a href="physics/PHY_ANS.pdf" class="subOptionsLink">学霸答案.pdf</a></div>
@@ -143,7 +144,7 @@
         </div>
         <div class="subPanel">
             <!--<img src="Minecraft/images/minecraft_ico.png" style="height:55px; width:55px; margin:2.5px; float:left" /> this is for the icon-->
-            <div class="subPanelDescribe" style="color:#ffffff;">初三政治</div>
+            <div class="subPanelDescribe">初三政治</div>
             <div class="horizontalDevider"></div>
             <div class="subOptionsContainer">
                 <div class="subOptions"><a href="politics/POLITICS XUE'AN 2.docx" class="subOptionsLink">专题学案2.docx</a></div>
