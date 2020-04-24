@@ -6,9 +6,9 @@
             "通知"
         ],
         "importanceColor":[
-            "red",
-            "orange",
-            "aqua"
+            "#ff9800",
+            "#ffc107",
+            "#cddc39"
         ],
         "header":"服务器公告栏",
         "title":"服务器公告栏"
