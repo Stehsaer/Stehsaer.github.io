@@ -322,6 +322,10 @@
                     <img class="subLinkImg" src="../../globalImages/loading_small.gif" data-original="../../globalImages/history.png" />
                     <div class="subLinkText">服务器日志</div>
                 </div>
+                <div class="subLink" id="announceLink">
+                    <img class="subLinkImg" src="../../globalImages/loading_small.gif" data-original="../../globalImages/announce.png" />
+                    <div class="subLinkText">服务器公告</div>
+                </div>
             </div>
         </div>
     </div>
@@ -334,6 +338,9 @@
         })
         $("#logLink").on("click", function () {
             window.location.href = "logPage.html" + "?source=" + window.location.href;
+        });
+        $("#announceLink").on("click", function () {
+            window.location.href = "announce.html" + "?source=" + window.location.href;
         });
     </script>
 </body>

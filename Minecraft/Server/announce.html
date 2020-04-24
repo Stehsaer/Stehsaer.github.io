@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>This is a title</title>
+    <script src="../../scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/loadAnnounce.js"></script>
+    <style>
+        body {
+            background: url(images/background.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .subContentFrame {
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 7px;
+            z-index: 1;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            background: rgba(134, 134, 134, 0.3);
+            text-shadow: 0 0 16px #000000ab;
+        }
+
+        .title {
+            font-size: 40px;
+            text-align: center;
+            font-family: Microsoft YaHei UI;
+            color: white;
+            margin-bottom: 0;
+        }
+
+        .subcontentTitle {
+            font-size: 28px;
+            color: white;
+            font-family: Microsoft YaHei UI;
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .statusDisplay {
+            margin-left: 20px;
+            font-size: 18px;
+            display: inline;
+        }
+
+        .detail {
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 18px;
+            font-family: consolas, Microsoft YaHei UI;
+        }
+
+        .signature {
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 18px;
+            font-family: consolas, Microsoft YaHei UI;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- the only element that can be changed by js-->
+    <div id="mainContent">
+    </div>
+    <script>
+        loadAnnounce();
+    </script>
+</body>
+</html>
