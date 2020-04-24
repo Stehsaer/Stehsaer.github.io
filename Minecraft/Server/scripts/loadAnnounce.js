@@ -1,7 +1,7 @@
 var jsonObj;
 
 function loadAnnounce(){
-    json_get = $.getJSON("http://stehsaer.github.io/Minecraft/Server/json/announce.json", function(data){
+    json_get = $.getJSON("https://stehsaer.github.io/Minecraft/Server/json/announce.json", function(data){
         jsonObj = data;
         updateHTML();
     });
