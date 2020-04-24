@@ -1,0 +1,37 @@
+{
+    "style":{
+        "importance":[
+            "极其重要",
+            "重要",
+            "通知"
+        ],
+        "importanceColor":[
+            "red",
+            "orange",
+            "aqua"
+        ],
+        "header":"服务器公告栏",
+        "title":"服务器公告栏"
+    },
+    "latestUpdateText":"2020-4-21 23:15",
+    "mainContent":[
+        {
+            "index":0,
+            "date":"2020-4-20",
+            "importance":2,
+            "content":[
+                "欢迎新玩家 liaoxingkai 加入服务器！"
+            ],
+            "assignment":"腐竹 Stehsaer"
+        },
+        {
+            "index":1,
+            "date":"2020-4-22",
+            "importance":0,
+            "content":[
+                "开学前开服时间：12:00~22:00"
+            ],
+            "assignment":"腐竹 Stehsaer"
+        }
+    ]
+}
