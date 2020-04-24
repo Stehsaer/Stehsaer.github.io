@@ -19,6 +19,7 @@
             "index":0,
             "date":"2020-4-20",
             "importance":2,
+            "title":"新玩家加入",
             "content":[
                 "欢迎新玩家 liaoxingkai 加入服务器！"
             ],
@@ -28,6 +29,7 @@
             "index":1,
             "date":"2020-4-22",
             "importance":0,
+            "title":"开服时间通知",
             "content":[
                 "开学前开服时间：12:00~22:00"
             ],
