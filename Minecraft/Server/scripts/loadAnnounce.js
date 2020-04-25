@@ -20,7 +20,7 @@ function updateHTML(){
         str += "</div>"; // subContentTitle
         str += "<div class='detail'>";
         for(var j = 0; j < obj.mainContent[i].content.length; j++){
-            str += obj.mainContent[i].content[j]; + "<br>";
+            str += obj.mainContent[i].content[j] + "<br>";
         }
         str += "</div>" // detail
         str += "<div class='signature'>" + obj.mainContent[i].assignment + "<br>" + obj.mainContent[i].date +  "</div>";
