@@ -9,7 +9,7 @@ var mcVersion;
 var pingClient;
 
 function init() {
-    json_get = $.getJSON("http://stehsaer.github.io/Minecraft/Server/json/basicInfo.json", function (data) {
+    json_get = $.getJSON("https://stehsaer.github.io/Minecraft/Server/json/basicInfo.json", function (data) {
 
         title = data.WorldName;
         title_cn = data.WorldNameCN;
