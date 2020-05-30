@@ -57,7 +57,18 @@
                 "",
                 "",
                 "彩蛋：",
-                " 开学指令教学：/execute as Teachers run tp @a School"
+                " 开学指令教学：/execute as @a[type=minecraft:Teachers] run tp @a School"
+            ],
+            "assignment":"腐竹君 Stehsaer~"
+        },
+        {
+            "index":3,
+            "date":"2020-5-30",
+            "importance":0,
+            "title":"开服时间更改",
+            "content":[
+                "时间更改：若无特殊情况：周六 14:00 ~ 22:00",
+                "周日 10:00 ~ 14:45"
             ],
             "assignment":"腐竹君 Stehsaer~"
         }
