@@ -13,7 +13,7 @@
             "title":"Test",
             "critical":0,
             "content":"Test for Socak Project \n another line",
-            "displayDate":"2020-12-26"
+            "displayDate":"20-12-26"
         }
     ],
 
@@ -24,97 +24,97 @@
         "prefix-png":"/album/PNG",
         "images":[
             {
-                "year":2020,
+                "year":20,
                 "month":10,
                 "date":18,
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":10,
                 "date":17,
                 "imageCount":3
             },
             {
-                "year":2020,
+                "year":20,
                 "month":10,
                 "date":11,
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"10",
                 "date":"06",
                 "imageCount":2
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"08",
                 "date":"27",
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"08",
                 "date":"09",
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"08",
                 "date":"01",
                 "imageCount":6
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"05",
                 "date":"30",
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"05",
                 "date":"24",
                 "imageCount":4
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"05",
                 "date":"23",
                 "imageCount":2
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"05",
                 "date":"09",
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"04",
                 "date":"26",
                 "imageCount":9
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"04",
                 "date":"25",
                 "imageCount":7
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"04",
                 "date":"24",
                 "imageCount":1
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"04",
                 "date":"23",
                 "imageCount":5
             },
             {
-                "year":2020,
+                "year":20,
                 "month":"04",
                 "date":"20",
                 "imageCount":3
