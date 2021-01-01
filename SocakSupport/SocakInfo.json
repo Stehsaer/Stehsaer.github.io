@@ -1,0 +1,32 @@
+{
+    "serverName":"Socialism Construction",
+
+    "port":40257,
+    "address":"cn-xz-bgp.sakurafrp.com",
+
+    "worldSeed":"1537563839616220971",
+    "mcVersion":"JE 1.16.3",
+
+    "announcement":[
+        {
+            "id":0,
+            "title":"Test",
+            "critical":0,
+            "content":"Test for Socak Project \n another line",
+            "displayDate":"2020-12-26"
+        }
+    ],
+
+    "album":{
+        "legacyLinkAvailable":false,
+        "legacyLink":"",
+        "prefix":"/album/",
+        "images":[
+            {
+                "date":[2020,12,26],
+                "fileName":"20201226-1.png"
+            }
+        ]
+    }
+    
+}
