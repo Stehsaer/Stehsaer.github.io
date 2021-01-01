@@ -20,11 +20,26 @@
     "album":{
         "legacyLinkAvailable":false,
         "legacyLink":"",
-        "prefix":"/album/",
+        "prefix-jpg":"/album/JPEG",
+        "prefix-png":"/album/JPEG",
         "images":[
             {
-                "date":[2020,12,26],
-                "fileName":"20201226-1.png"
+                "year":2020,
+                "month":10,
+                "date":11,
+                "imageCount":1
+            },
+            {
+                "year":2020,
+                "month":10,
+                "date":17,
+                "imageCount":3
+            },
+            {
+                "year":2020,
+                "month":10,
+                "date":18,
+                "imageCount":1
             }
         ]
     }
