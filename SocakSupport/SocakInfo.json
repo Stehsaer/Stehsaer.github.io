@@ -1,8 +1,8 @@
 {
     "serverName":"Socialism Construction",
 
-    "port":40257,
-    "address":"cn-xz-bgp.sakurafrp.com",
+    "port":11002,
+    "address":"cn-sq-bgp.sakurafrp.com",
 
     "worldSeed":"1537563839616220971",
     "mcVersion":"JE 1.16.3",
