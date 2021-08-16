@@ -1,107 +1,209 @@
 <html>
-    <head>
-        <title>研究性学习展示</title>
-        <style>
-            body{
-                background-image:url("images/bg.webp");
-                background-repeat:no-repeat;
-                background-attachment: fixed;
-                background-position: center,center;
-                background-size:cover;
 
-                font-family: "Consolas", Microsoft YaHei UI;
-            }
-            video{
-                height:auto;
-                width:90%;
-                margin:10px 5%;
-            }
-            a{
-                margin:10px auto 10px auto;
-                font-size: 24px;
-                display:block;
-                text-align: center;
-            }
-            hr{
-                noshade:true;
-            }
-            #mainDiv{
-                width:1000px;
+<head>
+    <title>研究性学习展示</title>
+    <script src="script/jquery-3.4.1.min.js"></script>
+    <script src="script/jquery_lazyload.js"></script>
+    <style>
+        body {
+            background-image: url("images/bg.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center, center;
+            background-size: cover;
 
-                margin: 0px auto;
-                padding: 10px 30px 50px 30px;
+            font-family: "Consolas", Microsoft YaHei UI;
+        }
 
-                backdrop-filter: blur(10px) brightness(1.03);
-                border-radius: 7px;
-                box-shadow: 1px 1px 5px grey ;
-            }
-            h1,h3,h4{
-                text-align: center;
-            }
-            .des{
-                font-size: 22px;
-                text-align: center;
-            }
-            .cat{
-                height:18px;
-                width:24px;
-                margin: auto;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="mainDiv">
-            <h1>研究型学习多媒体展示</h1>
+        video {
+            height: auto;
+            width: 90%;
+            margin: 10px 5%;
+        }
 
-            <h3>刘信杰 2021-8-15</h3>
+        a {
+            margin: 10px auto 10px auto;
+            font-size: 24px;
+            display: block;
+            text-align: center;
+        }
 
-            <h2>
-                <img class="cat" src="images/cat.png" /> 前言
-            </h2>
-            <p>
-                &nbsp;&nbsp;由于Word文档和报告篇幅的限制，无法将本次研究性学习的多媒体细节展现给各位。因此，我编写了这个网页，以便更好的将我的作品展现给大家。
-            </p>
-            <br/>
+        .hrd {
+            width: 95%;
+            height: 1px;
+            background-color: lightgrey;
+            margin: 10px auto;
+        }
 
-            <div class="hrd"/>
+        #mainDiv {
+            width: 1000px;
 
-            <h2>
-                <img class="cat" src="images/cat.png" /> 作品图片
-            </h2>
-            <div>
-                
-            </div>
-            <br/>
+            margin: 0px auto;
+            padding: 10px 30px 50px 30px;
 
-            <div class="hrd"/>
+            backdrop-filter: blur(10px) brightness(1.03);
+            border-radius: 7px;
+            box-shadow: 1px 1px 5px grey;
+        }
 
-            <h2>
-                <img class="cat" src="images/cat.png" /> 作品操作演示视频
-            </h2>
-            <div>
-                <br/>
-                <video src="videos/2.mp4" controls ></video><br/>
-                <div class="centerAlign">
-                    <a href="videos/2.mp4" download>下载地址</a><br/>
-                    <div class="des">此视频演示了完整的操作流程</div>
-                </div>
-            </div>
-            <br/>
-            <div>
-                <br/>
-                <video src="videos/1.mp4" controls ></video><br/>
-                <div class="centerAlign">
-                    <a href="videos/1.mp4" download>下载地址</a><br/>
-                    <div class="des">此视频为操作流程中的屏幕与指示灯特写</div>
-                </div>
-            </div>
-            <br/>
+        #fixedPos {
+            backdrop-filter: blur(10px) brightness(1.03);
+            border-radius: 7px;
+            box-shadow: 1px 1px 5px grey;
 
-            <div class="hrd"/>
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
 
-            <h2>
-                <img class="cat" src="images/cat.png" /> 作品代码
-            </h2>
+            width: 150px;
+            height: auto;
+
+            z-index: 15;
+        }
+
+        .album {
+            height: 250px;
+            margin: 10px;
+            display: inline;
+            border-radius: 7px;
+            box-shadow: 1px 1px 5px grey;
+        }
+
+        .goto {
+            font-size: 16px;
+            text-decoration: none;
+            text-align: left;
+            margin: 15px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        .des {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .cat {
+            height: 18px;
+            width: 24px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fixedPos">
+        <h3>目录</h3>
+        <a href="#prec" class="goto">1.前言</a>
+        <a href="#imgProcShow" class="goto">2.作品制作过程展示</a>
+        <a href="#imgShow" class="goto">3.作品图片展示</a>
+        <a href="#vidShow" class="goto">4.作品视频演示</a>
+        <a href="#codeShow" class="goto">5.作品代码</a>
+    </div>
+
+    <div id="mainDiv">
+        <h1>研究型学习多媒体展示</h1>
+
+        <h3>刘信杰 2021-8-15</h3>
+
+        <br />
+        <br />
+
+        <h2 id="prec">
+            <img class="cat" src="images/cat.png" /> 前言
+        </h2>
+        <p style="margin:10px; font-size: 18px;">
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;由于Word文档和报告篇幅的限制，无法将本次研究性学习的多媒体细节展现给各位。因此，我编写了这个网页，以便更好的将我的作品展现给大家。
+        </p>
+        <br />
+
+        <div class="hrd"></div>
+
+        <h2 id="imgProcShow">
+            <img class="cat" src="images/cat.png" /> 作品制作过程展示
+        </h2>
+        <div>
+            <img class="album" data-original="images/proc/1.jpg" src="images/loading_small.gif" />
+            <img class="album" data-original="images/proc/2.jpg" src="images/loading_small.gif"/>
+
+            <br />
+            <br />
+
+            <img class="album" data-original="images/proc/3.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proc/4.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proc/5.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proc/6.jpg" src="images/loading_small.gif"/>
+
+            <br />
+            <br />
+
+            <img class="album" data-original="images/proc/7.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proc/8.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proc/9.jpg" src="images/loading_small.gif"/>
+
         </div>
-    </body>
+        <br />
+
+        <div class="hrd"></div>
+
+        <h2 id="imgShow">
+            <img class="cat" src="images/cat.png" /> 作品图片展示
+        </h2>
+        <div>
+            <img class="album" data-original="images/proj/1.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proj/2.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proj/3.jpg" src="images/loading_small.gif"/>
+            <img class="album" data-original="images/proj/4.jpg" src="images/loading_small.gif"/>
+        </div>
+        <br />
+
+        <div class="hrd"></div>
+
+        <h2 id="vidShow">
+            <img class="cat" src="images/cat.png" /> 作品操作演示视频
+        </h2>
+        <div>
+            <br />
+            <video src="videos/2_lowres.mp4" controls></video><br />
+            <div class="centerAlign">
+                <a href="videos/2.mp4" download>下载地址（1080p）</a><br />
+                <div class="des">此视频演示了完整的操作流程</div>
+            </div>
+        </div>
+        <br />
+        <div>
+            <br />
+            <video src="videos/1_lowres.mp4" controls></video><br />
+            <div class="centerAlign">
+                <a href="videos/1.mp4" download>下载地址（1080p）</a><br />
+                <div class="des">此视频为操作流程中的屏幕与指示灯特写</div>
+            </div>
+        </div>
+        <br />
+
+        <div class="hrd"></div>
+
+        <h2 id="codeShow">
+            <img class="cat" src="images/cat.png" /> 作品代码
+        </h2>
+    </div>
+    <script>
+        $(function () {
+            $(".album").lazyload({ effect: "fadein", failureLimit: 10 });
+        });
+    </script>
+</body>
+
 </html>
